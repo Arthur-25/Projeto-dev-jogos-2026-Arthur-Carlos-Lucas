@@ -124,7 +124,7 @@ public class movimentacao : MonoBehaviour
         if (tocaInimigo && contadorInvencibilidade <= 0f)
         {
             vida -= 05; 
-            print("Vida: " + vida);
+            
             contadorInvencibilidade = tempoDeInvencibilidade;
         }
 
@@ -134,7 +134,7 @@ public class movimentacao : MonoBehaviour
         }
 
         if (vida <= 0){
-            print("Cheguei aqui");
+            
             Application.Quit();
         }
 
