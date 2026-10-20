@@ -1,0 +1,1040 @@
+fileFormatVersion: 2
+guid: 629c1faf5c0c6401ba1370393216b4d1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8976653143019689180
+    second: whack_0
+  - first:
+      213: -4719353070755389708
+    second: whack_1
+  - first:
+      213: 4576055097054390028
+    second: whack_2
+  - first:
+      213: 3557051589951602255
+    second: whack_3
+  - first:
+      213: -8743224603784287508
+    second: whack_4
+  - first:
+      213: -6669102531163569695
+    second: whack_5
+  - first:
+      213: -4584329848206044382
+    second: whack_6
+  - first:
+      213: 8069703665438982888
+    second: whack_7
+  - first:
+      213: 5990905683584793349
+    second: whack_8
+  - first:
+      213: 8611474674469827273
+    second: whack_9
+  - first:
+      213: 4224795213806209884
+    second: whack_10
+  - first:
+      213: 1237571682186232056
+    second: whack_11
+  - first:
+      213: -8814268339752324549
+    second: whack_12
+  - first:
+      213: -532169933955255305
+    second: whack_13
+  - first:
+      213: -2000059733186239363
+    second: whack_14
+  - first:
+      213: -5658255050951711917
+    second: whack_15
+  - first:
+      213: -1490656885432794461
+    second: whack_16
+  - first:
+      213: 7540711307900988684
+    second: whack_17
+  - first:
+      213: -8664077666051021393
+    second: whack_18
+  - first:
+      213: -2182691792515998889
+    second: whack_19
+  - first:
+      213: 2319822087481490390
+    second: whack_20
+  - first:
+      213: -4328518362976194301
+    second: whack_21
+  - first:
+      213: 4226166666320352276
+    second: whack_22
+  - first:
+      213: 4666401296034852786
+    second: whack_23
+  - first:
+      213: 5139136386891955517
+    second: whack_24
+  - first:
+      213: 8608875192786704602
+    second: whack_25
+  - first:
+      213: -6861497543130521128
+    second: whack_26
+  - first:
+      213: 4653677554061849251
+    second: whack_27
+  - first:
+      213: -6460477125933065707
+    second: whack_28
+  - first:
+      213: 820750125029998216
+    second: whack_29
+  - first:
+      213: 996415563892345497
+    second: whack_30
+  - first:
+      213: -4718035070788857758
+    second: whack_31
+  - first:
+      213: -6331637983890096290
+    second: whack_32
+  - first:
+      213: -6409861990290993516
+    second: whack_33
+  - first:
+      213: 5718150842547217316
+    second: whack_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: whack_0
+      rect:
+        serializedVersion: 2
+        x: 6948
+        y: 100
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42bea6ad6858c6380800000000000000
+      internalID: -8976653143019689180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_1
+      rect:
+        serializedVersion: 2
+        x: 6950
+        y: 16
+        width: 95
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fed9f7e26d718eb0800000000000000
+      internalID: -4719353070755389708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_2
+      rect:
+        serializedVersion: 2
+        x: 7499
+        y: 106
+        width: 27
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07ea84add9618f30800000000000000
+      internalID: 4576055097054390028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_3
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 16
+        width: 75
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ebdc2339f2d5130800000000000000
+      internalID: 3557051589951602255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_4
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 16
+        width: 67
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea6bf3eb83d9a680800000000000000
+      internalID: -8743224603784287508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_5
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 16
+        width: 44
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1465315969273a0800000000000000
+      internalID: -6669102531163569695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_6
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 16
+        width: 68
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2235578ba403160c0800000000000000
+      internalID: -4584329848206044382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_7
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 16
+        width: 51
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e288258ab85dff60800000000000000
+      internalID: 8069703665438982888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_8
+      rect:
+        serializedVersion: 2
+        x: 2813
+        y: 16
+        width: 51
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50bb0f06af8f32350800000000000000
+      internalID: 5990905683584793349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_9
+      rect:
+        serializedVersion: 2
+        x: 3325
+        y: 16
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2fb04479a128770800000000000000
+      internalID: 8611474674469827273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_10
+      rect:
+        serializedVersion: 2
+        x: 3839
+        y: 16
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b80bfecdc71aa30800000000000000
+      internalID: 4224795213806209884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_11
+      rect:
+        serializedVersion: 2
+        x: 4363
+        y: 16
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f00bc453ecbc2110800000000000000
+      internalID: 1237571682186232056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_12
+      rect:
+        serializedVersion: 2
+        x: 4875
+        y: 16
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32371e15ad6da580800000000000000
+      internalID: -8814268339752324549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_13
+      rect:
+        serializedVersion: 2
+        x: 5384
+        y: 16
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3347eb34a5d98f0800000000000000
+      internalID: -532169933955255305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_14
+      rect:
+        serializedVersion: 2
+        x: 5907
+        y: 16
+        width: 62
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d742fd9f44c5e34e0800000000000000
+      internalID: -2000059733186239363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_15
+      rect:
+        serializedVersion: 2
+        x: 6414
+        y: 16
+        width: 115
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353a6778207d971b0800000000000000
+      internalID: -5658255050951711917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_16
+      rect:
+        serializedVersion: 2
+        x: 7480
+        y: 16
+        width: 117
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2c9c5e57f105be0800000000000000
+      internalID: -1490656885432794461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_17
+      rect:
+        serializedVersion: 2
+        x: 7992
+        y: 16
+        width: 109
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0da53d6bfcf5a860800000000000000
+      internalID: 7540711307900988684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_18
+      rect:
+        serializedVersion: 2
+        x: 8077
+        y: 63
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa522a8544303c780800000000000000
+      internalID: -8664077666051021393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_19
+      rect:
+        serializedVersion: 2
+        x: 8505
+        y: 16
+        width: 101
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b5cec016585b1e0800000000000000
+      internalID: -2182691792515998889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_20
+      rect:
+        serializedVersion: 2
+        x: 9009
+        y: 16
+        width: 100
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db707ac5e9a13020800000000000000
+      internalID: 2319822087481490390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_21
+      rect:
+        serializedVersion: 2
+        x: 9515
+        y: 16
+        width: 106
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3017c0b7b730ee3c0800000000000000
+      internalID: -4328518362976194301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_22
+      rect:
+        serializedVersion: 2
+        x: 10039
+        y: 16
+        width: 94
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4141f9b113c56aa30800000000000000
+      internalID: 4226166666320352276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_23
+      rect:
+        serializedVersion: 2
+        x: 10570
+        y: 16
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf649d414362c040800000000000000
+      internalID: 4666401296034852786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_24
+      rect:
+        serializedVersion: 2
+        x: 11082
+        y: 16
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3dbaf8c051e15740800000000000000
+      internalID: 5139136386891955517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_25
+      rect:
+        serializedVersion: 2
+        x: 11585
+        y: 16
+        width: 69
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad859b5406ed87770800000000000000
+      internalID: 8608875192786704602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_26
+      rect:
+        serializedVersion: 2
+        x: 12076
+        y: 16
+        width: 82
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d16d7a965017c0a0800000000000000
+      internalID: -6861497543130521128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_27
+      rect:
+        serializedVersion: 2
+        x: 12592
+        y: 16
+        width: 72
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2b015441f259040800000000000000
+      internalID: 4653677554061849251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_28
+      rect:
+        serializedVersion: 2
+        x: 13102
+        y: 16
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a19357846c756a0800000000000000
+      internalID: -6460477125933065707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_29
+      rect:
+        serializedVersion: 2
+        x: 13633
+        y: 16
+        width: 50
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e35c3e3e3e36b00800000000000000
+      internalID: 820750125029998216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_30
+      rect:
+        serializedVersion: 2
+        x: 14149
+        y: 16
+        width: 43
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a49761daaf3dd00800000000000000
+      internalID: 996415563892345497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_31
+      rect:
+        serializedVersion: 2
+        x: 14658
+        y: 16
+        width: 41
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2609bcfa91c268eb0800000000000000
+      internalID: -4718035070788857758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_32
+      rect:
+        serializedVersion: 2
+        x: 15172
+        y: 16
+        width: 43
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f3cd3dcc08128a0800000000000000
+      internalID: -6331637983890096290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_33
+      rect:
+        serializedVersion: 2
+        x: 15684
+        y: 16
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e4d611b789b07a0800000000000000
+      internalID: -6409861990290993516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whack_34
+      rect:
+        serializedVersion: 2
+        x: 16196
+        y: 16
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3a02e25e3fa5f40800000000000000
+      internalID: 5718150842547217316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      whack_0: -8976653143019689180
+      whack_1: -4719353070755389708
+      whack_10: 4224795213806209884
+      whack_11: 1237571682186232056
+      whack_12: -8814268339752324549
+      whack_13: -532169933955255305
+      whack_14: -2000059733186239363
+      whack_15: -5658255050951711917
+      whack_16: -1490656885432794461
+      whack_17: 7540711307900988684
+      whack_18: -8664077666051021393
+      whack_19: -2182691792515998889
+      whack_2: 4576055097054390028
+      whack_20: 2319822087481490390
+      whack_21: -4328518362976194301
+      whack_22: 4226166666320352276
+      whack_23: 4666401296034852786
+      whack_24: 5139136386891955517
+      whack_25: 8608875192786704602
+      whack_26: -6861497543130521128
+      whack_27: 4653677554061849251
+      whack_28: -6460477125933065707
+      whack_29: 820750125029998216
+      whack_3: 3557051589951602255
+      whack_30: 996415563892345497
+      whack_31: -4718035070788857758
+      whack_32: -6331637983890096290
+      whack_33: -6409861990290993516
+      whack_34: 5718150842547217316
+      whack_4: -8743224603784287508
+      whack_5: -6669102531163569695
+      whack_6: -4584329848206044382
+      whack_7: 8069703665438982888
+      whack_8: 5990905683584793349
+      whack_9: 8611474674469827273
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

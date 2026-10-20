@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 94e2ae9d9ff82fa8284ef80df94035ec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5241677887753941874
+    second: spr_KingIdle_NoEffects_0
+  - first:
+      213: 3643098140127765524
+    second: spr_KingIdle_NoEffects_1
+  - first:
+      213: -3085567484243327220
+    second: spr_KingIdle_NoEffects_2
+  - first:
+      213: 5908742494747274191
+    second: spr_KingIdle_NoEffects_3
+  - first:
+      213: -7545090645496347987
+    second: spr_KingIdle_NoEffects_4
+  - first:
+      213: 4103492849312020868
+    second: spr_KingIdle_NoEffects_5
+  - first:
+      213: -4054340471093723518
+    second: spr_KingIdle_NoEffects_6
+  - first:
+      213: 4111311522354165954
+    second: spr_KingIdle_NoEffects_7
+  - first:
+      213: -7272938695324103762
+    second: spr_KingIdle_NoEffects_8
+  - first:
+      213: -985797213150339843
+    second: spr_KingIdle_NoEffects_9
+  - first:
+      213: 7277289142773178779
+    second: spr_KingIdle_NoEffects_10
+  - first:
+      213: 1643875468158980641
+    second: spr_KingIdle_NoEffects_11
+  - first:
+      213: 6854009687857593016
+    second: spr_KingIdle_NoEffects_12
+  - first:
+      213: 5905084968150756331
+    second: spr_KingIdle_NoEffects_13
+  - first:
+      213: -129147492138852248
+    second: spr_KingIdle_NoEffects_14
+  - first:
+      213: -5181542007272307843
+    second: spr_KingIdle_NoEffects_15
+  - first:
+      213: -423167137681864622
+    second: spr_KingIdle_NoEffects_16
+  - first:
+      213: -4257655734375757190
+    second: spr_KingIdle_NoEffects_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_KingIdle_NoEffects_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 51
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273f79e644e2eb840800000000000000
+      internalID: 5241677887753941874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingIdle_NoEffects_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 51
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414a33cd472ee8230800000000000000
+      internalID: 3643098140127765524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingIdle_NoEffects_2
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 51
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c074e2b98bcdd25d0800000000000000
+      internalID: -3085567484243327220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingIdle_NoEffects_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 51
+        width: 18
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcbaaac3ef1100250800000000000000
+      internalID: 5908742494747274191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingIdle_NoEffects_4
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 51
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2411598047a4790800000000000000
+      internalID: -7545090645496347987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingIdle_NoEffects_5
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 51
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4893995510982f830800000000000000
+      internalID: 4103492849312020868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingIdle_NoEffects_6
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 51
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28ef7f582d61cb7c0800000000000000
+      internalID: -4054340471093723518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingIdle_NoEffects_7
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 51
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c8f3e20c005e0930800000000000000
+      internalID: 4111311522354165954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingIdle_NoEffects_8
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 51
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab83005ac4511b90800000000000000
+      internalID: -7272938695324103762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingIdle_NoEffects_9
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 51
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc9a9958aeb152f0800000000000000
+      internalID: -985797213150339843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingIdle_NoEffects_10
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 51
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b916dca2bef1ef460800000000000000
+      internalID: 7277289142773178779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingIdle_NoEffects_11
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 51
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1225896570830d610800000000000000
+      internalID: 1643875468158980641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingIdle_NoEffects_12
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 51
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba76db3f755e1f50800000000000000
+      internalID: 6854009687857593016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingIdle_NoEffects_13
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 51
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bebef17fd7313f150800000000000000
+      internalID: 5905084968150756331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingIdle_NoEffects_14
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 51
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8606e674a0d253ef0800000000000000
+      internalID: -129147492138852248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingIdle_NoEffects_15
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 51
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7305c35ff67718b0800000000000000
+      internalID: -5181542007272307843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingIdle_NoEffects_16
+      rect:
+        serializedVersion: 2
+        x: 2103
+        y: 51
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2588ad5fabb902af0800000000000000
+      internalID: -423167137681864622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingIdle_NoEffects_17
+      rect:
+        serializedVersion: 2
+        x: 2231
+        y: 51
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ac0a8eaa4c9e4c0800000000000000
+      internalID: -4257655734375757190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spr_KingIdle_NoEffects_0: 5241677887753941874
+      spr_KingIdle_NoEffects_1: 3643098140127765524
+      spr_KingIdle_NoEffects_10: 7277289142773178779
+      spr_KingIdle_NoEffects_11: 1643875468158980641
+      spr_KingIdle_NoEffects_12: 6854009687857593016
+      spr_KingIdle_NoEffects_13: 5905084968150756331
+      spr_KingIdle_NoEffects_14: -129147492138852248
+      spr_KingIdle_NoEffects_15: -5181542007272307843
+      spr_KingIdle_NoEffects_16: -423167137681864622
+      spr_KingIdle_NoEffects_17: -4257655734375757190
+      spr_KingIdle_NoEffects_2: -3085567484243327220
+      spr_KingIdle_NoEffects_3: 5908742494747274191
+      spr_KingIdle_NoEffects_4: -7545090645496347987
+      spr_KingIdle_NoEffects_5: 4103492849312020868
+      spr_KingIdle_NoEffects_6: -4054340471093723518
+      spr_KingIdle_NoEffects_7: 4111311522354165954
+      spr_KingIdle_NoEffects_8: -7272938695324103762
+      spr_KingIdle_NoEffects_9: -985797213150339843
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

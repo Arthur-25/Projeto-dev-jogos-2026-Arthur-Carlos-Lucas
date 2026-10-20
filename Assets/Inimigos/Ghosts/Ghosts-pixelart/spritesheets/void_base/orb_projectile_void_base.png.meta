@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: f1aa80d4b26bd20be9745dcbac6e1f11
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5222271878191969376
+    second: orb_projectile_void_base_0
+  - first:
+      213: 4510813558007255793
+    second: orb_projectile_void_base_1
+  - first:
+      213: -4114594265160534879
+    second: orb_projectile_void_base_2
+  - first:
+      213: -4487223364756096335
+    second: orb_projectile_void_base_3
+  - first:
+      213: 7962275122299526316
+    second: orb_projectile_void_base_4
+  - first:
+      213: -2076056675785297793
+    second: orb_projectile_void_base_5
+  - first:
+      213: -5858171163071559741
+    second: orb_projectile_void_base_6
+  - first:
+      213: -2138734941494733476
+    second: orb_projectile_void_base_7
+  - first:
+      213: -3544731412684453483
+    second: orb_projectile_void_base_8
+  - first:
+      213: 4410192038804989100
+    second: orb_projectile_void_base_9
+  - first:
+      213: 1463246506947720065
+    second: orb_projectile_void_base_10
+  - first:
+      213: 1334224673972455628
+    second: orb_projectile_void_base_11
+  - first:
+      213: -323593387749048963
+    second: orb_projectile_void_base_12
+  - first:
+      213: -8110840761130202920
+    second: orb_projectile_void_base_13
+  - first:
+      213: 5603914855802301978
+    second: orb_projectile_void_base_14
+  - first:
+      213: -6725574438730553348
+    second: orb_projectile_void_base_15
+  - first:
+      213: -5508153738562305834
+    second: orb_projectile_void_base_16
+  - first:
+      213: 120986101658867984
+    second: orb_projectile_void_base_17
+  - first:
+      213: 9138326417141124865
+    second: orb_projectile_void_base_18
+  - first:
+      213: 1015198846997772253
+    second: orb_projectile_void_base_19
+  - first:
+      213: -8816875746172057324
+    second: orb_projectile_void_base_20
+  - first:
+      213: 9165839015579723000
+    second: orb_projectile_void_base_21
+  - first:
+      213: 8222837230924411045
+    second: orb_projectile_void_base_22
+  - first:
+      213: -1214890330842269629
+    second: orb_projectile_void_base_23
+  - first:
+      213: -4960834881971570975
+    second: orb_projectile_void_base_24
+  - first:
+      213: -5192886153233441046
+    second: orb_projectile_void_base_25
+  - first:
+      213: -2618946443826549262
+    second: orb_projectile_void_base_26
+  - first:
+      213: -1425488324128660372
+    second: orb_projectile_void_base_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: orb_projectile_void_base_0
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 218
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab0bd34563c687b0800000000000000
+      internalID: -5222271878191969376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_void_base_1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 216
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2d90d1801a99e30800000000000000
+      internalID: 4510813558007255793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_void_base_2
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 215
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a43f3ed05606e6c0800000000000000
+      internalID: -4114594265160534879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_void_base_3
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 214
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba31e3cf1e2ab1c0800000000000000
+      internalID: -4487223364756096335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_void_base_4
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 213
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cacd79ca90faf7e60800000000000000
+      internalID: 7962275122299526316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_void_base_5
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 216
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f703d3ae37d5033e0800000000000000
+      internalID: -2076056675785297793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_void_base_6
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 214
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7cea77d5893bea0800000000000000
+      internalID: -5858171163071559741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_void_base_7
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 154
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c559d77f6efa152e0800000000000000
+      internalID: -2138734941494733476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_void_base_8
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 152
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59946ca9f859ecec0800000000000000
+      internalID: -3544731412684453483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_void_base_9
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 151
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca42a380b46243d30800000000000000
+      internalID: 4410192038804989100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_void_base_10
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 150
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183337902fe7e4410800000000000000
+      internalID: 1463246506947720065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_void_base_11
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 149
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc880be954e148210800000000000000
+      internalID: 1334224673972455628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_void_base_12
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 152
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7d7d8f378d528bf0800000000000000
+      internalID: -323593387749048963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_void_base_13
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 150
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d843130d41807f80800000000000000
+      internalID: -8110840761130202920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_void_base_14
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 90
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e61abdeda15cd40800000000000000
+      internalID: 5603914855802301978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_void_base_15
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 88
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7a40d7ea5f9a2a0800000000000000
+      internalID: -6725574438730553348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_void_base_16
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 87
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d001c4bb5b1f83b0800000000000000
+      internalID: -5508153738562305834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_void_base_17
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 86
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 019d22ce734dda100800000000000000
+      internalID: 120986101658867984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_void_base_18
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 85
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10fc34f957bd1de70800000000000000
+      internalID: 9138326417141124865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_void_base_19
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 88
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd730bbf8f5b61e00800000000000000
+      internalID: 1015198846997772253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_void_base_20
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 86
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41948a0093a24a580800000000000000
+      internalID: -8816875746172057324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_void_base_21
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 26
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f4ab00a50a933f70800000000000000
+      internalID: 9165839015579723000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_void_base_22
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 24
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a03b1325e26d1270800000000000000
+      internalID: 8222837230924411045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_void_base_23
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 22
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 348f61d4ea7d32fe0800000000000000
+      internalID: -1214890330842269629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_void_base_24
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 22
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6b7be55f2972bb0800000000000000
+      internalID: -4960834881971570975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_void_base_25
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 21
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeed9758e892fe7b0800000000000000
+      internalID: -5192886153233441046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_void_base_26
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 24
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd22f9c512a7abd0800000000000000
+      internalID: -2618946443826549262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_void_base_27
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 22
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6428d8fbe5a73ce0800000000000000
+      internalID: -1425488324128660372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      orb_projectile_void_base_0: -5222271878191969376
+      orb_projectile_void_base_1: 4510813558007255793
+      orb_projectile_void_base_10: 1463246506947720065
+      orb_projectile_void_base_11: 1334224673972455628
+      orb_projectile_void_base_12: -323593387749048963
+      orb_projectile_void_base_13: -8110840761130202920
+      orb_projectile_void_base_14: 5603914855802301978
+      orb_projectile_void_base_15: -6725574438730553348
+      orb_projectile_void_base_16: -5508153738562305834
+      orb_projectile_void_base_17: 120986101658867984
+      orb_projectile_void_base_18: 9138326417141124865
+      orb_projectile_void_base_19: 1015198846997772253
+      orb_projectile_void_base_2: -4114594265160534879
+      orb_projectile_void_base_20: -8816875746172057324
+      orb_projectile_void_base_21: 9165839015579723000
+      orb_projectile_void_base_22: 8222837230924411045
+      orb_projectile_void_base_23: -1214890330842269629
+      orb_projectile_void_base_24: -4960834881971570975
+      orb_projectile_void_base_25: -5192886153233441046
+      orb_projectile_void_base_26: -2618946443826549262
+      orb_projectile_void_base_27: -1425488324128660372
+      orb_projectile_void_base_3: -4487223364756096335
+      orb_projectile_void_base_4: 7962275122299526316
+      orb_projectile_void_base_5: -2076056675785297793
+      orb_projectile_void_base_6: -5858171163071559741
+      orb_projectile_void_base_7: -2138734941494733476
+      orb_projectile_void_base_8: -3544731412684453483
+      orb_projectile_void_base_9: 4410192038804989100
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: fe09e86edcd248349bc4c38c8482c8a7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -601278975935409317
+    second: orb_projectile_celestial_0
+  - first:
+      213: 547378550628210242
+    second: orb_projectile_celestial_1
+  - first:
+      213: 1248215714516253006
+    second: orb_projectile_celestial_2
+  - first:
+      213: -3917298267504492689
+    second: orb_projectile_celestial_3
+  - first:
+      213: 5199063349485911677
+    second: orb_projectile_celestial_4
+  - first:
+      213: -7321410382646961566
+    second: orb_projectile_celestial_5
+  - first:
+      213: 7372529003612805587
+    second: orb_projectile_celestial_6
+  - first:
+      213: -3231553536976093395
+    second: orb_projectile_celestial_7
+  - first:
+      213: 9068397978034165372
+    second: orb_projectile_celestial_8
+  - first:
+      213: 4847748225890409786
+    second: orb_projectile_celestial_9
+  - first:
+      213: 6721842177424001361
+    second: orb_projectile_celestial_10
+  - first:
+      213: -6716332547440188798
+    second: orb_projectile_celestial_11
+  - first:
+      213: 6513641434476843079
+    second: orb_projectile_celestial_12
+  - first:
+      213: 1484486686448718119
+    second: orb_projectile_celestial_13
+  - first:
+      213: -8067665423502300340
+    second: orb_projectile_celestial_14
+  - first:
+      213: -6069327586599274560
+    second: orb_projectile_celestial_15
+  - first:
+      213: -1795422344230936350
+    second: orb_projectile_celestial_16
+  - first:
+      213: 2187822641331869837
+    second: orb_projectile_celestial_17
+  - first:
+      213: -1876373614284245397
+    second: orb_projectile_celestial_18
+  - first:
+      213: 5493978271521356084
+    second: orb_projectile_celestial_19
+  - first:
+      213: -286211559648586927
+    second: orb_projectile_celestial_20
+  - first:
+      213: -2590623353068606566
+    second: orb_projectile_celestial_21
+  - first:
+      213: -3926256678622433815
+    second: orb_projectile_celestial_22
+  - first:
+      213: 2776943469529865848
+    second: orb_projectile_celestial_23
+  - first:
+      213: -2996044504616782629
+    second: orb_projectile_celestial_24
+  - first:
+      213: 790727761675901284
+    second: orb_projectile_celestial_25
+  - first:
+      213: 1482888968911990451
+    second: orb_projectile_celestial_26
+  - first:
+      213: 5222745767745001132
+    second: orb_projectile_celestial_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: orb_projectile_celestial_0
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 218
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53957405f3d7a7f0800000000000000
+      internalID: -601278975935409317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_celestial_1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 216
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246dcd344eda89700800000000000000
+      internalID: 547378550628210242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_celestial_2
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 215
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e493dca349d825110800000000000000
+      internalID: 1248215714516253006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_celestial_3
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 214
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f342efaf5f2a9c0800000000000000
+      internalID: -3917298267504492689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_celestial_4
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 213
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e3cde0298c62840800000000000000
+      internalID: 5199063349485911677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_celestial_5
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 216
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a98772c00256a90800000000000000
+      internalID: -7321410382646961566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_celestial_6
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 214
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d91b94411c705660800000000000000
+      internalID: 7372529003612805587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_celestial_7
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 154
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ff1ebfd273723d0800000000000000
+      internalID: -3231553536976093395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_celestial_8
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 152
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76d8922aeb69dd70800000000000000
+      internalID: 9068397978034165372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_celestial_9
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 151
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d5ab4b359a64340800000000000000
+      internalID: 4847748225890409786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_celestial_10
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 150
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1598895b8d7c84d50800000000000000
+      internalID: 6721842177424001361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_celestial_11
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 149
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 282ee6cf12bcac2a0800000000000000
+      internalID: -6716332547440188798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_celestial_12
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 152
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7401248bf5a156a50800000000000000
+      internalID: 6513641434476843079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_celestial_13
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 150
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7219293b6c4f99410800000000000000
+      internalID: 1484486686448718119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_celestial_14
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 90
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ba179aa05e90090800000000000000
+      internalID: -8067665423502300340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_celestial_15
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 88
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c7754777ba65cba0800000000000000
+      internalID: -6069327586599274560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_celestial_16
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 87
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0e056f3e06517e0800000000000000
+      internalID: -1795422344230936350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_celestial_17
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 86
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d889428c915bc5e10800000000000000
+      internalID: 2187822641331869837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_celestial_18
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 85
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b66fba6a328c5f5e0800000000000000
+      internalID: -1876373614284245397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_celestial_19
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 88
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 439bebd21288e3c40800000000000000
+      internalID: 5493978271521356084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_celestial_20
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 86
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15319885a1c270cf0800000000000000
+      internalID: -286211559648586927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_celestial_21
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 26
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ba38d39c14c0cd0800000000000000
+      internalID: -2590623353068606566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_celestial_22
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 24
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed64bd5a522389c0800000000000000
+      internalID: -3926256678622433815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_celestial_23
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 22
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e1ba66f5fa98620800000000000000
+      internalID: 2776943469529865848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_celestial_24
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 22
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd43e039569eb66d0800000000000000
+      internalID: -2996044504616782629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_celestial_25
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 21
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4695bb4b5ba39fa00800000000000000
+      internalID: 790727761675901284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_celestial_26
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 24
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be285919a7449410800000000000000
+      internalID: 1482888968911990451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_celestial_27
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 22
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca69d9eba9bea7840800000000000000
+      internalID: 5222745767745001132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      orb_projectile_celestial_0: -601278975935409317
+      orb_projectile_celestial_1: 547378550628210242
+      orb_projectile_celestial_10: 6721842177424001361
+      orb_projectile_celestial_11: -6716332547440188798
+      orb_projectile_celestial_12: 6513641434476843079
+      orb_projectile_celestial_13: 1484486686448718119
+      orb_projectile_celestial_14: -8067665423502300340
+      orb_projectile_celestial_15: -6069327586599274560
+      orb_projectile_celestial_16: -1795422344230936350
+      orb_projectile_celestial_17: 2187822641331869837
+      orb_projectile_celestial_18: -1876373614284245397
+      orb_projectile_celestial_19: 5493978271521356084
+      orb_projectile_celestial_2: 1248215714516253006
+      orb_projectile_celestial_20: -286211559648586927
+      orb_projectile_celestial_21: -2590623353068606566
+      orb_projectile_celestial_22: -3926256678622433815
+      orb_projectile_celestial_23: 2776943469529865848
+      orb_projectile_celestial_24: -2996044504616782629
+      orb_projectile_celestial_25: 790727761675901284
+      orb_projectile_celestial_26: 1482888968911990451
+      orb_projectile_celestial_27: 5222745767745001132
+      orb_projectile_celestial_3: -3917298267504492689
+      orb_projectile_celestial_4: 5199063349485911677
+      orb_projectile_celestial_5: -7321410382646961566
+      orb_projectile_celestial_6: 7372529003612805587
+      orb_projectile_celestial_7: -3231553536976093395
+      orb_projectile_celestial_8: 9068397978034165372
+      orb_projectile_celestial_9: 4847748225890409786
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

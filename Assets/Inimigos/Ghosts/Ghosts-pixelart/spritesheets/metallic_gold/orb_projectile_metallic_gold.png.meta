@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: b4abd22df05c3488798ea582947bdfa3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6460834669562581227
+    second: orb_projectile_metallic_gold_0
+  - first:
+      213: -6906437149386419605
+    second: orb_projectile_metallic_gold_1
+  - first:
+      213: 4558078979858160092
+    second: orb_projectile_metallic_gold_2
+  - first:
+      213: 3971982135601941155
+    second: orb_projectile_metallic_gold_3
+  - first:
+      213: -1933715392947835861
+    second: orb_projectile_metallic_gold_4
+  - first:
+      213: -9114168648162398983
+    second: orb_projectile_metallic_gold_5
+  - first:
+      213: 7622005539917805793
+    second: orb_projectile_metallic_gold_6
+  - first:
+      213: 4134043734343703874
+    second: orb_projectile_metallic_gold_7
+  - first:
+      213: -7306857871529267365
+    second: orb_projectile_metallic_gold_8
+  - first:
+      213: 5688349208717926436
+    second: orb_projectile_metallic_gold_9
+  - first:
+      213: -3239062122907293365
+    second: orb_projectile_metallic_gold_10
+  - first:
+      213: -1536533883145311674
+    second: orb_projectile_metallic_gold_11
+  - first:
+      213: 5100608601738063753
+    second: orb_projectile_metallic_gold_12
+  - first:
+      213: -2428916930367057526
+    second: orb_projectile_metallic_gold_13
+  - first:
+      213: 443000288218261185
+    second: orb_projectile_metallic_gold_14
+  - first:
+      213: -4467046395081662182
+    second: orb_projectile_metallic_gold_15
+  - first:
+      213: -3819472807126389280
+    second: orb_projectile_metallic_gold_16
+  - first:
+      213: -2878461997873930905
+    second: orb_projectile_metallic_gold_17
+  - first:
+      213: -3318555765103861005
+    second: orb_projectile_metallic_gold_18
+  - first:
+      213: -5422600263431319444
+    second: orb_projectile_metallic_gold_19
+  - first:
+      213: 692091771094078826
+    second: orb_projectile_metallic_gold_20
+  - first:
+      213: 8006512604993556866
+    second: orb_projectile_metallic_gold_21
+  - first:
+      213: 8253807367971483977
+    second: orb_projectile_metallic_gold_22
+  - first:
+      213: 4280737576866149867
+    second: orb_projectile_metallic_gold_23
+  - first:
+      213: 6606127523574396352
+    second: orb_projectile_metallic_gold_24
+  - first:
+      213: 2273563027322807950
+    second: orb_projectile_metallic_gold_25
+  - first:
+      213: 3677526717607236694
+    second: orb_projectile_metallic_gold_26
+  - first:
+      213: 790442409439420862
+    second: orb_projectile_metallic_gold_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: orb_projectile_metallic_gold_0
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 218
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51fa13859118656a0800000000000000
+      internalID: -6460834669562581227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_metallic_gold_1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 216
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b62d24721086720a0800000000000000
+      internalID: -6906437149386419605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_metallic_gold_2
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 215
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9de94beac814f30800000000000000
+      internalID: 4558078979858160092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_metallic_gold_3
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 214
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa40c635b05f1730800000000000000
+      internalID: 3971982135601941155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_metallic_gold_4
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 213
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ca3aa68101a25e0800000000000000
+      internalID: -1933715392947835861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_metallic_gold_5
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 216
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc274747e7f38180800000000000000
+      internalID: -9114168648162398983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_metallic_gold_6
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 214
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e83cdac7adc6c960800000000000000
+      internalID: 7622005539917805793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_metallic_gold_7
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 154
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d5c7f8fd21f5930800000000000000
+      internalID: 4134043734343703874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_metallic_gold_8
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 152
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f2b3faa73d89a90800000000000000
+      internalID: -7306857871529267365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_metallic_gold_9
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 151
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 420a108977311fe40800000000000000
+      internalID: 5688349208717926436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_metallic_gold_10
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 150
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4920b6192a8c03d0800000000000000
+      internalID: -3239062122907293365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_metallic_gold_11
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 149
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64aa5cdf2922daae0800000000000000
+      internalID: -1536533883145311674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_metallic_gold_12
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 152
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f26e4cf7009c640800000000000000
+      internalID: 5100608601738063753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_metallic_gold_13
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 150
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a811a88bbe0ca4ed0800000000000000
+      internalID: -2428916930367057526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_metallic_gold_14
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 90
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c625ae3a6ad52600800000000000000
+      internalID: 443000288218261185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_metallic_gold_15
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 88
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a11e7f998fcd102c0800000000000000
+      internalID: -4467046395081662182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_metallic_gold_16
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 87
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eda7f5e7b18efac0800000000000000
+      internalID: -3819472807126389280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_metallic_gold_17
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 86
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d534d4016ad08d0800000000000000
+      internalID: -2878461997873930905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_metallic_gold_18
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 85
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2e8a53d1f12f1d0800000000000000
+      internalID: -3318555765103861005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_metallic_gold_19
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 88
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c609c336acd0fb4b0800000000000000
+      internalID: -5422600263431319444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_metallic_gold_20
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 86
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6598088ccdca9900800000000000000
+      internalID: 692091771094078826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_metallic_gold_21
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 26
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281145e3bc8dc1f60800000000000000
+      internalID: 8006512604993556866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_metallic_gold_22
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 24
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9413174121a6b8270800000000000000
+      internalID: 8253807367971483977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_metallic_gold_23
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 22
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be5f5c5552c386b30800000000000000
+      internalID: 4280737576866149867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_metallic_gold_24
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 22
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5359f5bfdadab50800000000000000
+      internalID: 6606127523574396352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_metallic_gold_25
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 21
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e86a90a07815d8f10800000000000000
+      internalID: 2273563027322807950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_metallic_gold_26
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 24
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654dcf6b013390330800000000000000
+      internalID: 3677526717607236694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_metallic_gold_27
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 22
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb16a06fe2738fa00800000000000000
+      internalID: 790442409439420862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      orb_projectile_metallic_gold_0: -6460834669562581227
+      orb_projectile_metallic_gold_1: -6906437149386419605
+      orb_projectile_metallic_gold_10: -3239062122907293365
+      orb_projectile_metallic_gold_11: -1536533883145311674
+      orb_projectile_metallic_gold_12: 5100608601738063753
+      orb_projectile_metallic_gold_13: -2428916930367057526
+      orb_projectile_metallic_gold_14: 443000288218261185
+      orb_projectile_metallic_gold_15: -4467046395081662182
+      orb_projectile_metallic_gold_16: -3819472807126389280
+      orb_projectile_metallic_gold_17: -2878461997873930905
+      orb_projectile_metallic_gold_18: -3318555765103861005
+      orb_projectile_metallic_gold_19: -5422600263431319444
+      orb_projectile_metallic_gold_2: 4558078979858160092
+      orb_projectile_metallic_gold_20: 692091771094078826
+      orb_projectile_metallic_gold_21: 8006512604993556866
+      orb_projectile_metallic_gold_22: 8253807367971483977
+      orb_projectile_metallic_gold_23: 4280737576866149867
+      orb_projectile_metallic_gold_24: 6606127523574396352
+      orb_projectile_metallic_gold_25: 2273563027322807950
+      orb_projectile_metallic_gold_26: 3677526717607236694
+      orb_projectile_metallic_gold_27: 790442409439420862
+      orb_projectile_metallic_gold_3: 3971982135601941155
+      orb_projectile_metallic_gold_4: -1933715392947835861
+      orb_projectile_metallic_gold_5: -9114168648162398983
+      orb_projectile_metallic_gold_6: 7622005539917805793
+      orb_projectile_metallic_gold_7: 4134043734343703874
+      orb_projectile_metallic_gold_8: -7306857871529267365
+      orb_projectile_metallic_gold_9: 5688349208717926436
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

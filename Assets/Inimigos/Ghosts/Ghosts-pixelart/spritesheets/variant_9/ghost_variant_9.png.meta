@@ -1,0 +1,962 @@
+fileFormatVersion: 2
+guid: 8a846bc1b14d0b22d9dff55ad86b1c80
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6556529069420078376
+    second: ghost_variant_9_0
+  - first:
+      213: 3146546333581142543
+    second: ghost_variant_9_1
+  - first:
+      213: 6325793857896297452
+    second: ghost_variant_9_2
+  - first:
+      213: 2758884177674601755
+    second: ghost_variant_9_3
+  - first:
+      213: -3414602050231830499
+    second: ghost_variant_9_4
+  - first:
+      213: -8478028043582168716
+    second: ghost_variant_9_5
+  - first:
+      213: -5274782435415100313
+    second: ghost_variant_9_6
+  - first:
+      213: 7607177800681369852
+    second: ghost_variant_9_7
+  - first:
+      213: -3326269772302767681
+    second: ghost_variant_9_8
+  - first:
+      213: -2818426071797788395
+    second: ghost_variant_9_9
+  - first:
+      213: 1299291782903967936
+    second: ghost_variant_9_10
+  - first:
+      213: 1488099505727508278
+    second: ghost_variant_9_11
+  - first:
+      213: 5446316485612881243
+    second: ghost_variant_9_12
+  - first:
+      213: -6804952701753879555
+    second: ghost_variant_9_13
+  - first:
+      213: 7517804311799179756
+    second: ghost_variant_9_14
+  - first:
+      213: 5249267181602854911
+    second: ghost_variant_9_15
+  - first:
+      213: 5500911521453520752
+    second: ghost_variant_9_16
+  - first:
+      213: 6872601431131070764
+    second: ghost_variant_9_17
+  - first:
+      213: -6074587759042937575
+    second: ghost_variant_9_18
+  - first:
+      213: -5741800847124729909
+    second: ghost_variant_9_19
+  - first:
+      213: -1674987541401690824
+    second: ghost_variant_9_20
+  - first:
+      213: 5567720164802164067
+    second: ghost_variant_9_21
+  - first:
+      213: 14142859585274871
+    second: ghost_variant_9_22
+  - first:
+      213: -1620778411538627840
+    second: ghost_variant_9_23
+  - first:
+      213: 317699621302012060
+    second: ghost_variant_9_24
+  - first:
+      213: 359256076340173344
+    second: ghost_variant_9_25
+  - first:
+      213: -3678002292425635654
+    second: ghost_variant_9_26
+  - first:
+      213: 7493834992294710274
+    second: ghost_variant_9_27
+  - first:
+      213: 2691483865730411863
+    second: ghost_variant_9_28
+  - first:
+      213: 1101158305961506737
+    second: ghost_variant_9_29
+  - first:
+      213: -7577516430252278664
+    second: ghost_variant_9_30
+  - first:
+      213: -8439390480713640432
+    second: ghost_variant_9_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ghost_variant_9_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 208
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8256e4e53787dfa50800000000000000
+      internalID: 6556529069420078376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_variant_9_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 204
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a69622837caab20800000000000000
+      internalID: 3146546333581142543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_variant_9_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 203
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3b14e8ffbb9c750800000000000000
+      internalID: 6325793857896297452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_variant_9_3
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 203
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b158dbada86894620800000000000000
+      internalID: 2758884177674601755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_variant_9_4
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 205
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d187c92d685ec90d0800000000000000
+      internalID: -3414602050231830499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_variant_9_5
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 208
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4712c72b96ef75a80800000000000000
+      internalID: -8478028043582168716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_variant_9_6
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 209
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764fc9d62553cc6b0800000000000000
+      internalID: -5274782435415100313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_variant_9_7
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 208
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0b9d8b7ef129960800000000000000
+      internalID: 7607177800681369852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_variant_9_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 141
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb926c2f347b6d1d0800000000000000
+      internalID: -3326269772302767681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_variant_9_9
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 141
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5111bcc9b60f2e8d0800000000000000
+      internalID: -2818426071797788395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_variant_9_10
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 141
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c0339b1ef2080210800000000000000
+      internalID: 1299291782903967936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_variant_9_11
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 141
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f825dbd9ac6a410800000000000000
+      internalID: 1488099505727508278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_variant_9_12
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 144
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b554f43ecf3359b40800000000000000
+      internalID: 5446316485612881243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_variant_9_13
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 145
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df310aa6293ff81a0800000000000000
+      internalID: -6804952701753879555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_variant_9_14
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 144
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9a0b7c03b945860800000000000000
+      internalID: 7517804311799179756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_variant_9_15
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 144
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff7dd8a90b429d840800000000000000
+      internalID: 5249267181602854911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_variant_9_16
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 80
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 077371932e9275c40800000000000000
+      internalID: 5500911521453520752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_variant_9_17
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 75
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21a869c692606f50800000000000000
+      internalID: 6872601431131070764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_variant_9_18
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 77
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d3f412e9ab2bba0800000000000000
+      internalID: -6074587759042937575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_variant_9_19
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 77
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcfe7180d860150b0800000000000000
+      internalID: -5741800847124729909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_variant_9_20
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 77
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d1c8f94bf31c8e0800000000000000
+      internalID: -1674987541401690824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_variant_9_21
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 80
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 365ffc7adf3844d40800000000000000
+      internalID: 5567720164802164067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_variant_9_22
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 80
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f340b91bde323000800000000000000
+      internalID: 14142859585274871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_variant_9_23
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 82
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0034e983f96d189e0800000000000000
+      internalID: -1620778411538627840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_variant_9_24
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 14
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c988bf05f12b86400800000000000000
+      internalID: 317699621302012060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_variant_9_25
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 11
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a18ad7f755cf400800000000000000
+      internalID: 359256076340173344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_variant_9_26
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 10
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8c5e4e66c15fcc0800000000000000
+      internalID: -3678002292425635654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_variant_9_27
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 13
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c4e11b8337ff760800000000000000
+      internalID: 7493834992294710274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_variant_9_28
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 13
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d6e87d0521a5520800000000000000
+      internalID: 2691483865730411863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_variant_9_29
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 18
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b77e4425a9184f00800000000000000
+      internalID: 1101158305961506737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_variant_9_30
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 18
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c702f34f047d690800000000000000
+      internalID: -7577516430252278664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_variant_9_31
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 16
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0161044521341ea80800000000000000
+      internalID: -8439390480713640432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ghost_variant_9_0: 6556529069420078376
+      ghost_variant_9_1: 3146546333581142543
+      ghost_variant_9_10: 1299291782903967936
+      ghost_variant_9_11: 1488099505727508278
+      ghost_variant_9_12: 5446316485612881243
+      ghost_variant_9_13: -6804952701753879555
+      ghost_variant_9_14: 7517804311799179756
+      ghost_variant_9_15: 5249267181602854911
+      ghost_variant_9_16: 5500911521453520752
+      ghost_variant_9_17: 6872601431131070764
+      ghost_variant_9_18: -6074587759042937575
+      ghost_variant_9_19: -5741800847124729909
+      ghost_variant_9_2: 6325793857896297452
+      ghost_variant_9_20: -1674987541401690824
+      ghost_variant_9_21: 5567720164802164067
+      ghost_variant_9_22: 14142859585274871
+      ghost_variant_9_23: -1620778411538627840
+      ghost_variant_9_24: 317699621302012060
+      ghost_variant_9_25: 359256076340173344
+      ghost_variant_9_26: -3678002292425635654
+      ghost_variant_9_27: 7493834992294710274
+      ghost_variant_9_28: 2691483865730411863
+      ghost_variant_9_29: 1101158305961506737
+      ghost_variant_9_3: 2758884177674601755
+      ghost_variant_9_30: -7577516430252278664
+      ghost_variant_9_31: -8439390480713640432
+      ghost_variant_9_4: -3414602050231830499
+      ghost_variant_9_5: -8478028043582168716
+      ghost_variant_9_6: -5274782435415100313
+      ghost_variant_9_7: 7607177800681369852
+      ghost_variant_9_8: -3326269772302767681
+      ghost_variant_9_9: -2818426071797788395
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
