@@ -13,6 +13,7 @@ TagManager:
   - UI
   - inimigo
   - player
+  - npcs
   - 
   - 
   - 
@@ -35,8 +36,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - hitboxInimiga
   m_SortingLayers:
   - name: Default
     uniqueID: 0
