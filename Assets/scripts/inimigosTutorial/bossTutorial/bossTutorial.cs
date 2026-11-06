@@ -22,6 +22,10 @@ public class bossTutorial : MonoBehaviour
     private bool entradaRealizada = false;
     private bool bossAtivo = false;
 
+    [Header("Músicas do Boss")]
+    public AudioClip musicaBossFase1;
+    public AudioClip musicaBossFase2;
+
     [Header("Segunda Fase")]
     [Range(0.1f, 0.9f)] public float porcentagemSegundaFase = 0.5f;
     private bool segundaFase = false;
@@ -183,6 +187,17 @@ public class bossTutorial : MonoBehaviour
                 {
                     barraDeVidaCanvasObj.SetActive(true);
                 }
+
+                // Toca a música da Fase 1 do Boss
+                if (gerenciadorAudio.instancia != null && musicaBossFase1 != null)
+                {
+                    gerenciadorAudio.instancia.TocarMusica(musicaBossFase1, true);
+                }
+                else
+                {
+                    Debug.LogWarning("Não foi possível tocar a música do boss! Instancia gerenciadorAudio: " + (gerenciadorAudio.instancia != null) + " | musicaBossFase1: " + (musicaBossFase1 != null));
+                }
+
                 Debug.Log("Jogador teleportado para dentro da arena! Boss ativado e interação de entrada encerrada.");
             }
         }
@@ -195,6 +210,16 @@ public class bossTutorial : MonoBehaviour
         cooldownAtaque *= 0.7f;
         Debug.Log("SEGUNDA FASE DO BOSS ATIVADA! O Rei Esqueleto enfurece-se e agora invoca Cães do Inferno!");
         if (animator != null) animator.SetTrigger("Hurt");
+
+        // Toca a música da Fase 2 desde o começo
+        if (gerenciadorAudio.instancia != null && musicaBossFase2 != null)
+        {
+            gerenciadorAudio.instancia.TocarMusica(musicaBossFase2, true);
+        }
+        else
+        {
+            Debug.LogWarning("Não foi possível tocar a música da fase 2 do boss! Instancia: " + (gerenciadorAudio.instancia != null) + " | musicaBossFase2: " + (musicaBossFase2 != null));
+        }
     }
 
     void ComportamentoBoss()
