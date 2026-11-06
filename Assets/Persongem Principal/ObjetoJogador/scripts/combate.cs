@@ -6,8 +6,11 @@ using UnityEngine.InputSystem;
 public class combate : MonoBehaviour
 {
     [Header("Estilos e armas")]
-    
-    public TextMeshProUGUI textoEstilo;
+    // Campos atualizados para receber a Image e os Sprites no Inspector
+    public UnityEngine.UI.Image imagemEstiloUI; 
+    public Sprite spriteEstiloPoder;
+    public Sprite spriteEstiloPrecisao;
+
     public TextMeshProUGUI textoArma;   
 
     [Header("Sistema de Vida e UI")]
@@ -41,14 +44,12 @@ public class combate : MonoBehaviour
 
         vida = vidaMaxima;
 
-        
-
         if (barraPreenchimento != null)
         {
-            barraPreenchimento.fillAmount = vida / vidaMaxima; // Fica exatamente 1.0 (cheia)
+            barraPreenchimento.fillAmount = vida / vidaMaxima; 
         }
 
-        // Inicialização das Armas (Espada e Lança) com seus parâmetros únicos
+        // Inicialização das Armas (Espada e Lança)
         arma espada = new arma(
             1, 10f, 0.8f, 2f, 
             new Vector2(0.8f, 0.8f), new Vector2(0.6f, 1.2f), 
@@ -68,7 +69,6 @@ public class combate : MonoBehaviour
 
     void Update()
     {
-        
         if (contadorInvencibilidade > 0f)
         {
             contadorInvencibilidade -= Time.deltaTime;
@@ -79,7 +79,7 @@ public class combate : MonoBehaviour
             contadorCooldown -= Time.deltaTime;
         }
 
-        // Input para Atacar (Botão Esquerdo do Mouse)
+        // Input para Atacar
         if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
         {
             if (contadorCooldown <= 0f && armaAtual != null)
@@ -89,7 +89,7 @@ public class combate : MonoBehaviour
             }
         }
 
-        // Input para alternar Estilo de Combate (Botão Direito do Mouse)
+        // Input para alternar Estilo de Combate
         if (Mouse.current != null && Mouse.current.rightButton.wasPressedThisFrame)
         {
             if (contadorCooldown <= 0f)
@@ -98,7 +98,7 @@ public class combate : MonoBehaviour
             }
         }
 
-        // Input para alternar Armas (Teclas Q e E)
+        // Input para alternar Armas
         if (Keyboard.current != null)
         {
             if (Keyboard.current.eKey.wasPressedThisFrame)
@@ -119,8 +119,6 @@ public class combate : MonoBehaviour
 
     public void TomarDano(int danoRecebido)
     {
-        // Adicione esta linha para ver na consola exatamente qual script chamou o dano
-        Debug.Log("Tomou dano de: " + new System.Diagnostics.StackTrace().GetFrame(1).GetMethod().Name);
         if (contadorInvencibilidade <= 0f)
         {
             vida -= danoRecebido;
@@ -128,7 +126,7 @@ public class combate : MonoBehaviour
 
             if (barraPreenchimento != null)
             {
-                barraPreenchimento.fillAmount = vida / vidaMaxima; // Proporção correta
+                barraPreenchimento.fillAmount = vida / vidaMaxima; 
             }
 
             if (vida <= 0)
@@ -140,9 +138,17 @@ public class combate : MonoBehaviour
 
     void AtualizarUI()
     {
-        if (textoEstilo != null)
+        // Troca dinamicamente o Sprite da imagem com base no estilo atual
+        if (imagemEstiloUI != null)
         {
-            textoEstilo.text = estiloCombate ? "Estilo: poder" : "Estilo: precisão";
+            if (estiloCombate)
+            {
+                imagemEstiloUI.sprite = spriteEstiloPoder;
+            }
+            else
+            {
+                imagemEstiloUI.sprite = spriteEstiloPrecisao;
+            }
         }
 
         if (textoArma != null)
@@ -150,7 +156,6 @@ public class combate : MonoBehaviour
             textoArma.text = "Id arma atual: " + contadorArmaAtual;
         }
 
-        // Garante que a barra reflete sempre a vida atual proporcionalmente a cada frame
         if (barraPreenchimento != null && vidaMaxima > 0)
         {
             barraPreenchimento.fillAmount = vida / vidaMaxima;
@@ -199,10 +204,8 @@ public class combate : MonoBehaviour
             Destroy(visualHitbox, armaAtual.tempoDuracaoAtaque);
         }
 
-        // Detecção de inimigos
         Collider2D[] inimigosAtingidos = Physics2D.OverlapBoxAll(posicaoAtaque, tamanhoAtualDoAtaque, 0f, layerInimigo);
 
-        // Aplicação do Knockback dinâmico usando os parâmetros da arma atual
         if (inimigosAtingidos.Length > 0 && scriptMovimento != null)
         {
             if (atacandoParaBaixo)
