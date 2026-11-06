@@ -195,7 +195,7 @@ public class combate : MonoBehaviour
 
             if (vida <= 0)
             {
-                Application.Quit();
+                UnityEngine.SceneManagement.SceneManager.LoadScene("gameOverSombra");
             }
         }
     }
