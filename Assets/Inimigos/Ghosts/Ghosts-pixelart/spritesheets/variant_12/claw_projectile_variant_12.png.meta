@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: 2ac131022c5dcdeacb19f8acff99d81b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7505199662454716456
+    second: claw_projectile_variant_12_0
+  - first:
+      213: -2846638986264926058
+    second: claw_projectile_variant_12_1
+  - first:
+      213: 1790150056867752975
+    second: claw_projectile_variant_12_2
+  - first:
+      213: -3007877314294058680
+    second: claw_projectile_variant_12_3
+  - first:
+      213: 2705604066445882782
+    second: claw_projectile_variant_12_4
+  - first:
+      213: -9222539077062615665
+    second: claw_projectile_variant_12_5
+  - first:
+      213: -2442892747470579722
+    second: claw_projectile_variant_12_6
+  - first:
+      213: -6030372680838789282
+    second: claw_projectile_variant_12_7
+  - first:
+      213: 8488617254794979783
+    second: claw_projectile_variant_12_8
+  - first:
+      213: -6657387293142404862
+    second: claw_projectile_variant_12_9
+  - first:
+      213: -1744587866301656165
+    second: claw_projectile_variant_12_10
+  - first:
+      213: 3563809579910728360
+    second: claw_projectile_variant_12_11
+  - first:
+      213: -6034480404823660165
+    second: claw_projectile_variant_12_12
+  - first:
+      213: -192004812210408103
+    second: claw_projectile_variant_12_13
+  - first:
+      213: 1661806269507992440
+    second: claw_projectile_variant_12_14
+  - first:
+      213: -1067122027937543840
+    second: claw_projectile_variant_12_15
+  - first:
+      213: 7593782725678593304
+    second: claw_projectile_variant_12_16
+  - first:
+      213: 412973489459096215
+    second: claw_projectile_variant_12_17
+  - first:
+      213: -7011147146535797387
+    second: claw_projectile_variant_12_18
+  - first:
+      213: -7348889614157147388
+    second: claw_projectile_variant_12_19
+  - first:
+      213: 1265481620981174436
+    second: claw_projectile_variant_12_20
+  - first:
+      213: -2977681007761678204
+    second: claw_projectile_variant_12_21
+  - first:
+      213: -1785778129271528673
+    second: claw_projectile_variant_12_22
+  - first:
+      213: 8556866260899101154
+    second: claw_projectile_variant_12_23
+  - first:
+      213: 7284292315745730142
+    second: claw_projectile_variant_12_24
+  - first:
+      213: 5211105982625970748
+    second: claw_projectile_variant_12_25
+  - first:
+      213: 2335937755782475586
+    second: claw_projectile_variant_12_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: claw_projectile_variant_12_0
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 99
+        width: 77
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 828bef82453d72860800000000000000
+      internalID: 7505199662454716456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claw_projectile_variant_12_1
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 213
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698a6e39ce4be78d0800000000000000
+      internalID: -2846638986264926058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claw_projectile_variant_12_2
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 211
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c6f3afdf3e7d810800000000000000
+      internalID: 1790150056867752975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claw_projectile_variant_12_3
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 209
+        width: 45
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841fb81e48fd146d0800000000000000
+      internalID: -3007877314294058680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claw_projectile_variant_12_4
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 210
+        width: 53
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e95fb53409c3c8520800000000000000
+      internalID: 2705604066445882782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claw_projectile_variant_12_5
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 210
+        width: 53
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d16809295f20080800000000000000
+      internalID: -9222539077062615665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claw_projectile_variant_12_6
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 164
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f753aa3df9191ed0800000000000000
+      internalID: -2442892747470579722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claw_projectile_variant_12_7
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 173
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57426f3fffcf4ca0800000000000000
+      internalID: -6030372680838789282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claw_projectile_variant_12_8
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 141
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c96e4a2b60adc570800000000000000
+      internalID: 8488617254794979783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claw_projectile_variant_12_9
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 133
+        width: 20
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2013c0c77853c93a0800000000000000
+      internalID: -6657387293142404862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claw_projectile_variant_12_10
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 133
+        width: 20
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9312ad249af9c7e0800000000000000
+      internalID: -1744587866301656165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claw_projectile_variant_12_11
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 151
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa86b95ee1357130800000000000000
+      internalID: 3563809579910728360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claw_projectile_variant_12_12
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 108
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b792e6a3b08314ca0800000000000000
+      internalID: -6034480404823660165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claw_projectile_variant_12_13
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 100
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955780df3acd55df0800000000000000
+      internalID: -192004812210408103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claw_projectile_variant_12_14
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 77
+        width: 19
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b7a8b5ffbef0710800000000000000
+      internalID: 1661806269507992440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claw_projectile_variant_12_15
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 69
+        width: 19
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 069c9c06b22d031f0800000000000000
+      internalID: -1067122027937543840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claw_projectile_variant_12_16
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 69
+        width: 19
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 815f199c729826960800000000000000
+      internalID: 7593782725678593304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claw_projectile_variant_12_17
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 90
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79aecdc533d2bb500800000000000000
+      internalID: 412973489459096215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claw_projectile_variant_12_18
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 26
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d7dbe11d663be90800000000000000
+      internalID: -7011147146535797387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claw_projectile_variant_12_19
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 26
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4031b9ef4df730a90800000000000000
+      internalID: -7348889614157147388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claw_projectile_variant_12_20
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 26
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a05e5854d4ef8110800000000000000
+      internalID: 1265481620981174436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claw_projectile_variant_12_21
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 26
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48020fd56e62da6d0800000000000000
+      internalID: -2977681007761678204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claw_projectile_variant_12_22
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 26
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13eb1db044a737e0800000000000000
+      internalID: -1785778129271528673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claw_projectile_variant_12_23
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 26
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e97a6f278810c670800000000000000
+      internalID: 8556866260899101154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claw_projectile_variant_12_24
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 26
+        width: 45
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5eb1207441071560800000000000000
+      internalID: 7284292315745730142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claw_projectile_variant_12_25
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 26
+        width: 53
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a75551841915840800000000000000
+      internalID: 5211105982625970748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claw_projectile_variant_12_26
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 26
+        width: 53
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f66d6330bea6020800000000000000
+      internalID: 2335937755782475586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      claw_projectile_variant_12_0: 7505199662454716456
+      claw_projectile_variant_12_1: -2846638986264926058
+      claw_projectile_variant_12_10: -1744587866301656165
+      claw_projectile_variant_12_11: 3563809579910728360
+      claw_projectile_variant_12_12: -6034480404823660165
+      claw_projectile_variant_12_13: -192004812210408103
+      claw_projectile_variant_12_14: 1661806269507992440
+      claw_projectile_variant_12_15: -1067122027937543840
+      claw_projectile_variant_12_16: 7593782725678593304
+      claw_projectile_variant_12_17: 412973489459096215
+      claw_projectile_variant_12_18: -7011147146535797387
+      claw_projectile_variant_12_19: -7348889614157147388
+      claw_projectile_variant_12_2: 1790150056867752975
+      claw_projectile_variant_12_20: 1265481620981174436
+      claw_projectile_variant_12_21: -2977681007761678204
+      claw_projectile_variant_12_22: -1785778129271528673
+      claw_projectile_variant_12_23: 8556866260899101154
+      claw_projectile_variant_12_24: 7284292315745730142
+      claw_projectile_variant_12_25: 5211105982625970748
+      claw_projectile_variant_12_26: 2335937755782475586
+      claw_projectile_variant_12_3: -3007877314294058680
+      claw_projectile_variant_12_4: 2705604066445882782
+      claw_projectile_variant_12_5: -9222539077062615665
+      claw_projectile_variant_12_6: -2442892747470579722
+      claw_projectile_variant_12_7: -6030372680838789282
+      claw_projectile_variant_12_8: 8488617254794979783
+      claw_projectile_variant_12_9: -6657387293142404862
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: 00e928bb108de8fb983ee7396260a938
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3692572641713784229
+    second: orb_projectile_chrome_0
+  - first:
+      213: 2373012787877995783
+    second: orb_projectile_chrome_1
+  - first:
+      213: 3851368961003744317
+    second: orb_projectile_chrome_2
+  - first:
+      213: 3923342668086379723
+    second: orb_projectile_chrome_3
+  - first:
+      213: 8537750443299319228
+    second: orb_projectile_chrome_4
+  - first:
+      213: -2213333236384192192
+    second: orb_projectile_chrome_5
+  - first:
+      213: -8567906736431681399
+    second: orb_projectile_chrome_6
+  - first:
+      213: 4628600004978094185
+    second: orb_projectile_chrome_7
+  - first:
+      213: 5499126151592626630
+    second: orb_projectile_chrome_8
+  - first:
+      213: 44462150431608515
+    second: orb_projectile_chrome_9
+  - first:
+      213: -5197728844770504236
+    second: orb_projectile_chrome_10
+  - first:
+      213: 1681294109665379326
+    second: orb_projectile_chrome_11
+  - first:
+      213: 7577393515585695339
+    second: orb_projectile_chrome_12
+  - first:
+      213: -3272734799015267005
+    second: orb_projectile_chrome_13
+  - first:
+      213: -5683752761552627538
+    second: orb_projectile_chrome_14
+  - first:
+      213: 739598034888364908
+    second: orb_projectile_chrome_15
+  - first:
+      213: 854943893581313553
+    second: orb_projectile_chrome_16
+  - first:
+      213: -8835097388967913246
+    second: orb_projectile_chrome_17
+  - first:
+      213: -838359066044477321
+    second: orb_projectile_chrome_18
+  - first:
+      213: -786523476849867510
+    second: orb_projectile_chrome_19
+  - first:
+      213: -2891616844425343200
+    second: orb_projectile_chrome_20
+  - first:
+      213: 5297260912241494679
+    second: orb_projectile_chrome_21
+  - first:
+      213: 6547113835083740765
+    second: orb_projectile_chrome_22
+  - first:
+      213: -2128235139045904141
+    second: orb_projectile_chrome_23
+  - first:
+      213: -4651445340805473814
+    second: orb_projectile_chrome_24
+  - first:
+      213: 9219108346480390591
+    second: orb_projectile_chrome_25
+  - first:
+      213: 2705204313883481930
+    second: orb_projectile_chrome_26
+  - first:
+      213: 5322581569047574091
+    second: orb_projectile_chrome_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: orb_projectile_chrome_0
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 218
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a50da8e047ae3330800000000000000
+      internalID: 3692572641713784229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_chrome_1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 216
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7056decce82aee020800000000000000
+      internalID: 2373012787877995783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_chrome_2
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 215
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ce7932aafc27530800000000000000
+      internalID: 3851368961003744317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_chrome_3
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 214
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc40c6fae53827630800000000000000
+      internalID: 3923342668086379723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_chrome_4
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 213
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd2ac11bce2c7670800000000000000
+      internalID: 8537750443299319228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_chrome_5
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 216
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04921c3f529a841e0800000000000000
+      internalID: -2213333236384192192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_chrome_6
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 214
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 980305ac73ea81980800000000000000
+      internalID: -8567906736431681399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_chrome_7
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 154
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96037106e271c3040800000000000000
+      internalID: 4628600004978094185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_chrome_8
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 152
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c94db86912d05c40800000000000000
+      internalID: 5499126151592626630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_chrome_9
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 151
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce0d6a1716fd9000800000000000000
+      internalID: 44462150431608515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_chrome_10
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 150
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d117a88725fdd7b0800000000000000
+      internalID: -5197728844770504236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_chrome_11
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 149
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef3cf89b518255710800000000000000
+      internalID: 1681294109665379326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_chrome_12
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 152
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e65d3714f482960800000000000000
+      internalID: 7577393515585695339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_chrome_13
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 150
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345b2ac3a09e492d0800000000000000
+      internalID: -3272734799015267005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_chrome_14
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 90
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea892882af04f11b0800000000000000
+      internalID: -5683752761552627538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_chrome_15
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 88
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6319128e74934a00800000000000000
+      internalID: 739598034888364908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_chrome_16
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 87
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116bdc701fe5ddb00800000000000000
+      internalID: 854943893581313553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_chrome_17
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 86
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e8169e2cbd636580800000000000000
+      internalID: -8835097388967913246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_chrome_18
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 85
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 770d03a0fdc8d54f0800000000000000
+      internalID: -838359066044477321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_chrome_19
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 88
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05cbd2a015b515f0800000000000000
+      internalID: -786523476849867510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_chrome_20
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 86
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02fcd79ecc9eed7d0800000000000000
+      internalID: -2891616844425343200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_chrome_21
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 26
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a47bccbb6a38940800000000000000
+      internalID: 5297260912241494679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_chrome_22
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 24
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d56363c48550cda50800000000000000
+      internalID: 6547113835083740765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_chrome_23
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 22
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f03aaaba6df672e0800000000000000
+      internalID: -2128235139045904141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_chrome_24
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 22
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae9d4216b1fb27fb0800000000000000
+      internalID: -4651445340805473814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_chrome_25
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 21
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb17dc9323ad0ff70800000000000000
+      internalID: 9219108346480390591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_chrome_26
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 24
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4711ed9df0da8520800000000000000
+      internalID: 2705204313883481930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orb_projectile_chrome_27
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 22
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b463f1f9cbb9dd940800000000000000
+      internalID: 5322581569047574091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      orb_projectile_chrome_0: 3692572641713784229
+      orb_projectile_chrome_1: 2373012787877995783
+      orb_projectile_chrome_10: -5197728844770504236
+      orb_projectile_chrome_11: 1681294109665379326
+      orb_projectile_chrome_12: 7577393515585695339
+      orb_projectile_chrome_13: -3272734799015267005
+      orb_projectile_chrome_14: -5683752761552627538
+      orb_projectile_chrome_15: 739598034888364908
+      orb_projectile_chrome_16: 854943893581313553
+      orb_projectile_chrome_17: -8835097388967913246
+      orb_projectile_chrome_18: -838359066044477321
+      orb_projectile_chrome_19: -786523476849867510
+      orb_projectile_chrome_2: 3851368961003744317
+      orb_projectile_chrome_20: -2891616844425343200
+      orb_projectile_chrome_21: 5297260912241494679
+      orb_projectile_chrome_22: 6547113835083740765
+      orb_projectile_chrome_23: -2128235139045904141
+      orb_projectile_chrome_24: -4651445340805473814
+      orb_projectile_chrome_25: 9219108346480390591
+      orb_projectile_chrome_26: 2705204313883481930
+      orb_projectile_chrome_27: 5322581569047574091
+      orb_projectile_chrome_3: 3923342668086379723
+      orb_projectile_chrome_4: 8537750443299319228
+      orb_projectile_chrome_5: -2213333236384192192
+      orb_projectile_chrome_6: -8567906736431681399
+      orb_projectile_chrome_7: 4628600004978094185
+      orb_projectile_chrome_8: 5499126151592626630
+      orb_projectile_chrome_9: 44462150431608515
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

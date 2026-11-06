@@ -1,0 +1,962 @@
+fileFormatVersion: 2
+guid: bcaf74c229160c5e880b2c180ad3a32d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5006501892272009552
+    second: pillar_projectile_chrome_0
+  - first:
+      213: 5887852294739926192
+    second: pillar_projectile_chrome_1
+  - first:
+      213: -116148120446077847
+    second: pillar_projectile_chrome_2
+  - first:
+      213: 7436020314328523139
+    second: pillar_projectile_chrome_3
+  - first:
+      213: -2594370315830644169
+    second: pillar_projectile_chrome_4
+  - first:
+      213: -7640762685828397246
+    second: pillar_projectile_chrome_5
+  - first:
+      213: 6423775278020297666
+    second: pillar_projectile_chrome_6
+  - first:
+      213: 1067953113503204080
+    second: pillar_projectile_chrome_7
+  - first:
+      213: -3364410542550220550
+    second: pillar_projectile_chrome_8
+  - first:
+      213: 5547085836452046432
+    second: pillar_projectile_chrome_9
+  - first:
+      213: 3468391705894209313
+    second: pillar_projectile_chrome_10
+  - first:
+      213: 7586812083311195636
+    second: pillar_projectile_chrome_11
+  - first:
+      213: -5211470790202061524
+    second: pillar_projectile_chrome_12
+  - first:
+      213: 4089927228726274412
+    second: pillar_projectile_chrome_13
+  - first:
+      213: -8689306437727421237
+    second: pillar_projectile_chrome_14
+  - first:
+      213: -9172512729544899362
+    second: pillar_projectile_chrome_15
+  - first:
+      213: 5668625368565098646
+    second: pillar_projectile_chrome_16
+  - first:
+      213: -1394729312056809048
+    second: pillar_projectile_chrome_17
+  - first:
+      213: 3568593965877129068
+    second: pillar_projectile_chrome_18
+  - first:
+      213: -2298176939165908397
+    second: pillar_projectile_chrome_19
+  - first:
+      213: -3501323717200497934
+    second: pillar_projectile_chrome_20
+  - first:
+      213: 2322958705537780264
+    second: pillar_projectile_chrome_21
+  - first:
+      213: 4120985664025677586
+    second: pillar_projectile_chrome_22
+  - first:
+      213: -3031181817644912399
+    second: pillar_projectile_chrome_23
+  - first:
+      213: -4961961549594416132
+    second: pillar_projectile_chrome_24
+  - first:
+      213: 3770838296240683243
+    second: pillar_projectile_chrome_25
+  - first:
+      213: -1791706242913501844
+    second: pillar_projectile_chrome_26
+  - first:
+      213: -1764492794630543750
+    second: pillar_projectile_chrome_27
+  - first:
+      213: 8624506042543348108
+    second: pillar_projectile_chrome_28
+  - first:
+      213: -217085941014533808
+    second: pillar_projectile_chrome_29
+  - first:
+      213: 5316080948792371599
+    second: pillar_projectile_chrome_30
+  - first:
+      213: -635225955177213539
+    second: pillar_projectile_chrome_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pillar_projectile_chrome_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 194
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be4ec7fd05558ab0800000000000000
+      internalID: -5006501892272009552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_chrome_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 194
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc11f5877ad5b150800000000000000
+      internalID: 5887852294739926192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_chrome_2
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 192
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9647b7b56eb536ef0800000000000000
+      internalID: -116148120446077847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_chrome_3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 200
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 381e322041d023760800000000000000
+      internalID: 7436020314328523139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_chrome_4
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 200
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732b81d71f1fefbd0800000000000000
+      internalID: -2594370315830644169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_chrome_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 200
+        width: 23
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247832ad1de86f590800000000000000
+      internalID: -7640762685828397246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_chrome_6
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 193
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3065ba495d52950800000000000000
+      internalID: 6423775278020297666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_chrome_7
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 192
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2812fc2b122de00800000000000000
+      internalID: 1067953113503204080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_chrome_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 130
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af007bcdf663f41d0800000000000000
+      internalID: -3364410542550220550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_chrome_9
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 130
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0662354bd253bfc40800000000000000
+      internalID: 5547085836452046432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_chrome_10
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 128
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1274cb351e3322030800000000000000
+      internalID: 3468391705894209313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_chrome_11
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 136
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5b763a465c94960800000000000000
+      internalID: 7586812083311195636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_chrome_12
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 136
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2d8ea88de22da7b0800000000000000
+      internalID: -5211470790202061524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_chrome_13
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 136
+        width: 22
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c696d69252752c830800000000000000
+      internalID: 4089927228726274412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_chrome_14
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 129
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bccfdb235d1696780800000000000000
+      internalID: -8689306437727421237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_chrome_15
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 128
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed44ab14540b4b080800000000000000
+      internalID: -9172512729544899362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_chrome_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 66
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69827123db00bae40800000000000000
+      internalID: 5668625368565098646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_chrome_17
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 66
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a9670d841de4ace0800000000000000
+      internalID: -1394729312056809048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_chrome_18
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 64
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f65b30e41368130800000000000000
+      internalID: 3568593965877129068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_chrome_19
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 72
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3528506004c3b10e0800000000000000
+      internalID: -2298176939165908397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_chrome_20
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 72
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f23d9841acc86fc0800000000000000
+      internalID: -3501323717200497934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_chrome_21
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 72
+        width: 25
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a0b7792aecc3020800000000000000
+      internalID: 2322958705537780264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_chrome_22
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 65
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f4ab4a0aea03930800000000000000
+      internalID: 4120985664025677586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_chrome_23
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 64
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f0f6ad52341fe5d0800000000000000
+      internalID: -3031181817644912399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_chrome_24
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb274f9242932bb0800000000000000
+      internalID: -4961961549594416132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_chrome_25
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be87dd0a375b45430800000000000000
+      internalID: 3770838296240683243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_chrome_26
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 0
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d7a493aa49227e0800000000000000
+      internalID: -1791706242913501844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_chrome_27
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 8
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a766f47e6234387e0800000000000000
+      internalID: -1764492794630543750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_chrome_28
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 8
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8991051d8660b770800000000000000
+      internalID: 8624506042543348108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_chrome_29
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 8
+        width: 22
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 059e810ac71ccfcf0800000000000000
+      internalID: -217085941014533808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_chrome_30
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89adf5057386c940800000000000000
+      internalID: 5316080948792371599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_chrome_31
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 0
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91dd8dfb593f27f0800000000000000
+      internalID: -635225955177213539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pillar_projectile_chrome_0: -5006501892272009552
+      pillar_projectile_chrome_1: 5887852294739926192
+      pillar_projectile_chrome_10: 3468391705894209313
+      pillar_projectile_chrome_11: 7586812083311195636
+      pillar_projectile_chrome_12: -5211470790202061524
+      pillar_projectile_chrome_13: 4089927228726274412
+      pillar_projectile_chrome_14: -8689306437727421237
+      pillar_projectile_chrome_15: -9172512729544899362
+      pillar_projectile_chrome_16: 5668625368565098646
+      pillar_projectile_chrome_17: -1394729312056809048
+      pillar_projectile_chrome_18: 3568593965877129068
+      pillar_projectile_chrome_19: -2298176939165908397
+      pillar_projectile_chrome_2: -116148120446077847
+      pillar_projectile_chrome_20: -3501323717200497934
+      pillar_projectile_chrome_21: 2322958705537780264
+      pillar_projectile_chrome_22: 4120985664025677586
+      pillar_projectile_chrome_23: -3031181817644912399
+      pillar_projectile_chrome_24: -4961961549594416132
+      pillar_projectile_chrome_25: 3770838296240683243
+      pillar_projectile_chrome_26: -1791706242913501844
+      pillar_projectile_chrome_27: -1764492794630543750
+      pillar_projectile_chrome_28: 8624506042543348108
+      pillar_projectile_chrome_29: -217085941014533808
+      pillar_projectile_chrome_3: 7436020314328523139
+      pillar_projectile_chrome_30: 5316080948792371599
+      pillar_projectile_chrome_31: -635225955177213539
+      pillar_projectile_chrome_4: -2594370315830644169
+      pillar_projectile_chrome_5: -7640762685828397246
+      pillar_projectile_chrome_6: 6423775278020297666
+      pillar_projectile_chrome_7: 1067953113503204080
+      pillar_projectile_chrome_8: -3364410542550220550
+      pillar_projectile_chrome_9: 5547085836452046432
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

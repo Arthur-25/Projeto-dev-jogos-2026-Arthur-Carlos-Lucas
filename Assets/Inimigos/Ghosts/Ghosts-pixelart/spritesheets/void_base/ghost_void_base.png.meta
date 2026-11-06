@@ -1,0 +1,962 @@
+fileFormatVersion: 2
+guid: d3db6a0485d02bd63ab0da46177b2383
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2118250056494863150
+    second: ghost_void_base_0
+  - first:
+      213: -2211239749433919376
+    second: ghost_void_base_1
+  - first:
+      213: 1413628455263242932
+    second: ghost_void_base_2
+  - first:
+      213: 5636207875658259795
+    second: ghost_void_base_3
+  - first:
+      213: 456525875290634403
+    second: ghost_void_base_4
+  - first:
+      213: 2723026793438109054
+    second: ghost_void_base_5
+  - first:
+      213: 7765121888629644735
+    second: ghost_void_base_6
+  - first:
+      213: -6409583562302075610
+    second: ghost_void_base_7
+  - first:
+      213: -1447135711536808634
+    second: ghost_void_base_8
+  - first:
+      213: -874530631718293398
+    second: ghost_void_base_9
+  - first:
+      213: -8979147431962100995
+    second: ghost_void_base_10
+  - first:
+      213: -8139738603336170298
+    second: ghost_void_base_11
+  - first:
+      213: -8795508610234152276
+    second: ghost_void_base_12
+  - first:
+      213: -3583339236791265138
+    second: ghost_void_base_13
+  - first:
+      213: -4106871518553653077
+    second: ghost_void_base_14
+  - first:
+      213: 4003087618343327698
+    second: ghost_void_base_15
+  - first:
+      213: 6749482159869672581
+    second: ghost_void_base_16
+  - first:
+      213: 2477204590220388917
+    second: ghost_void_base_17
+  - first:
+      213: 3125867810270584733
+    second: ghost_void_base_18
+  - first:
+      213: -4344548237622229496
+    second: ghost_void_base_19
+  - first:
+      213: 451713349763412979
+    second: ghost_void_base_20
+  - first:
+      213: -3171261808682066296
+    second: ghost_void_base_21
+  - first:
+      213: -1690530157453880795
+    second: ghost_void_base_22
+  - first:
+      213: 2938223201991570922
+    second: ghost_void_base_23
+  - first:
+      213: 9103208091544270852
+    second: ghost_void_base_24
+  - first:
+      213: -6713373408497451479
+    second: ghost_void_base_25
+  - first:
+      213: -2066840953426228230
+    second: ghost_void_base_26
+  - first:
+      213: 1021519090719391632
+    second: ghost_void_base_27
+  - first:
+      213: 3096172859622588484
+    second: ghost_void_base_28
+  - first:
+      213: 1114839697675663689
+    second: ghost_void_base_29
+  - first:
+      213: -3010732956595769479
+    second: ghost_void_base_30
+  - first:
+      213: 8148745194822885339
+    second: ghost_void_base_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ghost_void_base_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 205
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc2c2debc67a92e0800000000000000
+      internalID: -2118250056494863150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_void_base_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 204
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07874cdd9291051e0800000000000000
+      internalID: -2211239749433919376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_void_base_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 205
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba895027973e9310800000000000000
+      internalID: 1413628455263242932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_void_base_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 205
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d9ed47335d73e40800000000000000
+      internalID: 5636207875658259795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_void_base_4
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 205
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8f8736dd7e55600800000000000000
+      internalID: 456525875290634403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_void_base_5
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 210
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ddfb001722ac520800000000000000
+      internalID: 2723026793438109054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_void_base_6
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 209
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd5161673143cb60800000000000000
+      internalID: 7765121888629644735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_void_base_7
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 208
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d4dc2a5b59c07a0800000000000000
+      internalID: -6409583562302075610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_void_base_8
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 141
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64df014dcbdbaebe0800000000000000
+      internalID: -1447135711536808634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_void_base_9
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 141
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a60bb3f160b0dd3f0800000000000000
+      internalID: -874530631718293398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_void_base_10
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 138
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfab904fbf8a36380800000000000000
+      internalID: -8979147431962100995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_void_base_11
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 140
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c40d9fcdd6d90f80800000000000000
+      internalID: -8139738603336170298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_void_base_12
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 141
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa8a14058310f580800000000000000
+      internalID: -8795508610234152276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_void_base_13
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 145
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88565113fb654ec0800000000000000
+      internalID: -3583339236791265138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_void_base_14
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 147
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0c07eec167107c0800000000000000
+      internalID: -4106871518553653077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_void_base_15
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 145
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d75e18caf2dd8730800000000000000
+      internalID: 4003087618343327698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_void_base_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 80
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c3edc934afaad50800000000000000
+      internalID: 6749482159869672581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_void_base_17
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 76
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53aad04337cc06220800000000000000
+      internalID: 2477204590220388917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_void_base_18
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 74
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f910e3630516b20800000000000000
+      internalID: 3125867810270584733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_void_base_19
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 76
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8064af2756015b3c0800000000000000
+      internalID: -4344548237622229496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_void_base_20
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 77
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f333f8f5eec44600800000000000000
+      internalID: 451713349763412979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_void_base_21
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 82
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e1eb3ef2a6df3d0800000000000000
+      internalID: -3171261808682066296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_void_base_22
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 82
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52250e257c70a88e0800000000000000
+      internalID: -1690530157453880795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_void_base_23
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 82
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae5b4815f6aa6c820800000000000000
+      internalID: 2938223201991570922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_void_base_24
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 16
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40835f44787155e70800000000000000
+      internalID: 9103208091544270852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_void_base_25
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 12
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92eb4f5347e45d2a0800000000000000
+      internalID: -6713373408497451479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_void_base_26
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 11
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afbcccb7a1b1153e0800000000000000
+      internalID: -2066840953426228230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_void_base_27
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 13
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09ffb95633a2d2e00800000000000000
+      internalID: 1021519090719391632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_void_base_28
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 13
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4408205cfc0d7fa20800000000000000
+      internalID: 3096172859622588484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_void_base_29
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 16
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94936716cc4b87f00800000000000000
+      internalID: 1114839697675663689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_void_base_30
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 18
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f2c88d35ab736d0800000000000000
+      internalID: -3010732956595769479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_void_base_31
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 17
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdfd69ea498261170800000000000000
+      internalID: 8148745194822885339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ghost_void_base_0: -2118250056494863150
+      ghost_void_base_1: -2211239749433919376
+      ghost_void_base_10: -8979147431962100995
+      ghost_void_base_11: -8139738603336170298
+      ghost_void_base_12: -8795508610234152276
+      ghost_void_base_13: -3583339236791265138
+      ghost_void_base_14: -4106871518553653077
+      ghost_void_base_15: 4003087618343327698
+      ghost_void_base_16: 6749482159869672581
+      ghost_void_base_17: 2477204590220388917
+      ghost_void_base_18: 3125867810270584733
+      ghost_void_base_19: -4344548237622229496
+      ghost_void_base_2: 1413628455263242932
+      ghost_void_base_20: 451713349763412979
+      ghost_void_base_21: -3171261808682066296
+      ghost_void_base_22: -1690530157453880795
+      ghost_void_base_23: 2938223201991570922
+      ghost_void_base_24: 9103208091544270852
+      ghost_void_base_25: -6713373408497451479
+      ghost_void_base_26: -2066840953426228230
+      ghost_void_base_27: 1021519090719391632
+      ghost_void_base_28: 3096172859622588484
+      ghost_void_base_29: 1114839697675663689
+      ghost_void_base_3: 5636207875658259795
+      ghost_void_base_30: -3010732956595769479
+      ghost_void_base_31: 8148745194822885339
+      ghost_void_base_4: 456525875290634403
+      ghost_void_base_5: 2723026793438109054
+      ghost_void_base_6: 7765121888629644735
+      ghost_void_base_7: -6409583562302075610
+      ghost_void_base_8: -1447135711536808634
+      ghost_void_base_9: -874530631718293398
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

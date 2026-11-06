@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: 3b8e527306d0e2b179a9549b65013941
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2321629971011879765
+    second: Birds_Grackle_Move_0
+  - first:
+      213: -3736961255438083475
+    second: Birds_Grackle_Move_1
+  - first:
+      213: 2600084612995414862
+    second: Birds_Grackle_Move_2
+  - first:
+      213: 2202491685486601684
+    second: Birds_Grackle_Move_3
+  - first:
+      213: -2787863886594897979
+    second: Birds_Grackle_Move_4
+  - first:
+      213: 6773720537330165370
+    second: Birds_Grackle_Move_5
+  - first:
+      213: -7480193350934258355
+    second: Birds_Grackle_Move_6
+  - first:
+      213: -8018560569700817931
+    second: Birds_Grackle_Move_7
+  - first:
+      213: 68703727796473823
+    second: Birds_Grackle_Move_8
+  - first:
+      213: 6496544101669260571
+    second: Birds_Grackle_Move_9
+  - first:
+      213: -513247006891325264
+    second: Birds_Grackle_Move_10
+  - first:
+      213: 7437209977522627870
+    second: Birds_Grackle_Move_11
+  - first:
+      213: -7168104983064648600
+    second: Birds_Grackle_Move_12
+  - first:
+      213: -398467411601824485
+    second: Birds_Grackle_Move_13
+  - first:
+      213: -4041630304448200379
+    second: Birds_Grackle_Move_14
+  - first:
+      213: 7984247126899620078
+    second: Birds_Grackle_Move_15
+  - first:
+      213: 1973763351958644852
+    second: Birds_Grackle_Move_16
+  - first:
+      213: -6655129187654178299
+    second: Birds_Grackle_Move_17
+  - first:
+      213: -3874740822874784896
+    second: Birds_Grackle_Move_18
+  - first:
+      213: -3941691878758972283
+    second: Birds_Grackle_Move_19
+  - first:
+      213: 7848211897617605839
+    second: Birds_Grackle_Move_20
+  - first:
+      213: 230157234599361155
+    second: Birds_Grackle_Move_21
+  - first:
+      213: 995267688020316580
+    second: Birds_Grackle_Move_22
+  - first:
+      213: 2430848963587648637
+    second: Birds_Grackle_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Birds_Grackle_Move_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 443
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bacbfe587d9e7cfd0800000000000000
+      internalID: -2321629971011879765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Move_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 443
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a17369985a32cc0800000000000000
+      internalID: -3736961255438083475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Move_2
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 442
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4bfc8ffd2b551420800000000000000
+      internalID: 2600084612995414862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Move_3
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 441
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d52e26c482d09e10800000000000000
+      internalID: 2202491685486601684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Move_4
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 441
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c70f5dd0948f49d0800000000000000
+      internalID: -2787863886594897979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Move_5
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 442
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a762553a0f6110e50800000000000000
+      internalID: 6773720537330165370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Move_6
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 319
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d135277c3013890800000000000000
+      internalID: -7480193350934258355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Move_7
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 318
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3670165a958b090800000000000000
+      internalID: -8018560569700817931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Move_8
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 318
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdfcd0a2da514f000800000000000000
+      internalID: 68703727796473823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Move_9
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 318
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1dc7a7b07c582a50800000000000000
+      internalID: 6496544101669260571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Move_10
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 318
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8c538019490e8f0800000000000000
+      internalID: -513247006891325264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Move_11
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 319
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e152a3e0217463760800000000000000
+      internalID: 7437209977522627870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Move_12
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 191
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86469b30f76c58c90800000000000000
+      internalID: -7168104983064648600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Move_13
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 190
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1567e4100c587af0800000000000000
+      internalID: -398467411601824485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Move_14
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 190
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54149edc6ae39e7c0800000000000000
+      internalID: -4041630304448200379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Move_15
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 190
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8f8c5a57ebdce60800000000000000
+      internalID: 7984247126899620078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Move_16
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 190
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 478ed28af47346b10800000000000000
+      internalID: 1973763351958644852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Move_17
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 191
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ae983a34b34a3a0800000000000000
+      internalID: -6655129187654178299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Move_18
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 57
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08bf7d730c72a3ac0800000000000000
+      internalID: -3874740822874784896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Move_19
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 57
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5848788ce1c4c49c0800000000000000
+      internalID: -3941691878758972283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Move_20
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 56
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc4ed77a3237aec60800000000000000
+      internalID: 7848211897617605839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Move_21
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 57
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38af7c219cea13300800000000000000
+      internalID: 230157234599361155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Move_22
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 58
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a110e860b6efcd00800000000000000
+      internalID: 995267688020316580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Move_23
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 57
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ca441d04c1cb120800000000000000
+      internalID: 2430848963587648637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Birds_Grackle_Move_0: -2321629971011879765
+      Birds_Grackle_Move_1: -3736961255438083475
+      Birds_Grackle_Move_10: -513247006891325264
+      Birds_Grackle_Move_11: 7437209977522627870
+      Birds_Grackle_Move_12: -7168104983064648600
+      Birds_Grackle_Move_13: -398467411601824485
+      Birds_Grackle_Move_14: -4041630304448200379
+      Birds_Grackle_Move_15: 7984247126899620078
+      Birds_Grackle_Move_16: 1973763351958644852
+      Birds_Grackle_Move_17: -6655129187654178299
+      Birds_Grackle_Move_18: -3874740822874784896
+      Birds_Grackle_Move_19: -3941691878758972283
+      Birds_Grackle_Move_2: 2600084612995414862
+      Birds_Grackle_Move_20: 7848211897617605839
+      Birds_Grackle_Move_21: 230157234599361155
+      Birds_Grackle_Move_22: 995267688020316580
+      Birds_Grackle_Move_23: 2430848963587648637
+      Birds_Grackle_Move_3: 2202491685486601684
+      Birds_Grackle_Move_4: -2787863886594897979
+      Birds_Grackle_Move_5: 6773720537330165370
+      Birds_Grackle_Move_6: -7480193350934258355
+      Birds_Grackle_Move_7: -8018560569700817931
+      Birds_Grackle_Move_8: 68703727796473823
+      Birds_Grackle_Move_9: 6496544101669260571
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

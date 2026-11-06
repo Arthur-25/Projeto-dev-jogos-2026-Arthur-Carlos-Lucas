@@ -1,0 +1,962 @@
+fileFormatVersion: 2
+guid: d31a5065ba2f93c64b91668b4ed7470c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6308948205277048746
+    second: pillar_projectile_variant_14_0
+  - first:
+      213: -8689831968545350733
+    second: pillar_projectile_variant_14_1
+  - first:
+      213: -223301631080059076
+    second: pillar_projectile_variant_14_2
+  - first:
+      213: -6115653099842478468
+    second: pillar_projectile_variant_14_3
+  - first:
+      213: 3328883525326040029
+    second: pillar_projectile_variant_14_4
+  - first:
+      213: -5810293847527967164
+    second: pillar_projectile_variant_14_5
+  - first:
+      213: -6964959572622643180
+    second: pillar_projectile_variant_14_6
+  - first:
+      213: -4881411451471765755
+    second: pillar_projectile_variant_14_7
+  - first:
+      213: -3513238577230699969
+    second: pillar_projectile_variant_14_8
+  - first:
+      213: -7264477423483387830
+    second: pillar_projectile_variant_14_9
+  - first:
+      213: -8509734648686091045
+    second: pillar_projectile_variant_14_10
+  - first:
+      213: 7062043800362495876
+    second: pillar_projectile_variant_14_11
+  - first:
+      213: -7306887393056508829
+    second: pillar_projectile_variant_14_12
+  - first:
+      213: -7223730299242246225
+    second: pillar_projectile_variant_14_13
+  - first:
+      213: 1443322083061550924
+    second: pillar_projectile_variant_14_14
+  - first:
+      213: 2039655647257636514
+    second: pillar_projectile_variant_14_15
+  - first:
+      213: 6996703009013350133
+    second: pillar_projectile_variant_14_16
+  - first:
+      213: -8509526426198571517
+    second: pillar_projectile_variant_14_17
+  - first:
+      213: 2916514289558359121
+    second: pillar_projectile_variant_14_18
+  - first:
+      213: 8233953131821008121
+    second: pillar_projectile_variant_14_19
+  - first:
+      213: -6715473585331548209
+    second: pillar_projectile_variant_14_20
+  - first:
+      213: 3152175347525944248
+    second: pillar_projectile_variant_14_21
+  - first:
+      213: -135961057649346826
+    second: pillar_projectile_variant_14_22
+  - first:
+      213: 6465559848432548590
+    second: pillar_projectile_variant_14_23
+  - first:
+      213: 9206471381468138799
+    second: pillar_projectile_variant_14_24
+  - first:
+      213: -2604596285833827693
+    second: pillar_projectile_variant_14_25
+  - first:
+      213: 1596229204653572101
+    second: pillar_projectile_variant_14_26
+  - first:
+      213: 4297090809387640944
+    second: pillar_projectile_variant_14_27
+  - first:
+      213: 2435508115838071409
+    second: pillar_projectile_variant_14_28
+  - first:
+      213: 1193368554327555106
+    second: pillar_projectile_variant_14_29
+  - first:
+      213: 423150350366522568
+    second: pillar_projectile_variant_14_30
+  - first:
+      213: 1705185245672604799
+    second: pillar_projectile_variant_14_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pillar_projectile_variant_14_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 194
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf60e967f2ed8750800000000000000
+      internalID: 6308948205277048746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_variant_14_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 194
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb55058dd3876780800000000000000
+      internalID: -8689831968545350733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_variant_14_2
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 192
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f25b1895ca6ecf0800000000000000
+      internalID: -223301631080059076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_variant_14_3
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 200
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e5f5668e5d02ba0800000000000000
+      internalID: -6115653099842478468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_variant_14_4
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 200
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddb65b9dde1923e20800000000000000
+      internalID: 3328883525326040029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_variant_14_5
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 200
+        width: 21
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4463579a780bd5fa0800000000000000
+      internalID: -5810293847527967164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_variant_14_6
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 193
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 410fedeab2e775f90800000000000000
+      internalID: -6964959572622643180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_variant_14_7
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 192
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f5080d52eb14cb0800000000000000
+      internalID: -4881411451471765755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_variant_14_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 130
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3227f0c0287e3fc0800000000000000
+      internalID: -3513238577230699969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_variant_14_9
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 130
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a408d6ea5446f2b90800000000000000
+      internalID: -7264477423483387830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_variant_14_10
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 128
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd46b3c6c6957e980800000000000000
+      internalID: -8509734648686091045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_variant_14_11
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 136
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f2bdc8b6b610260800000000000000
+      internalID: 7062043800362495876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_variant_14_12
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 136
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 364361b21a8b89a90800000000000000
+      internalID: -7306887393056508829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_variant_14_13
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 136
+        width: 22
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf8078d09720cb90800000000000000
+      internalID: -7223730299242246225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_variant_14_14
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 129
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f4c5999c5b70410800000000000000
+      internalID: 1443322083061550924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_variant_14_15
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 128
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae29ee21005e4c10800000000000000
+      internalID: 2039655647257636514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_variant_14_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 66
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5feb52b0158491160800000000000000
+      internalID: 6996703009013350133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_variant_14_17
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 66
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30682affcc618e980800000000000000
+      internalID: -8509526426198571517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_variant_14_18
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 64
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c0a734b4a897820800000000000000
+      internalID: 2916514289558359121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_variant_14_19
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 72
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4086f7fb0e44270800000000000000
+      internalID: 8233953131821008121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_variant_14_20
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 72
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf4bcfaa58ddc2a0800000000000000
+      internalID: -6715473585331548209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_variant_14_21
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 72
+        width: 21
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b3070317c6cebb20800000000000000
+      internalID: 3152175347525944248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_variant_14_22
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 65
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6368f6328fc1ef0800000000000000
+      internalID: -135961057649346826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_variant_14_23
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 64
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeab9d71d684ab950800000000000000
+      internalID: 6465559848432548590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_variant_14_24
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2d453781f4f3cf70800000000000000
+      internalID: 9206471381468138799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_variant_14_25
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39aa29f4a7d9adbd0800000000000000
+      internalID: -2604596285833827693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_variant_14_26
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 0
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5000b732102f62610800000000000000
+      internalID: 1596229204653572101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_variant_14_27
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 8
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 078652df25552ab30800000000000000
+      internalID: 4297090809387640944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_variant_14_28
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 8
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 172fb1c3ab9acc120800000000000000
+      internalID: 2435508115838071409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_variant_14_29
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 8
+        width: 22
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22cb0de9062bf8010800000000000000
+      internalID: 1193368554327555106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_variant_14_30
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ccbd2070055fd500800000000000000
+      internalID: 423150350366522568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_variant_14_31
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 0
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f748d8c42f80aa710800000000000000
+      internalID: 1705185245672604799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pillar_projectile_variant_14_0: 6308948205277048746
+      pillar_projectile_variant_14_1: -8689831968545350733
+      pillar_projectile_variant_14_10: -8509734648686091045
+      pillar_projectile_variant_14_11: 7062043800362495876
+      pillar_projectile_variant_14_12: -7306887393056508829
+      pillar_projectile_variant_14_13: -7223730299242246225
+      pillar_projectile_variant_14_14: 1443322083061550924
+      pillar_projectile_variant_14_15: 2039655647257636514
+      pillar_projectile_variant_14_16: 6996703009013350133
+      pillar_projectile_variant_14_17: -8509526426198571517
+      pillar_projectile_variant_14_18: 2916514289558359121
+      pillar_projectile_variant_14_19: 8233953131821008121
+      pillar_projectile_variant_14_2: -223301631080059076
+      pillar_projectile_variant_14_20: -6715473585331548209
+      pillar_projectile_variant_14_21: 3152175347525944248
+      pillar_projectile_variant_14_22: -135961057649346826
+      pillar_projectile_variant_14_23: 6465559848432548590
+      pillar_projectile_variant_14_24: 9206471381468138799
+      pillar_projectile_variant_14_25: -2604596285833827693
+      pillar_projectile_variant_14_26: 1596229204653572101
+      pillar_projectile_variant_14_27: 4297090809387640944
+      pillar_projectile_variant_14_28: 2435508115838071409
+      pillar_projectile_variant_14_29: 1193368554327555106
+      pillar_projectile_variant_14_3: -6115653099842478468
+      pillar_projectile_variant_14_30: 423150350366522568
+      pillar_projectile_variant_14_31: 1705185245672604799
+      pillar_projectile_variant_14_4: 3328883525326040029
+      pillar_projectile_variant_14_5: -5810293847527967164
+      pillar_projectile_variant_14_6: -6964959572622643180
+      pillar_projectile_variant_14_7: -4881411451471765755
+      pillar_projectile_variant_14_8: -3513238577230699969
+      pillar_projectile_variant_14_9: -7264477423483387830
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 7020bec07fb45c76ab4f1c2f41b5c5e7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2620134744039684635
+    second: Birds_Grackle_Stand_0
+  - first:
+      213: -6118988937503603087
+    second: Birds_Grackle_Stand_1
+  - first:
+      213: -6194363303025714525
+    second: Birds_Grackle_Stand_2
+  - first:
+      213: -5983987051439692979
+    second: Birds_Grackle_Stand_3
+  - first:
+      213: 8432703201714691863
+    second: Birds_Grackle_Stand_4
+  - first:
+      213: 9033149221481370601
+    second: Birds_Grackle_Stand_5
+  - first:
+      213: -681466151836541797
+    second: Birds_Grackle_Stand_6
+  - first:
+      213: -6066551500186879840
+    second: Birds_Grackle_Stand_7
+  - first:
+      213: 5543202209937931523
+    second: Birds_Grackle_Stand_8
+  - first:
+      213: -6610445822665178040
+    second: Birds_Grackle_Stand_9
+  - first:
+      213: -4060698419879553413
+    second: Birds_Grackle_Stand_10
+  - first:
+      213: -1720535403459923663
+    second: Birds_Grackle_Stand_11
+  - first:
+      213: -4902875338302872769
+    second: Birds_Grackle_Stand_12
+  - first:
+      213: 507584324953370215
+    second: Birds_Grackle_Stand_13
+  - first:
+      213: -6148528879215818087
+    second: Birds_Grackle_Stand_14
+  - first:
+      213: 308434395943919416
+    second: Birds_Grackle_Stand_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Birds_Grackle_Stand_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 428
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1af42aeaa69c5420800000000000000
+      internalID: 2620134744039684635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Stand_1
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 427
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1768d8b2bfbf41ba0800000000000000
+      internalID: -6118988937503603087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Stand_2
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 428
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aadf612563390aa0800000000000000
+      internalID: -6194363303025714525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Stand_3
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 428
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4366623b7b94fca0800000000000000
+      internalID: -5983987051439692979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Stand_4
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 303
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71fd08232eaf60570800000000000000
+      internalID: 8432703201714691863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Stand_5
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 303
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e35e757b513c5d70800000000000000
+      internalID: 9033149221481370601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Stand_6
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 303
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c945d3522fa86f0800000000000000
+      internalID: -681466151836541797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Stand_7
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 303
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a87fb37d874fcba0800000000000000
+      internalID: -6066551500186879840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Stand_8
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 175
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30db2817a096dec40800000000000000
+      internalID: 5543202209937931523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Stand_9
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 175
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844c3154c8af244a0800000000000000
+      internalID: -6610445822665178040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Stand_10
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 175
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b76d6173d4085a7c0800000000000000
+      internalID: -4060698419879553413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Stand_11
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 175
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131b9459a2e6f18e0800000000000000
+      internalID: -1720535403459923663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Stand_12
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 47
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f332f6a3bdc75fbb0800000000000000
+      internalID: -4902875338302872769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Stand_13
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 47
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ee666114d4b0700800000000000000
+      internalID: 507584324953370215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Stand_14
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 47
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a4c178f890caaa0800000000000000
+      internalID: -6148528879215818087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Stand_15
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 47
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83fdfbee277c74400800000000000000
+      internalID: 308434395943919416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Birds_Grackle_Stand_0: 2620134744039684635
+      Birds_Grackle_Stand_1: -6118988937503603087
+      Birds_Grackle_Stand_10: -4060698419879553413
+      Birds_Grackle_Stand_11: -1720535403459923663
+      Birds_Grackle_Stand_12: -4902875338302872769
+      Birds_Grackle_Stand_13: 507584324953370215
+      Birds_Grackle_Stand_14: -6148528879215818087
+      Birds_Grackle_Stand_15: 308434395943919416
+      Birds_Grackle_Stand_2: -6194363303025714525
+      Birds_Grackle_Stand_3: -5983987051439692979
+      Birds_Grackle_Stand_4: 8432703201714691863
+      Birds_Grackle_Stand_5: 9033149221481370601
+      Birds_Grackle_Stand_6: -681466151836541797
+      Birds_Grackle_Stand_7: -6066551500186879840
+      Birds_Grackle_Stand_8: 5543202209937931523
+      Birds_Grackle_Stand_9: -6610445822665178040
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

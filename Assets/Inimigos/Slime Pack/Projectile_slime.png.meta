@@ -1,0 +1,1092 @@
+fileFormatVersion: 2
+guid: 7610df4678a5358fba54ecd536a23e70
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6596759332881892844
+    second: Projectile_slime_0
+  - first:
+      213: -543035706258511001
+    second: Projectile_slime_1
+  - first:
+      213: 2782641664177446270
+    second: Projectile_slime_2
+  - first:
+      213: -4028555653895529586
+    second: Projectile_slime_3
+  - first:
+      213: -8341094554197906279
+    second: Projectile_slime_4
+  - first:
+      213: 3589633991124556906
+    second: Projectile_slime_5
+  - first:
+      213: -2517963515456764639
+    second: Projectile_slime_6
+  - first:
+      213: -5739494124950669692
+    second: Projectile_slime_7
+  - first:
+      213: 589025803893379839
+    second: Projectile_slime_8
+  - first:
+      213: 2435261369656680297
+    second: Projectile_slime_9
+  - first:
+      213: 7467613132110036982
+    second: Projectile_slime_10
+  - first:
+      213: -1082340514423237079
+    second: Projectile_slime_11
+  - first:
+      213: 7360468459216516415
+    second: Projectile_slime_12
+  - first:
+      213: -8587918428332514245
+    second: Projectile_slime_13
+  - first:
+      213: -3986348787211789542
+    second: Projectile_slime_14
+  - first:
+      213: 5625038872500989312
+    second: Projectile_slime_15
+  - first:
+      213: 5981900916624793838
+    second: Projectile_slime_16
+  - first:
+      213: -2089980358596609777
+    second: Projectile_slime_17
+  - first:
+      213: 175659547153932170
+    second: Projectile_slime_18
+  - first:
+      213: 7517983829718655881
+    second: Projectile_slime_19
+  - first:
+      213: 79875030873947357
+    second: Projectile_slime_20
+  - first:
+      213: -1320296819421557092
+    second: Projectile_slime_21
+  - first:
+      213: 1616621786478560836
+    second: Projectile_slime_22
+  - first:
+      213: -3835998368185431457
+    second: Projectile_slime_23
+  - first:
+      213: 439935696837046392
+    second: Projectile_slime_24
+  - first:
+      213: 7263697633557502952
+    second: Projectile_slime_25
+  - first:
+      213: -5890310321431859657
+    second: Projectile_slime_26
+  - first:
+      213: 7866713757980490513
+    second: Projectile_slime_27
+  - first:
+      213: 2071825530653060788
+    second: Projectile_slime_28
+  - first:
+      213: 9215844491168827946
+    second: Projectile_slime_29
+  - first:
+      213: 7753665965802395118
+    second: Projectile_slime_30
+  - first:
+      213: 4470577717829584440
+    second: Projectile_slime_31
+  - first:
+      213: 8924948420254987092
+    second: Projectile_slime_32
+  - first:
+      213: -2104427231154378050
+    second: Projectile_slime_33
+  - first:
+      213: 5356766893040594540
+    second: Projectile_slime_34
+  - first:
+      213: -880814328369860841
+    second: Projectile_slime_35
+  - first:
+      213: -4987425559466355235
+    second: Projectile_slime_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Projectile_slime_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 175
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41af4de765a9374a0800000000000000
+      internalID: -6596759332881892844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 175
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76bab1cf6efb678f0800000000000000
+      internalID: -543035706258511001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 176
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d9f7ab9dded9620800000000000000
+      internalID: 2782641664177446270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 176
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b5aab1af1b718c0800000000000000
+      internalID: -4028555653895529586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_4
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 178
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ca61b22ba7e3c80800000000000000
+      internalID: -8341094554197906279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_5
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 178
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c95a2a811f0d130800000000000000
+      internalID: 3589633991124556906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 151
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1254ecff5856e0dd0800000000000000
+      internalID: -2517963515456764639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_7
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 151
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 486bfd3a0883950b0800000000000000
+      internalID: -5739494124950669692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_8
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 152
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff29a9c09d3ac2800800000000000000
+      internalID: 589025803893379839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_9
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 152
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f1e992059cbc120800000000000000
+      internalID: 2435261369656680297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_10
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 154
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fff57b149a42a760800000000000000
+      internalID: 7467613132110036982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_11
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 154
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9261acf5901caf0f0800000000000000
+      internalID: -1082340514423237079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 127
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f353114f013a52660800000000000000
+      internalID: 7360468459216516415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_13
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 127
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34a53fa0b591d880800000000000000
+      internalID: -8587918428332514245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_14
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 128
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b9e6b06e4ada8c0800000000000000
+      internalID: -3986348787211789542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_15
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 128
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d6f234d07201e40800000000000000
+      internalID: 5625038872500989312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_16
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 130
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee02101b03bf30350800000000000000
+      internalID: 5981900916624793838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_17
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 130
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f093e42efe5eef2e0800000000000000
+      internalID: -2089980358596609777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_18
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 103
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f148d6d61107200800000000000000
+      internalID: 175659547153932170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_19
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 103
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 983e28d067e355860800000000000000
+      internalID: 7517983829718655881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_20
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 104
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc3aa9dae5cb1100800000000000000
+      internalID: 79875030873947357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_21
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 104
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ecc48b90d5dade0800000000000000
+      internalID: -1320296819421557092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_22
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 106
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 446463713f46f6610800000000000000
+      internalID: 1616621786478560836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_23
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 106
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a4451eecbc3cac0800000000000000
+      internalID: -3835998368185431457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_24
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 79
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8707cf57f27fa1600800000000000000
+      internalID: 439935696837046392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_25
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 79
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb5a045386ddc460800000000000000
+      internalID: 7263697633557502952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_26
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 80
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73eac3a88f9614ea0800000000000000
+      internalID: -5890310321431859657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_27
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 80
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11bfa16bb7e2c2d60800000000000000
+      internalID: 7866713757980490513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_28
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 82
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be2927d75a90cc10800000000000000
+      internalID: 2071825530653060788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_29
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 82
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2acb51bcb145ef70800000000000000
+      internalID: 9215844491168827946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_30
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee510be7d1e8a9b60800000000000000
+      internalID: 7753665965802395118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_31
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 55
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 836420c8fbeaa0e30800000000000000
+      internalID: 4470577717829584440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_32
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 56
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4537bf34d49cbdb70800000000000000
+      internalID: 8924948420254987092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_33
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 56
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba626f35929bc2e0800000000000000
+      internalID: -2104427231154378050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_34
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 58
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ee14c9b1f075a40800000000000000
+      internalID: 5356766893040594540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_35
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 58
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71fa07cf808b6c3f0800000000000000
+      internalID: -880814328369860841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile_slime_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5dd40d0ea19cab0800000000000000
+      internalID: -4987425559466355235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Projectile_slime_0: -6596759332881892844
+      Projectile_slime_1: -543035706258511001
+      Projectile_slime_10: 7467613132110036982
+      Projectile_slime_11: -1082340514423237079
+      Projectile_slime_12: 7360468459216516415
+      Projectile_slime_13: -8587918428332514245
+      Projectile_slime_14: -3986348787211789542
+      Projectile_slime_15: 5625038872500989312
+      Projectile_slime_16: 5981900916624793838
+      Projectile_slime_17: -2089980358596609777
+      Projectile_slime_18: 175659547153932170
+      Projectile_slime_19: 7517983829718655881
+      Projectile_slime_2: 2782641664177446270
+      Projectile_slime_20: 79875030873947357
+      Projectile_slime_21: -1320296819421557092
+      Projectile_slime_22: 1616621786478560836
+      Projectile_slime_23: -3835998368185431457
+      Projectile_slime_24: 439935696837046392
+      Projectile_slime_25: 7263697633557502952
+      Projectile_slime_26: -5890310321431859657
+      Projectile_slime_27: 7866713757980490513
+      Projectile_slime_28: 2071825530653060788
+      Projectile_slime_29: 9215844491168827946
+      Projectile_slime_3: -4028555653895529586
+      Projectile_slime_30: 7753665965802395118
+      Projectile_slime_31: 4470577717829584440
+      Projectile_slime_32: 8924948420254987092
+      Projectile_slime_33: -2104427231154378050
+      Projectile_slime_34: 5356766893040594540
+      Projectile_slime_35: -880814328369860841
+      Projectile_slime_36: -4987425559466355235
+      Projectile_slime_4: -8341094554197906279
+      Projectile_slime_5: 3589633991124556906
+      Projectile_slime_6: -2517963515456764639
+      Projectile_slime_7: -5739494124950669692
+      Projectile_slime_8: 589025803893379839
+      Projectile_slime_9: 2435261369656680297
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

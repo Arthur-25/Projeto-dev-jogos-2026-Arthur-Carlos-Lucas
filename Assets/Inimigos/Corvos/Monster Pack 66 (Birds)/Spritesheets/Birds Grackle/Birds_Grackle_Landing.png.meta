@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: 809aceb1c97ab565a8eb260a21e36fbd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2286836251346311991
+    second: Birds_Grackle_Landing_0
+  - first:
+      213: -8171869024645355468
+    second: Birds_Grackle_Landing_1
+  - first:
+      213: -3122827532014867399
+    second: Birds_Grackle_Landing_2
+  - first:
+      213: -5982474531432729096
+    second: Birds_Grackle_Landing_3
+  - first:
+      213: -8424087283449195770
+    second: Birds_Grackle_Landing_4
+  - first:
+      213: 5490914662114766309
+    second: Birds_Grackle_Landing_5
+  - first:
+      213: 8142532475749304368
+    second: Birds_Grackle_Landing_6
+  - first:
+      213: -8029313576418143311
+    second: Birds_Grackle_Landing_7
+  - first:
+      213: 8237705415096345221
+    second: Birds_Grackle_Landing_8
+  - first:
+      213: -7799027373264676951
+    second: Birds_Grackle_Landing_9
+  - first:
+      213: 8733210824985398211
+    second: Birds_Grackle_Landing_10
+  - first:
+      213: -7457962084857295595
+    second: Birds_Grackle_Landing_11
+  - first:
+      213: 3010693986427608018
+    second: Birds_Grackle_Landing_12
+  - first:
+      213: 1944578486014966204
+    second: Birds_Grackle_Landing_13
+  - first:
+      213: -6165499302974165783
+    second: Birds_Grackle_Landing_14
+  - first:
+      213: 7475657709431396862
+    second: Birds_Grackle_Landing_15
+  - first:
+      213: -8846541391918455538
+    second: Birds_Grackle_Landing_16
+  - first:
+      213: 5251359271653419563
+    second: Birds_Grackle_Landing_17
+  - first:
+      213: -5733233552989015822
+    second: Birds_Grackle_Landing_18
+  - first:
+      213: -6401393195637614732
+    second: Birds_Grackle_Landing_19
+  - first:
+      213: -1644799368015729586
+    second: Birds_Grackle_Landing_20
+  - first:
+      213: -4561802542150849322
+    second: Birds_Grackle_Landing_21
+  - first:
+      213: -4557242694370998090
+    second: Birds_Grackle_Landing_22
+  - first:
+      213: -9022119519477080793
+    second: Birds_Grackle_Landing_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Birds_Grackle_Landing_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 441
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b9bf454797cbf10800000000000000
+      internalID: 2286836251346311991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Landing_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 437
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 438eef22b60b79e80800000000000000
+      internalID: -8171869024645355468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Landing_2
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 429
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ca173b7ec79a4d0800000000000000
+      internalID: -3122827532014867399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Landing_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 431
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f571243c1bf9fca0800000000000000
+      internalID: -5982474531432729096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Landing_4
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 431
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60310299f31a71b80800000000000000
+      internalID: -8424087283449195770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Landing_5
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 431
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eda5570bc5a33c40800000000000000
+      internalID: 5490914662114766309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Landing_6
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 317
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0388e1d4526100170800000000000000
+      internalID: 8142532475749304368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Landing_7
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 316
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b31067e7d5229090800000000000000
+      internalID: -8029313576418143311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Landing_8
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 308
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58221270e65325270800000000000000
+      internalID: 8237705415096345221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Landing_9
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 301
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7d20fcce944c390800000000000000
+      internalID: -7799027373264676951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Landing_10
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 303
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cbc9db89f8923970800000000000000
+      internalID: 8733210824985398211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Landing_11
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 303
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51dcfbf6ffeff7890800000000000000
+      internalID: -7457962084857295595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Landing_12
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 189
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db1c64ba3228c920800000000000000
+      internalID: 3010693986427608018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Landing_13
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 188
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb9f9c884d78cfa10800000000000000
+      internalID: 1944578486014966204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Landing_14
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 180
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec6e47dc0fbf6aa0800000000000000
+      internalID: -6165499302974165783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Landing_15
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 173
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef99119341fdeb760800000000000000
+      internalID: 7475657709431396862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Landing_16
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 175
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0529eb9975ca3580800000000000000
+      internalID: -8846541391918455538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Landing_17
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 175
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a2bd64f6390e840800000000000000
+      internalID: 5251359271653419563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Landing_18
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 57
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f03db3a5767f60b0800000000000000
+      internalID: -5733233552989015822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Landing_19
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 57
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477da6afdcea927a0800000000000000
+      internalID: -6401393195637614732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Landing_20
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 49
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ca2a670bf7c29e0800000000000000
+      internalID: -1644799368015729586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Landing_21
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 47
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dcef93e1c831b0c0800000000000000
+      internalID: -4561802542150849322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Landing_22
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 46
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b8c5ce2aeb61c0c0800000000000000
+      internalID: -4557242694370998090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Grackle_Landing_23
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 45
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d5378291efac280800000000000000
+      internalID: -9022119519477080793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Birds_Grackle_Landing_0: 2286836251346311991
+      Birds_Grackle_Landing_1: -8171869024645355468
+      Birds_Grackle_Landing_10: 8733210824985398211
+      Birds_Grackle_Landing_11: -7457962084857295595
+      Birds_Grackle_Landing_12: 3010693986427608018
+      Birds_Grackle_Landing_13: 1944578486014966204
+      Birds_Grackle_Landing_14: -6165499302974165783
+      Birds_Grackle_Landing_15: 7475657709431396862
+      Birds_Grackle_Landing_16: -8846541391918455538
+      Birds_Grackle_Landing_17: 5251359271653419563
+      Birds_Grackle_Landing_18: -5733233552989015822
+      Birds_Grackle_Landing_19: -6401393195637614732
+      Birds_Grackle_Landing_2: -3122827532014867399
+      Birds_Grackle_Landing_20: -1644799368015729586
+      Birds_Grackle_Landing_21: -4561802542150849322
+      Birds_Grackle_Landing_22: -4557242694370998090
+      Birds_Grackle_Landing_23: -9022119519477080793
+      Birds_Grackle_Landing_3: -5982474531432729096
+      Birds_Grackle_Landing_4: -8424087283449195770
+      Birds_Grackle_Landing_5: 5490914662114766309
+      Birds_Grackle_Landing_6: 8142532475749304368
+      Birds_Grackle_Landing_7: -8029313576418143311
+      Birds_Grackle_Landing_8: 8237705415096345221
+      Birds_Grackle_Landing_9: -7799027373264676951
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

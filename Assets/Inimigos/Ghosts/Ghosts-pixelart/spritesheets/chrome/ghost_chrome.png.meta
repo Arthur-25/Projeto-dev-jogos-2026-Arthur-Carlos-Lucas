@@ -1,0 +1,962 @@
+fileFormatVersion: 2
+guid: 8be328ac82911cc0988bc19c34b1e206
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1312404835524884666
+    second: ghost_chrome_0
+  - first:
+      213: 8759312223446250404
+    second: ghost_chrome_1
+  - first:
+      213: 8915492208171181621
+    second: ghost_chrome_2
+  - first:
+      213: -2555593097969137173
+    second: ghost_chrome_3
+  - first:
+      213: 9056026273298410185
+    second: ghost_chrome_4
+  - first:
+      213: 2866120763632111908
+    second: ghost_chrome_5
+  - first:
+      213: -1207511167742988867
+    second: ghost_chrome_6
+  - first:
+      213: 7068102183307922604
+    second: ghost_chrome_7
+  - first:
+      213: 245206591085969062
+    second: ghost_chrome_8
+  - first:
+      213: 164860041934349270
+    second: ghost_chrome_9
+  - first:
+      213: -7624591162382305674
+    second: ghost_chrome_10
+  - first:
+      213: -6022424586054228261
+    second: ghost_chrome_11
+  - first:
+      213: -3779307884053874171
+    second: ghost_chrome_12
+  - first:
+      213: -52085012350102877
+    second: ghost_chrome_13
+  - first:
+      213: -2986133056944904525
+    second: ghost_chrome_14
+  - first:
+      213: 4920756091164138870
+    second: ghost_chrome_15
+  - first:
+      213: -4627396893695644047
+    second: ghost_chrome_16
+  - first:
+      213: 72726661456349262
+    second: ghost_chrome_17
+  - first:
+      213: 4146733565172140934
+    second: ghost_chrome_18
+  - first:
+      213: -8220222252100549231
+    second: ghost_chrome_19
+  - first:
+      213: 5169897724884274989
+    second: ghost_chrome_20
+  - first:
+      213: -4947885278371665730
+    second: ghost_chrome_21
+  - first:
+      213: 5004554423914433869
+    second: ghost_chrome_22
+  - first:
+      213: -1072687087570159089
+    second: ghost_chrome_23
+  - first:
+      213: -7308030895545219287
+    second: ghost_chrome_24
+  - first:
+      213: 4018163041231502219
+    second: ghost_chrome_25
+  - first:
+      213: 9077590862677590248
+    second: ghost_chrome_26
+  - first:
+      213: -5167869755553751105
+    second: ghost_chrome_27
+  - first:
+      213: -5293677213143818567
+    second: ghost_chrome_28
+  - first:
+      213: 2159999236925607856
+    second: ghost_chrome_29
+  - first:
+      213: -1526344128415137574
+    second: ghost_chrome_30
+  - first:
+      213: -8396510635934061190
+    second: ghost_chrome_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ghost_chrome_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 205
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab837f69e39963210800000000000000
+      internalID: 1312404835524884666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_chrome_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 205
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a33043fe045f8970800000000000000
+      internalID: 8759312223446250404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_chrome_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 203
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5366ec15de03abb70800000000000000
+      internalID: 8915492208171181621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_chrome_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 203
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be90c151e95b88cd0800000000000000
+      internalID: -2555593097969137173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_chrome_4
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 208
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca6e882ae77dad70800000000000000
+      internalID: 9056026273298410185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_chrome_5
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 208
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 421d9af26a186c720800000000000000
+      internalID: 2866120763632111908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_chrome_6
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 208
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbdac589dfe0e3fe0800000000000000
+      internalID: -1207511167742988867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_chrome_7
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 208
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac4b30cc71f61260800000000000000
+      internalID: 7068102183307922604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_chrome_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 141
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae734e6816276300800000000000000
+      internalID: 245206591085969062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_chrome_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 139
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d3272da553b94200800000000000000
+      internalID: 164860041934349270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_chrome_10
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 140
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676be901cb2003690800000000000000
+      internalID: -7624591162382305674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_chrome_11
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 139
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6a8a54fbc0c6ca0800000000000000
+      internalID: -6022424586054228261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_chrome_12
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 142
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ab22ac0833d8bc0800000000000000
+      internalID: -3779307884053874171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_chrome_13
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 145
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a210cc05f4f64ff0800000000000000
+      internalID: -52085012350102877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_chrome_14
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 144
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b66fb05ecf1f86d0800000000000000
+      internalID: -2986133056944904525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_chrome_15
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 145
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d9d28f7990a4440800000000000000
+      internalID: 4920756091164138870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_chrome_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e668cca0f28cfb0800000000000000
+      internalID: -4627396893695644047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_chrome_17
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 75
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e484ec56380620100800000000000000
+      internalID: 72726661456349262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_chrome_18
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 74
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b464a05382c8930800000000000000
+      internalID: 4146733565172140934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_chrome_19
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 75
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19509c01a67ebed80800000000000000
+      internalID: -8220222252100549231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_chrome_20
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 78
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2fc3d8e69a2fb740800000000000000
+      internalID: 5169897724884274989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_chrome_21
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 82
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb8a549ed84955bb0800000000000000
+      internalID: -4947885278371665730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_chrome_22
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 81
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d8788bbbfb37540800000000000000
+      internalID: 5004554423914433869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_chrome_23
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 80
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a7b36f6cc0d11f0800000000000000
+      internalID: -1072687087570159089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_chrome_24
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 15
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 927827fbe98a49a90800000000000000
+      internalID: -7308030895545219287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_chrome_25
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 11
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8bf4323ff163c730800000000000000
+      internalID: 4018163041231502219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_chrome_26
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 11
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e0ca326bc41afd70800000000000000
+      internalID: 9077590862677590248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_chrome_27
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 13
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbfdbbe76d90848b0800000000000000
+      internalID: -5167869755553751105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_chrome_28
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 15
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be9bfa2f941986b0800000000000000
+      internalID: -5293677213143818567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_chrome_29
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 16
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bfc010acdbd9fd10800000000000000
+      internalID: 2159999236925607856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_chrome_30
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 16
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad000d42a1651dae0800000000000000
+      internalID: -1526344128415137574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_chrome_31
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 16
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d6c50301a997b80800000000000000
+      internalID: -8396510635934061190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ghost_chrome_0: 1312404835524884666
+      ghost_chrome_1: 8759312223446250404
+      ghost_chrome_10: -7624591162382305674
+      ghost_chrome_11: -6022424586054228261
+      ghost_chrome_12: -3779307884053874171
+      ghost_chrome_13: -52085012350102877
+      ghost_chrome_14: -2986133056944904525
+      ghost_chrome_15: 4920756091164138870
+      ghost_chrome_16: -4627396893695644047
+      ghost_chrome_17: 72726661456349262
+      ghost_chrome_18: 4146733565172140934
+      ghost_chrome_19: -8220222252100549231
+      ghost_chrome_2: 8915492208171181621
+      ghost_chrome_20: 5169897724884274989
+      ghost_chrome_21: -4947885278371665730
+      ghost_chrome_22: 5004554423914433869
+      ghost_chrome_23: -1072687087570159089
+      ghost_chrome_24: -7308030895545219287
+      ghost_chrome_25: 4018163041231502219
+      ghost_chrome_26: 9077590862677590248
+      ghost_chrome_27: -5167869755553751105
+      ghost_chrome_28: -5293677213143818567
+      ghost_chrome_29: 2159999236925607856
+      ghost_chrome_3: -2555593097969137173
+      ghost_chrome_30: -1526344128415137574
+      ghost_chrome_31: -8396510635934061190
+      ghost_chrome_4: 9056026273298410185
+      ghost_chrome_5: 2866120763632111908
+      ghost_chrome_6: -1207511167742988867
+      ghost_chrome_7: 7068102183307922604
+      ghost_chrome_8: 245206591085969062
+      ghost_chrome_9: 164860041934349270
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

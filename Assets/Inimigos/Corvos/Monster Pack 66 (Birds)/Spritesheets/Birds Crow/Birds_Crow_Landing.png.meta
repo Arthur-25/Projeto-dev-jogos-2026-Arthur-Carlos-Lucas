@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: cf6b8bc959bccdfe692e6db13d4a2492
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5956971019934952610
+    second: Birds_Crow_Landing_0
+  - first:
+      213: -8058526976656679098
+    second: Birds_Crow_Landing_1
+  - first:
+      213: 4725859133194933031
+    second: Birds_Crow_Landing_2
+  - first:
+      213: -6365149716022923321
+    second: Birds_Crow_Landing_3
+  - first:
+      213: -8337218328802743822
+    second: Birds_Crow_Landing_4
+  - first:
+      213: 6525905213222644639
+    second: Birds_Crow_Landing_5
+  - first:
+      213: 10642898391610517
+    second: Birds_Crow_Landing_6
+  - first:
+      213: 7031275913411620959
+    second: Birds_Crow_Landing_7
+  - first:
+      213: -4660188800479163361
+    second: Birds_Crow_Landing_8
+  - first:
+      213: -8275306498072969326
+    second: Birds_Crow_Landing_9
+  - first:
+      213: 3172232161406193880
+    second: Birds_Crow_Landing_10
+  - first:
+      213: 4191701617678688966
+    second: Birds_Crow_Landing_11
+  - first:
+      213: 5527609539493503767
+    second: Birds_Crow_Landing_12
+  - first:
+      213: -3090607451704578138
+    second: Birds_Crow_Landing_13
+  - first:
+      213: 8586614712868759613
+    second: Birds_Crow_Landing_14
+  - first:
+      213: 2159111480859173562
+    second: Birds_Crow_Landing_15
+  - first:
+      213: -5057077800251244908
+    second: Birds_Crow_Landing_16
+  - first:
+      213: -4641990342357571142
+    second: Birds_Crow_Landing_17
+  - first:
+      213: -2742312172550533321
+    second: Birds_Crow_Landing_18
+  - first:
+      213: 5439415493594730618
+    second: Birds_Crow_Landing_19
+  - first:
+      213: -9135428994705870898
+    second: Birds_Crow_Landing_20
+  - first:
+      213: 6587624782350601537
+    second: Birds_Crow_Landing_21
+  - first:
+      213: -1302206685571860272
+    second: Birds_Crow_Landing_22
+  - first:
+      213: -2092659575515104093
+    second: Birds_Crow_Landing_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Birds_Crow_Landing_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 441
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e531b733b66945da0800000000000000
+      internalID: -5956971019934952610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Landing_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 437
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64fd97f196c5a2090800000000000000
+      internalID: -8058526976656679098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Landing_2
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 429
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7239e9cc7df959140800000000000000
+      internalID: 4725859133194933031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Landing_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 431
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf664aae027aa7a0800000000000000
+      internalID: -6365149716022923321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Landing_4
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 431
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f926d83a104c4c80800000000000000
+      internalID: -8337218328802743822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Landing_5
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 431
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b6108373ca09a50800000000000000
+      internalID: 6525905213222644639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Landing_6
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 317
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5943302e8afc52000800000000000000
+      internalID: 10642898391610517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Landing_7
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 316
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50f8a0a03c149160800000000000000
+      internalID: 7031275913411620959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Landing_8
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 308
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c8f290afea35fb0800000000000000
+      internalID: -4660188800479163361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Landing_9
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 301
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ff0ee9594382d80800000000000000
+      internalID: -8275306498072969326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Landing_10
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 303
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d09fa5f758060c20800000000000000
+      internalID: 3172232161406193880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Landing_11
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 303
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c22b26a96aeb2a30800000000000000
+      internalID: 4191701617678688966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Landing_12
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 189
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7132292f69306bc40800000000000000
+      internalID: 5527609539493503767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Landing_13
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 188
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af29fcb5e4fb15d0800000000000000
+      internalID: -3090607451704578138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Landing_14
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 180
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d386fa76698c92770800000000000000
+      internalID: 8586614712868759613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Landing_15
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 173
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab2241fc374b6fd10800000000000000
+      internalID: 2159111480859173562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Landing_16
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 175
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49eb282c886a1d9b0800000000000000
+      internalID: -5057077800251244908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Landing_17
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 175
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9abf0c066549fb0800000000000000
+      internalID: -4641990342357571142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Landing_18
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 57
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f45e3cb9951f9d0800000000000000
+      internalID: -2742312172550533321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Landing_19
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 57
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a705879729fac7b40800000000000000
+      internalID: 5439415493594730618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Landing_20
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 49
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecfa0cb1bbf683180800000000000000
+      internalID: -9135428994705870898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Landing_21
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 47
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d419936d1fb6b50800000000000000
+      internalID: 6587624782350601537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Landing_22
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 46
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d8b95a3be1adede0800000000000000
+      internalID: -1302206685571860272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Landing_23
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 45
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac3a95143165f2e0800000000000000
+      internalID: -2092659575515104093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Birds_Crow_Landing_0: -5956971019934952610
+      Birds_Crow_Landing_1: -8058526976656679098
+      Birds_Crow_Landing_10: 3172232161406193880
+      Birds_Crow_Landing_11: 4191701617678688966
+      Birds_Crow_Landing_12: 5527609539493503767
+      Birds_Crow_Landing_13: -3090607451704578138
+      Birds_Crow_Landing_14: 8586614712868759613
+      Birds_Crow_Landing_15: 2159111480859173562
+      Birds_Crow_Landing_16: -5057077800251244908
+      Birds_Crow_Landing_17: -4641990342357571142
+      Birds_Crow_Landing_18: -2742312172550533321
+      Birds_Crow_Landing_19: 5439415493594730618
+      Birds_Crow_Landing_2: 4725859133194933031
+      Birds_Crow_Landing_20: -9135428994705870898
+      Birds_Crow_Landing_21: 6587624782350601537
+      Birds_Crow_Landing_22: -1302206685571860272
+      Birds_Crow_Landing_23: -2092659575515104093
+      Birds_Crow_Landing_3: -6365149716022923321
+      Birds_Crow_Landing_4: -8337218328802743822
+      Birds_Crow_Landing_5: 6525905213222644639
+      Birds_Crow_Landing_6: 10642898391610517
+      Birds_Crow_Landing_7: 7031275913411620959
+      Birds_Crow_Landing_8: -4660188800479163361
+      Birds_Crow_Landing_9: -8275306498072969326
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

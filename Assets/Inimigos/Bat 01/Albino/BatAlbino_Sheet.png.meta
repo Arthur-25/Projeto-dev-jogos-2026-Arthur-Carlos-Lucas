@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: 0db2631fedcfb5426adec2bd66ada081
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8490548043754566577
+    second: BatAlbino_Sheet_0
+  - first:
+      213: 7960135792629824631
+    second: BatAlbino_Sheet_1
+  - first:
+      213: 2700400961683039860
+    second: BatAlbino_Sheet_2
+  - first:
+      213: 5836874115925420786
+    second: BatAlbino_Sheet_3
+  - first:
+      213: -792318855413135359
+    second: BatAlbino_Sheet_4
+  - first:
+      213: -3203658105089594692
+    second: BatAlbino_Sheet_5
+  - first:
+      213: -1528952262844993829
+    second: BatAlbino_Sheet_6
+  - first:
+      213: 1799911543983901736
+    second: BatAlbino_Sheet_7
+  - first:
+      213: -1434645451378411598
+    second: BatAlbino_Sheet_8
+  - first:
+      213: -2743186737731506688
+    second: BatAlbino_Sheet_9
+  - first:
+      213: -3796667933661849119
+    second: BatAlbino_Sheet_10
+  - first:
+      213: 1249731714180791569
+    second: BatAlbino_Sheet_11
+  - first:
+      213: -808383548881057988
+    second: BatAlbino_Sheet_12
+  - first:
+      213: -8337307919436165972
+    second: BatAlbino_Sheet_13
+  - first:
+      213: -5700052052788495250
+    second: BatAlbino_Sheet_14
+  - first:
+      213: -8956535771961014090
+    second: BatAlbino_Sheet_15
+  - first:
+      213: -5084747091550330554
+    second: BatAlbino_Sheet_16
+  - first:
+      213: 9121317970049618626
+    second: BatAlbino_Sheet_17
+  - first:
+      213: 1063514902668733226
+    second: BatAlbino_Sheet_18
+  - first:
+      213: -7831258072849734174
+    second: BatAlbino_Sheet_19
+  - first:
+      213: -1012065427581315989
+    second: BatAlbino_Sheet_20
+  - first:
+      213: 6752575713338857584
+    second: BatAlbino_Sheet_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BatAlbino_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 140
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c0f9ff9838b2a80800000000000000
+      internalID: -8490548043754566577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatAlbino_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 140
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77cb29b2455187e60800000000000000
+      internalID: 7960135792629824631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatAlbino_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 139
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476ad380e50c97520800000000000000
+      internalID: 2700400961683039860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatAlbino_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 141
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa2866551eb00150800000000000000
+      internalID: 5836874115925420786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatAlbino_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 108
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 108814ae23e1105f0800000000000000
+      internalID: -792318855413135359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatAlbino_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 109
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba65585de15a83d0800000000000000
+      internalID: -3203658105089594692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatAlbino_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 110
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde2896840218cae0800000000000000
+      internalID: -1528952262844993829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatAlbino_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 107
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c094e43029af810800000000000000
+      internalID: 1799911543983901736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatAlbino_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 105
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b7b5f3209d171ce0800000000000000
+      internalID: -1434645451378411598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatAlbino_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 108
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e63f0323e3ee9d0800000000000000
+      internalID: -2743186737731506688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatAlbino_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 76
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e918f341a68f4bc0800000000000000
+      internalID: -3796667933661849119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatAlbino_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 76
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d39486f50f75110800000000000000
+      internalID: 1249731714180791569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatAlbino_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 75
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37ccaef17b08c4f0800000000000000
+      internalID: -808383548881057988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatAlbino_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 77
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cacc4f6ce9eeb4c80800000000000000
+      internalID: -8337307919436165972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatAlbino_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 44
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c3e40bbd855e0b0800000000000000
+      internalID: -5700052052788495250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatAlbino_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 44
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b84f2e4b2ef3b380800000000000000
+      internalID: -8956535771961014090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatAlbino_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 42
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 641217bd5795f69b0800000000000000
+      internalID: -5084747091550330554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatAlbino_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 38
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2d130fd5e659e70800000000000000
+      internalID: 9121317970049618626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatAlbino_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 38
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2b67e25b2d52ce00800000000000000
+      internalID: 1063514902668733226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatAlbino_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 38
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e5a1674648c15390800000000000000
+      internalID: -7831258072849734174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatAlbino_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 38
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64df831bdb64f1f0800000000000000
+      internalID: -1012065427581315989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatAlbino_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 12
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0781e78a5d7f5bd50800000000000000
+      internalID: 6752575713338857584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BatAlbino_Sheet_0: -8490548043754566577
+      BatAlbino_Sheet_1: 7960135792629824631
+      BatAlbino_Sheet_10: -3796667933661849119
+      BatAlbino_Sheet_11: 1249731714180791569
+      BatAlbino_Sheet_12: -808383548881057988
+      BatAlbino_Sheet_13: -8337307919436165972
+      BatAlbino_Sheet_14: -5700052052788495250
+      BatAlbino_Sheet_15: -8956535771961014090
+      BatAlbino_Sheet_16: -5084747091550330554
+      BatAlbino_Sheet_17: 9121317970049618626
+      BatAlbino_Sheet_18: 1063514902668733226
+      BatAlbino_Sheet_19: -7831258072849734174
+      BatAlbino_Sheet_2: 2700400961683039860
+      BatAlbino_Sheet_20: -1012065427581315989
+      BatAlbino_Sheet_21: 6752575713338857584
+      BatAlbino_Sheet_3: 5836874115925420786
+      BatAlbino_Sheet_4: -792318855413135359
+      BatAlbino_Sheet_5: -3203658105089594692
+      BatAlbino_Sheet_6: -1528952262844993829
+      BatAlbino_Sheet_7: 1799911543983901736
+      BatAlbino_Sheet_8: -1434645451378411598
+      BatAlbino_Sheet_9: -2743186737731506688
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

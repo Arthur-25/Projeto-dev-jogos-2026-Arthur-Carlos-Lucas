@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: 158f41075a51d99729a83f5d308cba9e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3168494756233608922
+    second: Birds_Crow_Lift_0
+  - first:
+      213: -1093278309255287822
+    second: Birds_Crow_Lift_1
+  - first:
+      213: -1980658091732097819
+    second: Birds_Crow_Lift_2
+  - first:
+      213: -1067492222936945686
+    second: Birds_Crow_Lift_3
+  - first:
+      213: -7155773241109510296
+    second: Birds_Crow_Lift_4
+  - first:
+      213: -4529061123112993394
+    second: Birds_Crow_Lift_5
+  - first:
+      213: 3951047551883496757
+    second: Birds_Crow_Lift_6
+  - first:
+      213: -5695831592962920845
+    second: Birds_Crow_Lift_7
+  - first:
+      213: 1956331348730594452
+    second: Birds_Crow_Lift_8
+  - first:
+      213: 7054317885375913095
+    second: Birds_Crow_Lift_9
+  - first:
+      213: 9004418735068490431
+    second: Birds_Crow_Lift_10
+  - first:
+      213: -6000756773742187617
+    second: Birds_Crow_Lift_11
+  - first:
+      213: 3343726841134372384
+    second: Birds_Crow_Lift_12
+  - first:
+      213: 3506150892625004063
+    second: Birds_Crow_Lift_13
+  - first:
+      213: 1049413956895578145
+    second: Birds_Crow_Lift_14
+  - first:
+      213: -5704431201343067081
+    second: Birds_Crow_Lift_15
+  - first:
+      213: 5841249605658700833
+    second: Birds_Crow_Lift_16
+  - first:
+      213: 6032337312311378866
+    second: Birds_Crow_Lift_17
+  - first:
+      213: 1129496299616612004
+    second: Birds_Crow_Lift_18
+  - first:
+      213: -1451702184853864520
+    second: Birds_Crow_Lift_19
+  - first:
+      213: 2135236730560353521
+    second: Birds_Crow_Lift_20
+  - first:
+      213: -231730574928365440
+    second: Birds_Crow_Lift_21
+  - first:
+      213: 7286047443155677813
+    second: Birds_Crow_Lift_22
+  - first:
+      213: -6480625195948188770
+    second: Birds_Crow_Lift_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Birds_Crow_Lift_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 431
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adefdf18131c8fb20800000000000000
+      internalID: 3168494756233608922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Lift_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 431
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fbe2309b25e3d0f0800000000000000
+      internalID: -1093278309255287822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Lift_2
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 431
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e42ec4a5f94384e0800000000000000
+      internalID: -1980658091732097819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Lift_3
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 430
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aebe953aa718f21f0800000000000000
+      internalID: -1067492222936945686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Lift_4
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 438
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8670c6e662691bc90800000000000000
+      internalID: -7155773241109510296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Lift_5
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 441
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d71de87ea8521c0800000000000000
+      internalID: -4529061123112993394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Lift_6
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 303
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d41bc90d0f4d630800000000000000
+      internalID: 3951047551883496757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Lift_7
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 303
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e6ff0185754f0b0800000000000000
+      internalID: -5695831592962920845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Lift_8
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 303
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4944c002ff8462b10800000000000000
+      internalID: 1956331348730594452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Lift_9
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 304
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c148acdb8f5e160800000000000000
+      internalID: 7054317885375913095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Lift_10
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 307
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fba21a0d12f16fc70800000000000000
+      internalID: 9004418735068490431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Lift_11
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 315
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9be395f18709bca0800000000000000
+      internalID: -6000756773742187617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Lift_12
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 175
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 026d0cf98dd476e20800000000000000
+      internalID: 3343726841134372384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Lift_13
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 175
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1605d319a958a030800000000000000
+      internalID: 3506150892625004063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Lift_14
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 175
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 128191b0f64409e00800000000000000
+      internalID: 1049413956895578145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Lift_15
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 176
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73caa46bb0ac5d0b0800000000000000
+      internalID: -5704431201343067081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Lift_16
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 179
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c6dad6199401150800000000000000
+      internalID: 5841249605658700833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Lift_17
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 187
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b387a923da27b350800000000000000
+      internalID: 6032337312311378866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Lift_18
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 44
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae24c176e6ccaf00800000000000000
+      internalID: 1129496299616612004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Lift_19
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 44
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bf7028ed848adbe0800000000000000
+      internalID: -1451702184853864520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Lift_20
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 44
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f49a645e72e1ad10800000000000000
+      internalID: 2135236730560353521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Lift_21
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 48
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0883cc5154ab8ccf0800000000000000
+      internalID: -231730574928365440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Lift_22
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 53
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572ffe1eb8d3d1560800000000000000
+      internalID: 7286047443155677813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Lift_23
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 56
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9bdf0958b13016a0800000000000000
+      internalID: -6480625195948188770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Birds_Crow_Lift_0: 3168494756233608922
+      Birds_Crow_Lift_1: -1093278309255287822
+      Birds_Crow_Lift_10: 9004418735068490431
+      Birds_Crow_Lift_11: -6000756773742187617
+      Birds_Crow_Lift_12: 3343726841134372384
+      Birds_Crow_Lift_13: 3506150892625004063
+      Birds_Crow_Lift_14: 1049413956895578145
+      Birds_Crow_Lift_15: -5704431201343067081
+      Birds_Crow_Lift_16: 5841249605658700833
+      Birds_Crow_Lift_17: 6032337312311378866
+      Birds_Crow_Lift_18: 1129496299616612004
+      Birds_Crow_Lift_19: -1451702184853864520
+      Birds_Crow_Lift_2: -1980658091732097819
+      Birds_Crow_Lift_20: 2135236730560353521
+      Birds_Crow_Lift_21: -231730574928365440
+      Birds_Crow_Lift_22: 7286047443155677813
+      Birds_Crow_Lift_23: -6480625195948188770
+      Birds_Crow_Lift_3: -1067492222936945686
+      Birds_Crow_Lift_4: -7155773241109510296
+      Birds_Crow_Lift_5: -4529061123112993394
+      Birds_Crow_Lift_6: 3951047551883496757
+      Birds_Crow_Lift_7: -5695831592962920845
+      Birds_Crow_Lift_8: 1956331348730594452
+      Birds_Crow_Lift_9: 7054317885375913095
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

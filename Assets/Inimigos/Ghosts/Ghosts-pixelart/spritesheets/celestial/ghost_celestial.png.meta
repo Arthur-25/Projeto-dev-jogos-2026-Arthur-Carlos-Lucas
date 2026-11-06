@@ -1,0 +1,962 @@
+fileFormatVersion: 2
+guid: b72f4121df6e8926e9aa36699c73cb35
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4877860098247962702
+    second: ghost_celestial_0
+  - first:
+      213: -7475814133291708023
+    second: ghost_celestial_1
+  - first:
+      213: -2183369099084841372
+    second: ghost_celestial_2
+  - first:
+      213: 7072903560890384524
+    second: ghost_celestial_3
+  - first:
+      213: 2553026618979089390
+    second: ghost_celestial_4
+  - first:
+      213: 2905007389753208754
+    second: ghost_celestial_5
+  - first:
+      213: -5503437613223988860
+    second: ghost_celestial_6
+  - first:
+      213: -3950130871315307291
+    second: ghost_celestial_7
+  - first:
+      213: -8401601659343010729
+    second: ghost_celestial_8
+  - first:
+      213: -6207441077229711225
+    second: ghost_celestial_9
+  - first:
+      213: 1072233003626044515
+    second: ghost_celestial_10
+  - first:
+      213: -8984612050743658330
+    second: ghost_celestial_11
+  - first:
+      213: 6417249527860341657
+    second: ghost_celestial_12
+  - first:
+      213: 4850570687583430244
+    second: ghost_celestial_13
+  - first:
+      213: -1774948219189448457
+    second: ghost_celestial_14
+  - first:
+      213: 684411716695919099
+    second: ghost_celestial_15
+  - first:
+      213: 9018697693513347509
+    second: ghost_celestial_16
+  - first:
+      213: -8827885438885848759
+    second: ghost_celestial_17
+  - first:
+      213: -1615377714494710378
+    second: ghost_celestial_18
+  - first:
+      213: 6622279429685500986
+    second: ghost_celestial_19
+  - first:
+      213: -8124846061285962449
+    second: ghost_celestial_20
+  - first:
+      213: -8541236859443697430
+    second: ghost_celestial_21
+  - first:
+      213: 5909707345490576032
+    second: ghost_celestial_22
+  - first:
+      213: 5743230617418655154
+    second: ghost_celestial_23
+  - first:
+      213: 935010138962602664
+    second: ghost_celestial_24
+  - first:
+      213: 4838741267392465050
+    second: ghost_celestial_25
+  - first:
+      213: -6220946647313428551
+    second: ghost_celestial_26
+  - first:
+      213: -3584246196567049256
+    second: ghost_celestial_27
+  - first:
+      213: 1371504307100143929
+    second: ghost_celestial_28
+  - first:
+      213: -1273819979257400226
+    second: ghost_celestial_29
+  - first:
+      213: -7126810608159896169
+    second: ghost_celestial_30
+  - first:
+      213: -7170757746653587009
+    second: ghost_celestial_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ghost_celestial_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 208
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bfc0eba51c5e4cb0800000000000000
+      internalID: -4877860098247962702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_celestial_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 203
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9819d4287a2904890800000000000000
+      internalID: -7475814133291708023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_celestial_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 202
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ebb735f5d13b1e0800000000000000
+      internalID: -2183369099084841372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_celestial_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 205
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8087759050082260800000000000000
+      internalID: 7072903560890384524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_celestial_4
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 208
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb7d56fe2c2e6320800000000000000
+      internalID: 2553026618979089390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_celestial_5
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 210
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bfef1064d8a05820800000000000000
+      internalID: 2905007389753208754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_celestial_6
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 210
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 481b24436acdf93b0800000000000000
+      internalID: -5503437613223988860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_celestial_7
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 209
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e462f6b6e05e29c0800000000000000
+      internalID: -3950130871315307291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_celestial_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 141
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754078eedc3876b80800000000000000
+      internalID: -8401601659343010729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_celestial_9
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 141
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7801e8b8a3dbad9a0800000000000000
+      internalID: -6207441077229711225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_celestial_10
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 139
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c94916c3651ee00800000000000000
+      internalID: 1072233003626044515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_celestial_11
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 139
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a8fabe31fe305380800000000000000
+      internalID: -8984612050743658330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_celestial_12
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 142
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ba82f0276ae0950800000000000000
+      internalID: 6417249527860341657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_celestial_13
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 144
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46625574750b05340800000000000000
+      internalID: 4850570687583430244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_celestial_14
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 144
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0308caffd1e57e0800000000000000
+      internalID: -1774948219189448457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_celestial_15
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 144
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf986c584d48f7900800000000000000
+      internalID: 684411716695919099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_celestial_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 78
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b17f76e4c9d82d70800000000000000
+      internalID: 9018697693513347509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_celestial_17
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 75
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9499d5927fc0d7580800000000000000
+      internalID: -8827885438885848759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_celestial_18
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 75
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69dd57df6860599e0800000000000000
+      internalID: -1615377714494710378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_celestial_19
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 77
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3cd7c11e0017eb50800000000000000
+      internalID: 6622279429685500986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_celestial_20
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 77
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2d8156fd8fbe3f80800000000000000
+      internalID: -8124846061285962449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_celestial_21
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 82
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae8a26a645e677980800000000000000
+      internalID: -8541236859443697430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_celestial_22
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 83
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a28b7e058f730250800000000000000
+      internalID: 5909707345490576032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_celestial_23
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 81
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b5e26e41dd04bf40800000000000000
+      internalID: 5743230617418655154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_celestial_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 13
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa214a74c2d9fc00800000000000000
+      internalID: 935010138962602664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_celestial_25
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 11
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9883f2cb89a62340800000000000000
+      internalID: 4838741267392465050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_celestial_26
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 10
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bfc938fbf1caa9a0800000000000000
+      internalID: -6220946647313428551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_celestial_27
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 12
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db731a0313324ec0800000000000000
+      internalID: -3584246196567049256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_celestial_28
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 13
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9315f9896ef880310800000000000000
+      internalID: 1371504307100143929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_celestial_29
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 17
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5431945a7b725ee0800000000000000
+      internalID: -1273819979257400226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_celestial_30
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 16
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79dc427e28b781d90800000000000000
+      internalID: -7126810608159896169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_celestial_31
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 16
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb9155c52d95c7c90800000000000000
+      internalID: -7170757746653587009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ghost_celestial_0: -4877860098247962702
+      ghost_celestial_1: -7475814133291708023
+      ghost_celestial_10: 1072233003626044515
+      ghost_celestial_11: -8984612050743658330
+      ghost_celestial_12: 6417249527860341657
+      ghost_celestial_13: 4850570687583430244
+      ghost_celestial_14: -1774948219189448457
+      ghost_celestial_15: 684411716695919099
+      ghost_celestial_16: 9018697693513347509
+      ghost_celestial_17: -8827885438885848759
+      ghost_celestial_18: -1615377714494710378
+      ghost_celestial_19: 6622279429685500986
+      ghost_celestial_2: -2183369099084841372
+      ghost_celestial_20: -8124846061285962449
+      ghost_celestial_21: -8541236859443697430
+      ghost_celestial_22: 5909707345490576032
+      ghost_celestial_23: 5743230617418655154
+      ghost_celestial_24: 935010138962602664
+      ghost_celestial_25: 4838741267392465050
+      ghost_celestial_26: -6220946647313428551
+      ghost_celestial_27: -3584246196567049256
+      ghost_celestial_28: 1371504307100143929
+      ghost_celestial_29: -1273819979257400226
+      ghost_celestial_3: 7072903560890384524
+      ghost_celestial_30: -7126810608159896169
+      ghost_celestial_31: -7170757746653587009
+      ghost_celestial_4: 2553026618979089390
+      ghost_celestial_5: 2905007389753208754
+      ghost_celestial_6: -5503437613223988860
+      ghost_celestial_7: -3950130871315307291
+      ghost_celestial_8: -8401601659343010729
+      ghost_celestial_9: -6207441077229711225
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

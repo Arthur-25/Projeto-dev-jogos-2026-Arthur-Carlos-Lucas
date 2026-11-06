@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: 96568a4f2bf88791b854f3dd883e7f3c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3999684086863468171
+    second: Birds_Crow_Attack_0
+  - first:
+      213: 421484837218487241
+    second: Birds_Crow_Attack_1
+  - first:
+      213: -357478320297774545
+    second: Birds_Crow_Attack_2
+  - first:
+      213: 4484002424499174864
+    second: Birds_Crow_Attack_3
+  - first:
+      213: 5996603645283888888
+    second: Birds_Crow_Attack_4
+  - first:
+      213: 2740011897845378842
+    second: Birds_Crow_Attack_5
+  - first:
+      213: 4868360270666559157
+    second: Birds_Crow_Attack_6
+  - first:
+      213: -266077139003106443
+    second: Birds_Crow_Attack_7
+  - first:
+      213: 2274783962370876408
+    second: Birds_Crow_Attack_8
+  - first:
+      213: 7152490677923782769
+    second: Birds_Crow_Attack_9
+  - first:
+      213: -7631453754502936182
+    second: Birds_Crow_Attack_10
+  - first:
+      213: -1087332768226390582
+    second: Birds_Crow_Attack_11
+  - first:
+      213: -1111791446136910808
+    second: Birds_Crow_Attack_12
+  - first:
+      213: 3509656043537322128
+    second: Birds_Crow_Attack_13
+  - first:
+      213: 15973825782207625
+    second: Birds_Crow_Attack_14
+  - first:
+      213: 8790372752986427017
+    second: Birds_Crow_Attack_15
+  - first:
+      213: 5727575133693950111
+    second: Birds_Crow_Attack_16
+  - first:
+      213: 5959563023999574096
+    second: Birds_Crow_Attack_17
+  - first:
+      213: -2166233573366141329
+    second: Birds_Crow_Attack_18
+  - first:
+      213: -2032207702276815192
+    second: Birds_Crow_Attack_19
+  - first:
+      213: -1002811473702965270
+    second: Birds_Crow_Attack_20
+  - first:
+      213: -2082944660387524150
+    second: Birds_Crow_Attack_21
+  - first:
+      213: -1485333493878225544
+    second: Birds_Crow_Attack_22
+  - first:
+      213: -4293218928036478050
+    second: Birds_Crow_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Birds_Crow_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 442
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b86974b5c7bb18730800000000000000
+      internalID: 3999684086863468171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 440
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb0f90f93a69d500800000000000000
+      internalID: 421484837218487241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 438
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f227fb79c5bf90bf0800000000000000
+      internalID: -357478320297774545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 439
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd7344a2706a3e30800000000000000
+      internalID: 4484002424499174864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 442
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe65f77e37383350800000000000000
+      internalID: 5996603645283888888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 442
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1fea6bcd4a760620800000000000000
+      internalID: 2740011897845378842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 318
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be64bb5fd3ef8340800000000000000
+      internalID: 4868360270666559157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 317
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b1ed67044be4cf0800000000000000
+      internalID: -266077139003106443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 315
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f32fd126f7a19f10800000000000000
+      internalID: 2274783962370876408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 316
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 170a0f44060c24360800000000000000
+      internalID: 7152490677923782769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 315
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8908035e31a71690800000000000000
+      internalID: -7631453754502936182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 317
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd4935bb9409e0f0800000000000000
+      internalID: -1087332768226390582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 190
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c01bcf19f1290f0800000000000000
+      internalID: -1111791446136910808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 189
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09058de939dc4b030800000000000000
+      internalID: 3509656043537322128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 187
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984d3732c10c83000800000000000000
+      internalID: 15973825782207625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 188
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e4709027dadf970800000000000000
+      internalID: 8790372752986427017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 187
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f983034fc3f6c7f40800000000000000
+      internalID: 5727575133693950111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 189
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0502c06cefe94b250800000000000000
+      internalID: 5959563023999574096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 60
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e6cfeca0effe1e0800000000000000
+      internalID: -2166233573366141329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 61
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a64af3acd52cc3e0800000000000000
+      internalID: -2032207702276815192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 70
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aefaf3d174c4512f0800000000000000
+      internalID: -1002811473702965270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 66
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac11ec60ed4e713e0800000000000000
+      internalID: -2082944660387524150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 65
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87506649e09036be0800000000000000
+      internalID: -1485333493878225544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 59
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e930763a12c6b64c0800000000000000
+      internalID: -4293218928036478050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Birds_Crow_Attack_0: 3999684086863468171
+      Birds_Crow_Attack_1: 421484837218487241
+      Birds_Crow_Attack_10: -7631453754502936182
+      Birds_Crow_Attack_11: -1087332768226390582
+      Birds_Crow_Attack_12: -1111791446136910808
+      Birds_Crow_Attack_13: 3509656043537322128
+      Birds_Crow_Attack_14: 15973825782207625
+      Birds_Crow_Attack_15: 8790372752986427017
+      Birds_Crow_Attack_16: 5727575133693950111
+      Birds_Crow_Attack_17: 5959563023999574096
+      Birds_Crow_Attack_18: -2166233573366141329
+      Birds_Crow_Attack_19: -2032207702276815192
+      Birds_Crow_Attack_2: -357478320297774545
+      Birds_Crow_Attack_20: -1002811473702965270
+      Birds_Crow_Attack_21: -2082944660387524150
+      Birds_Crow_Attack_22: -1485333493878225544
+      Birds_Crow_Attack_23: -4293218928036478050
+      Birds_Crow_Attack_3: 4484002424499174864
+      Birds_Crow_Attack_4: 5996603645283888888
+      Birds_Crow_Attack_5: 2740011897845378842
+      Birds_Crow_Attack_6: 4868360270666559157
+      Birds_Crow_Attack_7: -266077139003106443
+      Birds_Crow_Attack_8: 2274783962370876408
+      Birds_Crow_Attack_9: 7152490677923782769
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

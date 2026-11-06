@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: 275ce2dff5b93589489c99b38159fbbb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2849012248032114830
+    second: crystal_dark_32x32_24f_20d_normal_0
+  - first:
+      213: 4682752192947629528
+    second: crystal_dark_32x32_24f_20d_normal_1
+  - first:
+      213: -7355592533150116192
+    second: crystal_dark_32x32_24f_20d_normal_2
+  - first:
+      213: 5250118201078033612
+    second: crystal_dark_32x32_24f_20d_normal_3
+  - first:
+      213: -473727944556536491
+    second: crystal_dark_32x32_24f_20d_normal_4
+  - first:
+      213: -6866601316503423896
+    second: crystal_dark_32x32_24f_20d_normal_5
+  - first:
+      213: 1033166632440429501
+    second: crystal_dark_32x32_24f_20d_normal_6
+  - first:
+      213: -6206301576860720377
+    second: crystal_dark_32x32_24f_20d_normal_7
+  - first:
+      213: -3767285720280925546
+    second: crystal_dark_32x32_24f_20d_normal_8
+  - first:
+      213: 4036848754173741318
+    second: crystal_dark_32x32_24f_20d_normal_9
+  - first:
+      213: -3016897459190792945
+    second: crystal_dark_32x32_24f_20d_normal_10
+  - first:
+      213: -1972252485270488432
+    second: crystal_dark_32x32_24f_20d_normal_11
+  - first:
+      213: 4678202462540013511
+    second: crystal_dark_32x32_24f_20d_normal_12
+  - first:
+      213: -3336096377344118172
+    second: crystal_dark_32x32_24f_20d_normal_13
+  - first:
+      213: 1818896160700619786
+    second: crystal_dark_32x32_24f_20d_normal_14
+  - first:
+      213: -4523992819927900085
+    second: crystal_dark_32x32_24f_20d_normal_15
+  - first:
+      213: -4933772248324847369
+    second: crystal_dark_32x32_24f_20d_normal_16
+  - first:
+      213: -7697841683498992093
+    second: crystal_dark_32x32_24f_20d_normal_17
+  - first:
+      213: -2137524288388026329
+    second: crystal_dark_32x32_24f_20d_normal_18
+  - first:
+      213: -7750006624170903976
+    second: crystal_dark_32x32_24f_20d_normal_19
+  - first:
+      213: 8887369557442536790
+    second: crystal_dark_32x32_24f_20d_normal_20
+  - first:
+      213: -4280243764377489055
+    second: crystal_dark_32x32_24f_20d_normal_21
+  - first:
+      213: 4156540232892069143
+    second: crystal_dark_32x32_24f_20d_normal_22
+  - first:
+      213: 7881417656076286897
+    second: crystal_dark_32x32_24f_20d_normal_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: crystal_dark_32x32_24f_20d_normal_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88f0bc7b89b98720800000000000000
+      internalID: 2849012248032114830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_dark_32x32_24f_20d_normal_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd23d72f4a7cf040800000000000000
+      internalID: 4682752192947629528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_dark_32x32_24f_20d_normal_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 0
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6521d009fabe990800000000000000
+      internalID: -7355592533150116192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_dark_32x32_24f_20d_normal_3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 0
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccca11400ba2cd840800000000000000
+      internalID: 5250118201078033612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_dark_32x32_24f_20d_normal_4
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 0
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55d1880c1fafc69f0800000000000000
+      internalID: -473727944556536491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_dark_32x32_24f_20d_normal_5
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 0
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8647593cb7ee4b0a0800000000000000
+      internalID: -6866601316503423896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_dark_32x32_24f_20d_normal_6
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 0
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbbf568049b865e00800000000000000
+      internalID: 1033166632440429501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_dark_32x32_24f_20d_normal_7
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70325462999ced9a0800000000000000
+      internalID: -6206301576860720377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_dark_32x32_24f_20d_normal_8
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69af04be899e7bbc0800000000000000
+      internalID: -3767285720280925546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_dark_32x32_24f_20d_normal_9
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6090184cd84c50830800000000000000
+      internalID: 4036848754173741318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_dark_32x32_24f_20d_normal_10
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d772dbeb3d126d0800000000000000
+      internalID: -3016897459190792945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_dark_32x32_24f_20d_normal_11
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a321860d621a4e0800000000000000
+      internalID: -1972252485270488432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_dark_32x32_24f_20d_normal_12
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf1e0f7a505ce040800000000000000
+      internalID: 4678202462540013511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_dark_32x32_24f_20d_normal_13
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 462bfeb250ec3b1d0800000000000000
+      internalID: -3336096377344118172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_dark_32x32_24f_20d_normal_14
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 1
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0cd1e5db640e3910800000000000000
+      internalID: 1818896160700619786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_dark_32x32_24f_20d_normal_15
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40a7c9df7c8731c0800000000000000
+      internalID: -4523992819927900085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_dark_32x32_24f_20d_normal_16
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8cae7c748b78bb0800000000000000
+      internalID: -4933772248324847369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_dark_32x32_24f_20d_normal_17
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ef8d516c5cb2590800000000000000
+      internalID: -7697841683498992093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_dark_32x32_24f_20d_normal_18
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 720bcdb1cfcf552e0800000000000000
+      internalID: -2137524288388026329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_dark_32x32_24f_20d_normal_19
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 0
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8567e5f5902727490800000000000000
+      internalID: -7750006624170903976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_dark_32x32_24f_20d_normal_20
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 0
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655abf27687465b70800000000000000
+      internalID: 8887369557442536790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_dark_32x32_24f_20d_normal_21
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 0
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161f23859f48994c0800000000000000
+      internalID: -4280243764377489055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_dark_32x32_24f_20d_normal_22
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 0
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 715b62cc15ffea930800000000000000
+      internalID: 4156540232892069143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_dark_32x32_24f_20d_normal_23
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 0
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bb3be4c99b606d60800000000000000
+      internalID: 7881417656076286897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      crystal_dark_32x32_24f_20d_normal_0: 2849012248032114830
+      crystal_dark_32x32_24f_20d_normal_1: 4682752192947629528
+      crystal_dark_32x32_24f_20d_normal_10: -3016897459190792945
+      crystal_dark_32x32_24f_20d_normal_11: -1972252485270488432
+      crystal_dark_32x32_24f_20d_normal_12: 4678202462540013511
+      crystal_dark_32x32_24f_20d_normal_13: -3336096377344118172
+      crystal_dark_32x32_24f_20d_normal_14: 1818896160700619786
+      crystal_dark_32x32_24f_20d_normal_15: -4523992819927900085
+      crystal_dark_32x32_24f_20d_normal_16: -4933772248324847369
+      crystal_dark_32x32_24f_20d_normal_17: -7697841683498992093
+      crystal_dark_32x32_24f_20d_normal_18: -2137524288388026329
+      crystal_dark_32x32_24f_20d_normal_19: -7750006624170903976
+      crystal_dark_32x32_24f_20d_normal_2: -7355592533150116192
+      crystal_dark_32x32_24f_20d_normal_20: 8887369557442536790
+      crystal_dark_32x32_24f_20d_normal_21: -4280243764377489055
+      crystal_dark_32x32_24f_20d_normal_22: 4156540232892069143
+      crystal_dark_32x32_24f_20d_normal_23: 7881417656076286897
+      crystal_dark_32x32_24f_20d_normal_3: 5250118201078033612
+      crystal_dark_32x32_24f_20d_normal_4: -473727944556536491
+      crystal_dark_32x32_24f_20d_normal_5: -6866601316503423896
+      crystal_dark_32x32_24f_20d_normal_6: 1033166632440429501
+      crystal_dark_32x32_24f_20d_normal_7: -6206301576860720377
+      crystal_dark_32x32_24f_20d_normal_8: -3767285720280925546
+      crystal_dark_32x32_24f_20d_normal_9: 4036848754173741318
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

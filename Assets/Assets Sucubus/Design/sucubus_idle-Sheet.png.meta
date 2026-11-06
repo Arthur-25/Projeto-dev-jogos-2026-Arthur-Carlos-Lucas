@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 8a7beb3ab33e628259b8874bb7e48606
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5638283835408987580
+    second: sucubus_idle-Sheet_0
+  - first:
+      213: -5567181395792155753
+    second: sucubus_idle-Sheet_1
+  - first:
+      213: -611775043520477983
+    second: sucubus_idle-Sheet_2
+  - first:
+      213: 3605487076695980088
+    second: sucubus_idle-Sheet_3
+  - first:
+      213: -6527810932078737051
+    second: sucubus_idle-Sheet_4
+  - first:
+      213: 4350112756255353228
+    second: sucubus_idle-Sheet_5
+  - first:
+      213: -464674766308941953
+    second: sucubus_idle-Sheet_6
+  - first:
+      213: 4655102054194102739
+    second: sucubus_idle-Sheet_7
+  - first:
+      213: 1509566009702380314
+    second: sucubus_idle-Sheet_8
+  - first:
+      213: 483219116749734852
+    second: sucubus_idle-Sheet_9
+  - first:
+      213: 1935207995945160537
+    second: sucubus_idle-Sheet_10
+  - first:
+      213: 2603085417335838028
+    second: sucubus_idle-Sheet_11
+  - first:
+      213: 3107301485013475128
+    second: sucubus_idle-Sheet_12
+  - first:
+      213: 6611139424736479443
+    second: sucubus_idle-Sheet_13
+  - first:
+      213: -5518575978743522660
+    second: sucubus_idle-Sheet_14
+  - first:
+      213: 7588777925740095656
+    second: sucubus_idle-Sheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sucubus_idle-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 109
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5316086453f3e40800000000000000
+      internalID: 5638283835408987580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sucubus_idle-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 0
+        width: 109
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b25a744066db2b0800000000000000
+      internalID: -5567181395792155753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sucubus_idle-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 0
+        width: 109
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e44388d6d98287f0800000000000000
+      internalID: -611775043520477983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sucubus_idle-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 0
+        width: 109
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838b9b0c463490230800000000000000
+      internalID: 3605487076695980088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sucubus_idle-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 0
+        width: 109
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56909880b8e8865a0800000000000000
+      internalID: -6527810932078737051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sucubus_idle-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 0
+        width: 109
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89ee710184be5c30800000000000000
+      internalID: 4350112756255353228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sucubus_idle-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 0
+        width: 109
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f511213c42d89f0800000000000000
+      internalID: -464674766308941953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sucubus_idle-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 0
+        width: 109
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d14e6d87ae3a9040800000000000000
+      internalID: 4655102054194102739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sucubus_idle-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 0
+        width: 109
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a13705da94e03f410800000000000000
+      internalID: 1509566009702380314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sucubus_idle-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 0
+        width: 109
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3cb8af93db4b600800000000000000
+      internalID: 483219116749734852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sucubus_idle-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 0
+        width: 109
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f8ecc4b6d3bda10800000000000000
+      internalID: 1935207995945160537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sucubus_idle-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 0
+        width: 109
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c455d443564002420800000000000000
+      internalID: 2603085417335838028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sucubus_idle-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 0
+        width: 109
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f9548cc3a5f1b20800000000000000
+      internalID: 3107301485013475128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sucubus_idle-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 0
+        width: 109
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d88ffb874c7fbb50800000000000000
+      internalID: 6611139424736479443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sucubus_idle-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 109
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a1df0d2641a63b0800000000000000
+      internalID: -5518575978743522660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sucubus_idle-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 0
+        width: 109
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a8601ff051c05960800000000000000
+      internalID: 7588777925740095656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sucubus_idle-Sheet_0: 5638283835408987580
+      sucubus_idle-Sheet_1: -5567181395792155753
+      sucubus_idle-Sheet_10: 1935207995945160537
+      sucubus_idle-Sheet_11: 2603085417335838028
+      sucubus_idle-Sheet_12: 3107301485013475128
+      sucubus_idle-Sheet_13: 6611139424736479443
+      sucubus_idle-Sheet_14: -5518575978743522660
+      sucubus_idle-Sheet_15: 7588777925740095656
+      sucubus_idle-Sheet_2: -611775043520477983
+      sucubus_idle-Sheet_3: 3605487076695980088
+      sucubus_idle-Sheet_4: -6527810932078737051
+      sucubus_idle-Sheet_5: 4350112756255353228
+      sucubus_idle-Sheet_6: -464674766308941953
+      sucubus_idle-Sheet_7: 4655102054194102739
+      sucubus_idle-Sheet_8: 1509566009702380314
+      sucubus_idle-Sheet_9: 483219116749734852
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

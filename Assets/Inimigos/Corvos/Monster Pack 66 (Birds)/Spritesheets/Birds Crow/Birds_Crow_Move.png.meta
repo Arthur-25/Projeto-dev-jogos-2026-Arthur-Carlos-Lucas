@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: 7137aae3a597b0fa3b7d3e6ecf0ffb15
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6220086447475460099
+    second: Birds_Crow_Move_0
+  - first:
+      213: 6650013426943163704
+    second: Birds_Crow_Move_1
+  - first:
+      213: -8382210370118359890
+    second: Birds_Crow_Move_2
+  - first:
+      213: -9180800376923859534
+    second: Birds_Crow_Move_3
+  - first:
+      213: 90326391580899137
+    second: Birds_Crow_Move_4
+  - first:
+      213: 7042490414097180662
+    second: Birds_Crow_Move_5
+  - first:
+      213: -4523192377557480562
+    second: Birds_Crow_Move_6
+  - first:
+      213: -8523222624606205802
+    second: Birds_Crow_Move_7
+  - first:
+      213: -500776163627739229
+    second: Birds_Crow_Move_8
+  - first:
+      213: 899802604087015993
+    second: Birds_Crow_Move_9
+  - first:
+      213: 8748541411060643522
+    second: Birds_Crow_Move_10
+  - first:
+      213: -8223564169880345058
+    second: Birds_Crow_Move_11
+  - first:
+      213: -4823161244141906999
+    second: Birds_Crow_Move_12
+  - first:
+      213: -7987196561283433971
+    second: Birds_Crow_Move_13
+  - first:
+      213: -4874166338614399816
+    second: Birds_Crow_Move_14
+  - first:
+      213: 4778000384504096723
+    second: Birds_Crow_Move_15
+  - first:
+      213: 4408071974081891673
+    second: Birds_Crow_Move_16
+  - first:
+      213: 7530909192149746078
+    second: Birds_Crow_Move_17
+  - first:
+      213: 3670508984442809717
+    second: Birds_Crow_Move_18
+  - first:
+      213: 6137116648701536630
+    second: Birds_Crow_Move_19
+  - first:
+      213: 7520311476492472054
+    second: Birds_Crow_Move_20
+  - first:
+      213: -2801362761378341683
+    second: Birds_Crow_Move_21
+  - first:
+      213: -1260308742752822318
+    second: Birds_Crow_Move_22
+  - first:
+      213: 359427990113946288
+    second: Birds_Crow_Move_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Birds_Crow_Move_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 443
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3080ff52baf225650800000000000000
+      internalID: 6220086447475460099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Move_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 443
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d76808af7994c50800000000000000
+      internalID: 6650013426943163704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Move_2
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 442
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4ef7844186cab80800000000000000
+      internalID: -8382210370118359890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Move_3
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 441
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b55eabf2be379080800000000000000
+      internalID: -9180800376923859534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Move_4
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 441
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 147b504ef57e04100800000000000000
+      internalID: 90326391580899137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Move_5
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 442
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f72b5a08b3fbb160800000000000000
+      internalID: 7042490414097180662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Move_6
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 319
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b8eec5f746a31c0800000000000000
+      internalID: -4523192377557480562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Move_7
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 318
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69846ce4e2e67b980800000000000000
+      internalID: -8523222624606205802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Move_8
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 318
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a75cfe7bb2ec09f0800000000000000
+      internalID: -500776163627739229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Move_9
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 318
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93af39873bdbc7c00800000000000000
+      internalID: 899802604087015993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Move_10
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 318
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c67015cf00196970800000000000000
+      internalID: 8748541411060643522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Move_11
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 319
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16e6a235f700ed80800000000000000
+      internalID: -8223564169880345058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Move_12
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 191
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c39d741760b01db0800000000000000
+      internalID: -4823161244141906999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Move_13
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 190
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0aba75ab07c72190800000000000000
+      internalID: -7987196561283433971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Move_14
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 190
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bce8ba1a8b7b5cb0800000000000000
+      internalID: -4874166338614399816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Move_15
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 190
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d7eb07e80ede4240800000000000000
+      internalID: 4778000384504096723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Move_16
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 190
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d818ffa1e9c2d30800000000000000
+      internalID: 4408071974081891673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Move_17
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 191
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e914fc1820a238860800000000000000
+      internalID: 7530909192149746078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Move_18
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 57
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57de792697440f230800000000000000
+      internalID: 3670508984442809717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Move_19
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 57
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679adfe731b6b2550800000000000000
+      internalID: 6137116648701536630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Move_20
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 56
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe80ac81738d5860800000000000000
+      internalID: 7520311476492472054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Move_21
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 57
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc5909296f8f19d0800000000000000
+      internalID: -2801362761378341683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Move_22
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 58
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db16e830eb728ee0800000000000000
+      internalID: -1260308742752822318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birds_Crow_Move_23
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 57
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba03194ad1fcf400800000000000000
+      internalID: 359427990113946288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Birds_Crow_Move_0: 6220086447475460099
+      Birds_Crow_Move_1: 6650013426943163704
+      Birds_Crow_Move_10: 8748541411060643522
+      Birds_Crow_Move_11: -8223564169880345058
+      Birds_Crow_Move_12: -4823161244141906999
+      Birds_Crow_Move_13: -7987196561283433971
+      Birds_Crow_Move_14: -4874166338614399816
+      Birds_Crow_Move_15: 4778000384504096723
+      Birds_Crow_Move_16: 4408071974081891673
+      Birds_Crow_Move_17: 7530909192149746078
+      Birds_Crow_Move_18: 3670508984442809717
+      Birds_Crow_Move_19: 6137116648701536630
+      Birds_Crow_Move_2: -8382210370118359890
+      Birds_Crow_Move_20: 7520311476492472054
+      Birds_Crow_Move_21: -2801362761378341683
+      Birds_Crow_Move_22: -1260308742752822318
+      Birds_Crow_Move_23: 359427990113946288
+      Birds_Crow_Move_3: -9180800376923859534
+      Birds_Crow_Move_4: 90326391580899137
+      Birds_Crow_Move_5: 7042490414097180662
+      Birds_Crow_Move_6: -4523192377557480562
+      Birds_Crow_Move_7: -8523222624606205802
+      Birds_Crow_Move_8: -500776163627739229
+      Birds_Crow_Move_9: 899802604087015993
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

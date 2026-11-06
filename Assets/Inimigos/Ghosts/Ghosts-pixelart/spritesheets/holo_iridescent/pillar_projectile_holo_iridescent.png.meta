@@ -1,0 +1,962 @@
+fileFormatVersion: 2
+guid: bb142e56d259c388585707ad91f41d00
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7720654871226106186
+    second: pillar_projectile_holo_iridescent_0
+  - first:
+      213: -3195183310663733786
+    second: pillar_projectile_holo_iridescent_1
+  - first:
+      213: 3876629930401555298
+    second: pillar_projectile_holo_iridescent_2
+  - first:
+      213: 7505892477476033958
+    second: pillar_projectile_holo_iridescent_3
+  - first:
+      213: 588229128980919676
+    second: pillar_projectile_holo_iridescent_4
+  - first:
+      213: -552491116513060811
+    second: pillar_projectile_holo_iridescent_5
+  - first:
+      213: -5580158041882031268
+    second: pillar_projectile_holo_iridescent_6
+  - first:
+      213: -3773688931382924926
+    second: pillar_projectile_holo_iridescent_7
+  - first:
+      213: -9171803772538272849
+    second: pillar_projectile_holo_iridescent_8
+  - first:
+      213: 3656533751500575607
+    second: pillar_projectile_holo_iridescent_9
+  - first:
+      213: -3104342345634186720
+    second: pillar_projectile_holo_iridescent_10
+  - first:
+      213: -8562721275576777434
+    second: pillar_projectile_holo_iridescent_11
+  - first:
+      213: -5589550274451669608
+    second: pillar_projectile_holo_iridescent_12
+  - first:
+      213: -4071813664476052014
+    second: pillar_projectile_holo_iridescent_13
+  - first:
+      213: -9103948239928982744
+    second: pillar_projectile_holo_iridescent_14
+  - first:
+      213: -8956363275623696932
+    second: pillar_projectile_holo_iridescent_15
+  - first:
+      213: 2253712157943733216
+    second: pillar_projectile_holo_iridescent_16
+  - first:
+      213: -3172444658675168401
+    second: pillar_projectile_holo_iridescent_17
+  - first:
+      213: -4096111582015376710
+    second: pillar_projectile_holo_iridescent_18
+  - first:
+      213: 7279082822017490485
+    second: pillar_projectile_holo_iridescent_19
+  - first:
+      213: -2348948579850364991
+    second: pillar_projectile_holo_iridescent_20
+  - first:
+      213: 7296070082439415075
+    second: pillar_projectile_holo_iridescent_21
+  - first:
+      213: 4067206602340592463
+    second: pillar_projectile_holo_iridescent_22
+  - first:
+      213: 4576502792444560993
+    second: pillar_projectile_holo_iridescent_23
+  - first:
+      213: -454744065081402955
+    second: pillar_projectile_holo_iridescent_24
+  - first:
+      213: -8756455591638704697
+    second: pillar_projectile_holo_iridescent_25
+  - first:
+      213: -6842747068765097131
+    second: pillar_projectile_holo_iridescent_26
+  - first:
+      213: -2480208329697716476
+    second: pillar_projectile_holo_iridescent_27
+  - first:
+      213: 7157488844261366064
+    second: pillar_projectile_holo_iridescent_28
+  - first:
+      213: 7802137708081167467
+    second: pillar_projectile_holo_iridescent_29
+  - first:
+      213: -3727038516413618034
+    second: pillar_projectile_holo_iridescent_30
+  - first:
+      213: -3442194706564792291
+    second: pillar_projectile_holo_iridescent_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pillar_projectile_holo_iridescent_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 194
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bebd27ec49bad490800000000000000
+      internalID: -7720654871226106186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_holo_iridescent_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 194
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eda1af25bd68a3d0800000000000000
+      internalID: -3195183310663733786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_holo_iridescent_2
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 192
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2636b37e16e8cc530800000000000000
+      internalID: 3876629930401555298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_holo_iridescent_3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 200
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a55c3ab0794a2860800000000000000
+      internalID: 7505892477476033958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_holo_iridescent_4
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 200
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c75f177b64fc92800800000000000000
+      internalID: 588229128980919676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_holo_iridescent_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 200
+        width: 24
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5381eaab1482558f0800000000000000
+      internalID: -552491116513060811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_holo_iridescent_6
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 193
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b051b63db4f82b0800000000000000
+      internalID: -5580158041882031268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_holo_iridescent_7
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 192
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 289e81829e921abc0800000000000000
+      internalID: -3773688931382924926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_holo_iridescent_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 130
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3c44c201537b080800000000000000
+      internalID: -9171803772538272849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_holo_iridescent_9
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 130
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7731b67e21e9eb230800000000000000
+      internalID: 3656533751500575607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_holo_iridescent_10
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 128
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a754b85192be4d0800000000000000
+      internalID: -3104342345634186720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_holo_iridescent_11
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 136
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625019afd5a1b2980800000000000000
+      internalID: -8562721275576777434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_holo_iridescent_12
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 136
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89dfe1dd3aded62b0800000000000000
+      internalID: -5589550274451669608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_holo_iridescent_13
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 136
+        width: 21
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5c259ab030e77c0800000000000000
+      internalID: -4071813664476052014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_holo_iridescent_14
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 129
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8238d718f4748a180800000000000000
+      internalID: -9103948239928982744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_holo_iridescent_15
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 128
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd5781dbd0b94b380800000000000000
+      internalID: -8956363275623696932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_holo_iridescent_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 66
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb1738544bc64f10800000000000000
+      internalID: 2253712157943733216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_holo_iridescent_17
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 66
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6bc41a246639f3d0800000000000000
+      internalID: -3172444658675168401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_holo_iridescent_18
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 64
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab23c91e730b727c0800000000000000
+      internalID: -4096111582015376710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_holo_iridescent_19
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 72
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e1009a24f740560800000000000000
+      internalID: 7279082822017490485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_holo_iridescent_20
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 72
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c75c5e36bbd66fd0800000000000000
+      internalID: -2348948579850364991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_holo_iridescent_21
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 72
+        width: 21
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32508207519d04560800000000000000
+      internalID: 7296070082439415075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_holo_iridescent_22
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 65
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b62a81bde917830800000000000000
+      internalID: 4067206602340592463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_holo_iridescent_23
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 64
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166cd39da01038f30800000000000000
+      internalID: 4576502792444560993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_holo_iridescent_24
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b91b11aeac60b9f0800000000000000
+      internalID: -454744065081402955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_holo_iridescent_25
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd54e87802da7680800000000000000
+      internalID: -8756455591638704697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_holo_iridescent_26
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 0
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553396e9bcda901a0800000000000000
+      internalID: -6842747068765097131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_holo_iridescent_27
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 8
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40717633aa7849dd0800000000000000
+      internalID: -2480208329697716476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_holo_iridescent_28
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 8
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039150e8e22845360800000000000000
+      internalID: 7157488844261366064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_holo_iridescent_29
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 8
+        width: 23
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6cbbd278e2c64c60800000000000000
+      internalID: 7802137708081167467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_holo_iridescent_30
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88a7fc4736e64cc0800000000000000
+      internalID: -3727038516413618034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar_projectile_holo_iridescent_31
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 0
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10c973e62eda30d0800000000000000
+      internalID: -3442194706564792291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pillar_projectile_holo_iridescent_0: -7720654871226106186
+      pillar_projectile_holo_iridescent_1: -3195183310663733786
+      pillar_projectile_holo_iridescent_10: -3104342345634186720
+      pillar_projectile_holo_iridescent_11: -8562721275576777434
+      pillar_projectile_holo_iridescent_12: -5589550274451669608
+      pillar_projectile_holo_iridescent_13: -4071813664476052014
+      pillar_projectile_holo_iridescent_14: -9103948239928982744
+      pillar_projectile_holo_iridescent_15: -8956363275623696932
+      pillar_projectile_holo_iridescent_16: 2253712157943733216
+      pillar_projectile_holo_iridescent_17: -3172444658675168401
+      pillar_projectile_holo_iridescent_18: -4096111582015376710
+      pillar_projectile_holo_iridescent_19: 7279082822017490485
+      pillar_projectile_holo_iridescent_2: 3876629930401555298
+      pillar_projectile_holo_iridescent_20: -2348948579850364991
+      pillar_projectile_holo_iridescent_21: 7296070082439415075
+      pillar_projectile_holo_iridescent_22: 4067206602340592463
+      pillar_projectile_holo_iridescent_23: 4576502792444560993
+      pillar_projectile_holo_iridescent_24: -454744065081402955
+      pillar_projectile_holo_iridescent_25: -8756455591638704697
+      pillar_projectile_holo_iridescent_26: -6842747068765097131
+      pillar_projectile_holo_iridescent_27: -2480208329697716476
+      pillar_projectile_holo_iridescent_28: 7157488844261366064
+      pillar_projectile_holo_iridescent_29: 7802137708081167467
+      pillar_projectile_holo_iridescent_3: 7505892477476033958
+      pillar_projectile_holo_iridescent_30: -3727038516413618034
+      pillar_projectile_holo_iridescent_31: -3442194706564792291
+      pillar_projectile_holo_iridescent_4: 588229128980919676
+      pillar_projectile_holo_iridescent_5: -552491116513060811
+      pillar_projectile_holo_iridescent_6: -5580158041882031268
+      pillar_projectile_holo_iridescent_7: -3773688931382924926
+      pillar_projectile_holo_iridescent_8: -9171803772538272849
+      pillar_projectile_holo_iridescent_9: 3656533751500575607
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

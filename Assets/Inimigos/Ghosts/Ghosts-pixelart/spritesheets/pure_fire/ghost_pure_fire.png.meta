@@ -1,0 +1,962 @@
+fileFormatVersion: 2
+guid: d6266b0cd4bb569de9886e8092130e5b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 357161985905505830
+    second: ghost_pure_fire_0
+  - first:
+      213: -8622123021895142260
+    second: ghost_pure_fire_1
+  - first:
+      213: -6816349017439040239
+    second: ghost_pure_fire_2
+  - first:
+      213: -1773808872487326507
+    second: ghost_pure_fire_3
+  - first:
+      213: 4473474610238547764
+    second: ghost_pure_fire_4
+  - first:
+      213: 7673883995731790664
+    second: ghost_pure_fire_5
+  - first:
+      213: -7933125176376398868
+    second: ghost_pure_fire_6
+  - first:
+      213: -413286331343787377
+    second: ghost_pure_fire_7
+  - first:
+      213: -5509923477768939535
+    second: ghost_pure_fire_8
+  - first:
+      213: -919917488737014940
+    second: ghost_pure_fire_9
+  - first:
+      213: 6853898340711800946
+    second: ghost_pure_fire_10
+  - first:
+      213: -3117977899095207588
+    second: ghost_pure_fire_11
+  - first:
+      213: -6402020917696583637
+    second: ghost_pure_fire_12
+  - first:
+      213: -1831335933573587254
+    second: ghost_pure_fire_13
+  - first:
+      213: 8588748517231669866
+    second: ghost_pure_fire_14
+  - first:
+      213: 4929944990512067820
+    second: ghost_pure_fire_15
+  - first:
+      213: 7393421398292461699
+    second: ghost_pure_fire_16
+  - first:
+      213: 6544437571418642734
+    second: ghost_pure_fire_17
+  - first:
+      213: 5615400411574725006
+    second: ghost_pure_fire_18
+  - first:
+      213: 298362784145503992
+    second: ghost_pure_fire_19
+  - first:
+      213: -1434545166198246879
+    second: ghost_pure_fire_20
+  - first:
+      213: -2783023119253180492
+    second: ghost_pure_fire_21
+  - first:
+      213: 2098939818398185468
+    second: ghost_pure_fire_22
+  - first:
+      213: -9056499606938003535
+    second: ghost_pure_fire_23
+  - first:
+      213: -3996500022621038352
+    second: ghost_pure_fire_24
+  - first:
+      213: -8923675470498726338
+    second: ghost_pure_fire_25
+  - first:
+      213: 496375964394647104
+    second: ghost_pure_fire_26
+  - first:
+      213: 4995722382899425607
+    second: ghost_pure_fire_27
+  - first:
+      213: -5685551759435401541
+    second: ghost_pure_fire_28
+  - first:
+      213: 5369546803966637
+    second: ghost_pure_fire_29
+  - first:
+      213: -4512057565958229161
+    second: ghost_pure_fire_30
+  - first:
+      213: 8211716162561714473
+    second: ghost_pure_fire_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ghost_pure_fire_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 205
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 626bb211fe4e4f400800000000000000
+      internalID: 357161985905505830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_pure_fire_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 205
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c84f8362bc0185880800000000000000
+      internalID: -8622123021895142260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_pure_fire_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 204
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d8676eea67761a0800000000000000
+      internalID: -6816349017439040239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_pure_fire_3
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 205
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dce4ff7a3a2267e0800000000000000
+      internalID: -1773808872487326507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_pure_fire_4
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 208
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4376ffed479f41e30800000000000000
+      internalID: 4473474610238547764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_pure_fire_5
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 208
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b062d06dc1f7a60800000000000000
+      internalID: 7673883995731790664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_pure_fire_6
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 211
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb606ffea0e7e190800000000000000
+      internalID: -7933125176376398868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_pure_fire_7
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 210
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8aaab57546b34af0800000000000000
+      internalID: -413286331343787377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_pure_fire_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 142
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f75fff2ac1d883b0800000000000000
+      internalID: -5509923477768939535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_pure_fire_9
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 140
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b292dfaebcb33f0800000000000000
+      internalID: -919917488737014940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_pure_fire_10
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 138
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27024c43a30fd1f50800000000000000
+      internalID: 6853898340711800946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_pure_fire_11
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 141
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5159eade97bab4d0800000000000000
+      internalID: -3117977899095207588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_pure_fire_12
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 141
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b28231c05e37727a0800000000000000
+      internalID: -6402020917696583637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_pure_fire_13
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 145
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace10f6dba9c596e0800000000000000
+      internalID: -1831335933573587254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_pure_fire_14
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 147
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a62b1c2754d513770800000000000000
+      internalID: 8588748517231669866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_pure_fire_15
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 144
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce430b159deaa6440800000000000000
+      internalID: 4929944990512067820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_pure_fire_16
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 80
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3887ef7f695ba9660800000000000000
+      internalID: 7393421398292461699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_pure_fire_17
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 77
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29d02b1c4382da50800000000000000
+      internalID: 6544437571418642734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_pure_fire_18
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 77
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e896e733ce8eded40800000000000000
+      internalID: 5615400411574725006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_pure_fire_19
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 77
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f670331f5ff32400800000000000000
+      internalID: 298362784145503992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_pure_fire_20
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 78
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122ff7a95c8771ce0800000000000000
+      internalID: -1434545166198246879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_pure_fire_21
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 80
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bfe637d737b069d0800000000000000
+      internalID: -2783023119253180492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_pure_fire_22
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 83
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7fb88e4aee02d10800000000000000
+      internalID: 2098939818398185468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_pure_fire_23
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 82
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7def34799d05280800000000000000
+      internalID: -9056499606938003535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_pure_fire_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f815de57649988c0800000000000000
+      internalID: -3996500022621038352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_pure_fire_25
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 13
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e7e02707cb82480800000000000000
+      internalID: -8923675470498726338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_pure_fire_26
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 11
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ee8c84f4b73e600800000000000000
+      internalID: 496375964394647104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_pure_fire_27
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 11
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 741303de90f545540800000000000000
+      internalID: 4995722382899425607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_pure_fire_28
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 13
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb671c25cccd811b0800000000000000
+      internalID: -5685551759435401541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_pure_fire_29
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 16
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2fad90393131000800000000000000
+      internalID: 5369546803966637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_pure_fire_30
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 16
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75332f6bc83f161c0800000000000000
+      internalID: -4512057565958229161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_pure_fire_31
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 18
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92923d1a750e5f170800000000000000
+      internalID: 8211716162561714473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ghost_pure_fire_0: 357161985905505830
+      ghost_pure_fire_1: -8622123021895142260
+      ghost_pure_fire_10: 6853898340711800946
+      ghost_pure_fire_11: -3117977899095207588
+      ghost_pure_fire_12: -6402020917696583637
+      ghost_pure_fire_13: -1831335933573587254
+      ghost_pure_fire_14: 8588748517231669866
+      ghost_pure_fire_15: 4929944990512067820
+      ghost_pure_fire_16: 7393421398292461699
+      ghost_pure_fire_17: 6544437571418642734
+      ghost_pure_fire_18: 5615400411574725006
+      ghost_pure_fire_19: 298362784145503992
+      ghost_pure_fire_2: -6816349017439040239
+      ghost_pure_fire_20: -1434545166198246879
+      ghost_pure_fire_21: -2783023119253180492
+      ghost_pure_fire_22: 2098939818398185468
+      ghost_pure_fire_23: -9056499606938003535
+      ghost_pure_fire_24: -3996500022621038352
+      ghost_pure_fire_25: -8923675470498726338
+      ghost_pure_fire_26: 496375964394647104
+      ghost_pure_fire_27: 4995722382899425607
+      ghost_pure_fire_28: -5685551759435401541
+      ghost_pure_fire_29: 5369546803966637
+      ghost_pure_fire_3: -1773808872487326507
+      ghost_pure_fire_30: -4512057565958229161
+      ghost_pure_fire_31: 8211716162561714473
+      ghost_pure_fire_4: 4473474610238547764
+      ghost_pure_fire_5: 7673883995731790664
+      ghost_pure_fire_6: -7933125176376398868
+      ghost_pure_fire_7: -413286331343787377
+      ghost_pure_fire_8: -5509923477768939535
+      ghost_pure_fire_9: -919917488737014940
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

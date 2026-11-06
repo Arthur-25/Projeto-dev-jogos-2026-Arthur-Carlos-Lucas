@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: 65731e4090dd3c18e90a302827bf93c0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2665783985468047487
+    second: BatFire_Sheet_0
+  - first:
+      213: -1196171332828534228
+    second: BatFire_Sheet_1
+  - first:
+      213: -4607565316489587577
+    second: BatFire_Sheet_2
+  - first:
+      213: 9204386423186397431
+    second: BatFire_Sheet_3
+  - first:
+      213: 5905396666605045268
+    second: BatFire_Sheet_4
+  - first:
+      213: -5440926104734029573
+    second: BatFire_Sheet_5
+  - first:
+      213: -1598839725161409633
+    second: BatFire_Sheet_6
+  - first:
+      213: -730144047248948084
+    second: BatFire_Sheet_7
+  - first:
+      213: 9006141719720740556
+    second: BatFire_Sheet_8
+  - first:
+      213: 5314671359921079362
+    second: BatFire_Sheet_9
+  - first:
+      213: 7344295082558784832
+    second: BatFire_Sheet_10
+  - first:
+      213: -1961738684168532461
+    second: BatFire_Sheet_11
+  - first:
+      213: -7578973530326037277
+    second: BatFire_Sheet_12
+  - first:
+      213: -6823324886391705968
+    second: BatFire_Sheet_13
+  - first:
+      213: -4004106514596202367
+    second: BatFire_Sheet_14
+  - first:
+      213: 8669964814878504604
+    second: BatFire_Sheet_15
+  - first:
+      213: -709674435758234471
+    second: BatFire_Sheet_16
+  - first:
+      213: 5457638672144026617
+    second: BatFire_Sheet_17
+  - first:
+      213: -1384430521185632809
+    second: BatFire_Sheet_18
+  - first:
+      213: 1476015655845033617
+    second: BatFire_Sheet_19
+  - first:
+      213: -6670965721842563961
+    second: BatFire_Sheet_20
+  - first:
+      213: -4946768432853740442
+    second: BatFire_Sheet_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BatFire_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 140
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f708fbd2964cef420800000000000000
+      internalID: 2665783985468047487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatFire_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 140
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2aef38a288566fe0800000000000000
+      internalID: -1196171332828534228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatFire_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 139
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7845a3fa1c3ae00c0800000000000000
+      internalID: -4607565316489587577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatFire_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 141
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f814795fac8cbf70800000000000000
+      internalID: 9204386423186397431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatFire_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 108
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41605caeafe24f150800000000000000
+      internalID: 5905396666605045268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatFire_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 109
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8ad26f882fd74b0800000000000000
+      internalID: -5440926104734029573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatFire_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 110
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9398f0bdb7cfc9e0800000000000000
+      internalID: -1598839725161409633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatFire_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 107
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c844cd48bd10ed5f0800000000000000
+      internalID: -730144047248948084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatFire_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 105
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc6c7c07d2e3cfc70800000000000000
+      internalID: 9006141719720740556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatFire_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 108
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 244c90a817181c940800000000000000
+      internalID: 5314671359921079362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatFire_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 76
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0458091477d2ce560800000000000000
+      internalID: 7344295082558784832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatFire_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 76
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e0efb7f0186c4e0800000000000000
+      internalID: -1961738684168532461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatFire_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 75
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec04d2bab312d690800000000000000
+      internalID: -7578973530326037277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatFire_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 77
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e2a87da2eae41a0800000000000000
+      internalID: -6823324886391705968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatFire_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 44
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1887aa2f65e8e68c0800000000000000
+      internalID: -4004106514596202367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatFire_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 44
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c96f7fd4017e15870800000000000000
+      internalID: 8669964814878504604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatFire_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 42
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99464765cdab626f0800000000000000
+      internalID: -709674435758234471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatFire_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 38
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fb449dd47d6dbb40800000000000000
+      internalID: 5457638672144026617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatFire_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 38
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd7588a6c389cce0800000000000000
+      internalID: -1384430521185632809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatFire_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 38
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 196fe813b6cdb7410800000000000000
+      internalID: 1476015655845033617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatFire_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 38
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78444c03508fb63a0800000000000000
+      internalID: -6670965721842563961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatFire_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 12
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66413a5c15c895bb0800000000000000
+      internalID: -4946768432853740442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BatFire_Sheet_0: 2665783985468047487
+      BatFire_Sheet_1: -1196171332828534228
+      BatFire_Sheet_10: 7344295082558784832
+      BatFire_Sheet_11: -1961738684168532461
+      BatFire_Sheet_12: -7578973530326037277
+      BatFire_Sheet_13: -6823324886391705968
+      BatFire_Sheet_14: -4004106514596202367
+      BatFire_Sheet_15: 8669964814878504604
+      BatFire_Sheet_16: -709674435758234471
+      BatFire_Sheet_17: 5457638672144026617
+      BatFire_Sheet_18: -1384430521185632809
+      BatFire_Sheet_19: 1476015655845033617
+      BatFire_Sheet_2: -4607565316489587577
+      BatFire_Sheet_20: -6670965721842563961
+      BatFire_Sheet_21: -4946768432853740442
+      BatFire_Sheet_3: 9204386423186397431
+      BatFire_Sheet_4: 5905396666605045268
+      BatFire_Sheet_5: -5440926104734029573
+      BatFire_Sheet_6: -1598839725161409633
+      BatFire_Sheet_7: -730144047248948084
+      BatFire_Sheet_8: 9006141719720740556
+      BatFire_Sheet_9: 5314671359921079362
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

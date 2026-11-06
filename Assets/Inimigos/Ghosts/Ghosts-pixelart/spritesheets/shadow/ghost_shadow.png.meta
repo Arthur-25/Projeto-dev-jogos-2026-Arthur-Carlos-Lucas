@@ -1,0 +1,962 @@
+fileFormatVersion: 2
+guid: c739051f236833d60b963dfc3af59efd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6980040770775726963
+    second: ghost_shadow_0
+  - first:
+      213: -6114981980847805452
+    second: ghost_shadow_1
+  - first:
+      213: 6463723892769862519
+    second: ghost_shadow_2
+  - first:
+      213: 7246995329419587528
+    second: ghost_shadow_3
+  - first:
+      213: -4596057939302735638
+    second: ghost_shadow_4
+  - first:
+      213: 4931912536420886280
+    second: ghost_shadow_5
+  - first:
+      213: 10229335585157394
+    second: ghost_shadow_6
+  - first:
+      213: -7252783785597025455
+    second: ghost_shadow_7
+  - first:
+      213: 4169575837198370533
+    second: ghost_shadow_8
+  - first:
+      213: 4617758307164636194
+    second: ghost_shadow_9
+  - first:
+      213: -7062416411580074641
+    second: ghost_shadow_10
+  - first:
+      213: 8883697882269068499
+    second: ghost_shadow_11
+  - first:
+      213: -930006131146199642
+    second: ghost_shadow_12
+  - first:
+      213: 3764328294658355766
+    second: ghost_shadow_13
+  - first:
+      213: -2969605072519845874
+    second: ghost_shadow_14
+  - first:
+      213: 9126467833224559406
+    second: ghost_shadow_15
+  - first:
+      213: -2457457011216844750
+    second: ghost_shadow_16
+  - first:
+      213: -5767878461169085945
+    second: ghost_shadow_17
+  - first:
+      213: -3662849875862662934
+    second: ghost_shadow_18
+  - first:
+      213: 6115431824376411822
+    second: ghost_shadow_19
+  - first:
+      213: -3980042608111594209
+    second: ghost_shadow_20
+  - first:
+      213: 5388312267748330829
+    second: ghost_shadow_21
+  - first:
+      213: -2297202659125165696
+    second: ghost_shadow_22
+  - first:
+      213: -1420999178692085706
+    second: ghost_shadow_23
+  - first:
+      213: 5608993628132511017
+    second: ghost_shadow_24
+  - first:
+      213: 4306812063009801566
+    second: ghost_shadow_25
+  - first:
+      213: 7610610208638329689
+    second: ghost_shadow_26
+  - first:
+      213: 1335680253786043797
+    second: ghost_shadow_27
+  - first:
+      213: 68094759456264323
+    second: ghost_shadow_28
+  - first:
+      213: -2096344542497782366
+    second: ghost_shadow_29
+  - first:
+      213: -5193857858586115223
+    second: ghost_shadow_30
+  - first:
+      213: 6971572964584843067
+    second: ghost_shadow_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ghost_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 206
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d844b2c96e9e12f90800000000000000
+      internalID: -6980040770775726963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 203
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fbe6a77948332ba0800000000000000
+      internalID: -6114981980847805452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 205
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773b0ca52a2c3b950800000000000000
+      internalID: 6463723892769862519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 205
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf28fa1bdf729460800000000000000
+      internalID: 7246995329419587528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 206
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae02fb8b7a58730c0800000000000000
+      internalID: -4596057939302735638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 209
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807a9ac425ca17440800000000000000
+      internalID: 4931912536420886280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 208
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21177d9c687542000800000000000000
+      internalID: 10229335585157394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 208
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153c6cae29fe85b90800000000000000
+      internalID: -7252783785597025455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 142
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6c240f12f4dd930800000000000000
+      internalID: 4169575837198370533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 140
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2244825e6b2951040800000000000000
+      internalID: 4617758307164636194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 141
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6571e321b14dfd90800000000000000
+      internalID: -7062416411580074641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 139
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dca984f72c394b70800000000000000
+      internalID: 8883697882269068499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 141
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad6812e954f713f0800000000000000
+      internalID: -930006131146199642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 146
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6323015c3a49d3430800000000000000
+      internalID: 3764328294658355766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 147
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08a1419be7d9c6d0800000000000000
+      internalID: -2969605072519845874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 145
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2bf065e32ab7ae70800000000000000
+      internalID: 9126467833224559406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23870a35edb55edd0800000000000000
+      internalID: -2457457011216844750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 76
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 702d36e591164ffa0800000000000000
+      internalID: -5767878461169085945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 74
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae05f9bc171fa2dc0800000000000000
+      internalID: -3662849875862662934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 76
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea63314e7d06ed450800000000000000
+      internalID: 6115431824376411822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 78
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f15d698c55c04c8c0800000000000000
+      internalID: -3980042608111594209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_shadow_21
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 82
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4dc402857127ca40800000000000000
+      internalID: 5388312267748330829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 83
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08103c54a52be10e0800000000000000
+      internalID: -2297202659125165696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_shadow_23
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 81
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638bfe796c8974ce0800000000000000
+      internalID: -1420999178692085706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_shadow_24
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 14
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d8440bcf527dd40800000000000000
+      internalID: 5608993628132511017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_shadow_25
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 11
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e55011ab0ced4cb30800000000000000
+      internalID: 4306812063009801566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_shadow_26
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 12
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95369d979a15e9960800000000000000
+      internalID: 7610610208638329689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_shadow_27
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 11
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 595bb643d1a498210800000000000000
+      internalID: 1335680253786043797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_shadow_28
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 16
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380d47ca2dbe1f000800000000000000
+      internalID: 68094759456264323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_shadow_29
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 16
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a54799deb948e2e0800000000000000
+      internalID: -2096344542497782366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_shadow_30
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 16
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9638a1dbbc5bbe7b0800000000000000
+      internalID: -5193857858586115223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_shadow_31
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 16
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37ebcf9ca000c060800000000000000
+      internalID: 6971572964584843067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ghost_shadow_0: -6980040770775726963
+      ghost_shadow_1: -6114981980847805452
+      ghost_shadow_10: -7062416411580074641
+      ghost_shadow_11: 8883697882269068499
+      ghost_shadow_12: -930006131146199642
+      ghost_shadow_13: 3764328294658355766
+      ghost_shadow_14: -2969605072519845874
+      ghost_shadow_15: 9126467833224559406
+      ghost_shadow_16: -2457457011216844750
+      ghost_shadow_17: -5767878461169085945
+      ghost_shadow_18: -3662849875862662934
+      ghost_shadow_19: 6115431824376411822
+      ghost_shadow_2: 6463723892769862519
+      ghost_shadow_20: -3980042608111594209
+      ghost_shadow_21: 5388312267748330829
+      ghost_shadow_22: -2297202659125165696
+      ghost_shadow_23: -1420999178692085706
+      ghost_shadow_24: 5608993628132511017
+      ghost_shadow_25: 4306812063009801566
+      ghost_shadow_26: 7610610208638329689
+      ghost_shadow_27: 1335680253786043797
+      ghost_shadow_28: 68094759456264323
+      ghost_shadow_29: -2096344542497782366
+      ghost_shadow_3: 7246995329419587528
+      ghost_shadow_30: -5193857858586115223
+      ghost_shadow_31: 6971572964584843067
+      ghost_shadow_4: -4596057939302735638
+      ghost_shadow_5: 4931912536420886280
+      ghost_shadow_6: 10229335585157394
+      ghost_shadow_7: -7252783785597025455
+      ghost_shadow_8: 4169575837198370533
+      ghost_shadow_9: 4617758307164636194
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

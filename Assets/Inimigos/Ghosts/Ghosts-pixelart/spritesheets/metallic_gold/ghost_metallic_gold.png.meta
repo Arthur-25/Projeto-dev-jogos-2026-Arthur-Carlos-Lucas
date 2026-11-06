@@ -1,0 +1,962 @@
+fileFormatVersion: 2
+guid: 3f3fb7e5051debca59d25d90abf38435
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4805213375865148808
+    second: ghost_metallic_gold_0
+  - first:
+      213: 7259801700982260029
+    second: ghost_metallic_gold_1
+  - first:
+      213: -1854789363325166277
+    second: ghost_metallic_gold_2
+  - first:
+      213: -573353720625220821
+    second: ghost_metallic_gold_3
+  - first:
+      213: 4203667846299439536
+    second: ghost_metallic_gold_4
+  - first:
+      213: -6802029103953958437
+    second: ghost_metallic_gold_5
+  - first:
+      213: -8624624282892349623
+    second: ghost_metallic_gold_6
+  - first:
+      213: -6021632677480896975
+    second: ghost_metallic_gold_7
+  - first:
+      213: 2438301863183862602
+    second: ghost_metallic_gold_8
+  - first:
+      213: 3521185312753680562
+    second: ghost_metallic_gold_9
+  - first:
+      213: -3240036559595117089
+    second: ghost_metallic_gold_10
+  - first:
+      213: 8611617127875365380
+    second: ghost_metallic_gold_11
+  - first:
+      213: 7430684089102663218
+    second: ghost_metallic_gold_12
+  - first:
+      213: -833368939936628177
+    second: ghost_metallic_gold_13
+  - first:
+      213: 6728364276326245255
+    second: ghost_metallic_gold_14
+  - first:
+      213: -3494603294006313185
+    second: ghost_metallic_gold_15
+  - first:
+      213: 8818225798294654955
+    second: ghost_metallic_gold_16
+  - first:
+      213: -4973554702293184299
+    second: ghost_metallic_gold_17
+  - first:
+      213: -986534970445762535
+    second: ghost_metallic_gold_18
+  - first:
+      213: 2812837662071095015
+    second: ghost_metallic_gold_19
+  - first:
+      213: 6810734071998400672
+    second: ghost_metallic_gold_20
+  - first:
+      213: 305368132299374258
+    second: ghost_metallic_gold_21
+  - first:
+      213: 7669114120750645340
+    second: ghost_metallic_gold_22
+  - first:
+      213: 4934876538742437470
+    second: ghost_metallic_gold_23
+  - first:
+      213: 2643226110586649767
+    second: ghost_metallic_gold_24
+  - first:
+      213: 4756138855837263323
+    second: ghost_metallic_gold_25
+  - first:
+      213: -6924747454942078843
+    second: ghost_metallic_gold_26
+  - first:
+      213: -7637092882072307656
+    second: ghost_metallic_gold_27
+  - first:
+      213: -1392242984655245755
+    second: ghost_metallic_gold_28
+  - first:
+      213: 4455233236905943559
+    second: ghost_metallic_gold_29
+  - first:
+      213: 6849728149881052730
+    second: ghost_metallic_gold_30
+  - first:
+      213: -4455532474354434055
+    second: ghost_metallic_gold_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ghost_metallic_gold_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 207
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885d5623b1c8fa240800000000000000
+      internalID: 4805213375865148808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_metallic_gold_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 203
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3103d6de2fffb460800000000000000
+      internalID: 7259801700982260029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_metallic_gold_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 204
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d94d1b6e67246e0800000000000000
+      internalID: -1854789363325166277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_metallic_gold_3
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 204
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b233c7f24d90b08f0800000000000000
+      internalID: -573353720625220821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_metallic_gold_4
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 206
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b1d86c52ad665a30800000000000000
+      internalID: 4203667846299439536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_metallic_gold_5
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 208
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9a4f291965a91a0800000000000000
+      internalID: -6802029103953958437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_metallic_gold_6
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 208
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f4ef0f8ed2f4880800000000000000
+      internalID: -8624624282892349623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_metallic_gold_7
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 210
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 136eddadbfcde6ca0800000000000000
+      internalID: -6021632677480896975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_metallic_gold_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 144
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b4f3a30a696d120800000000000000
+      internalID: 2438301863183862602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_metallic_gold_9
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 141
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0810bc263cdd030800000000000000
+      internalID: 3521185312753680562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_metallic_gold_10
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 141
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5ed0e5ae31903d0800000000000000
+      internalID: -3240036559595117089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_metallic_gold_11
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 139
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a4ea8c62c928770800000000000000
+      internalID: 8611617127875365380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_metallic_gold_12
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 142
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e7c114fc71f1760800000000000000
+      internalID: 7430684089102663218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_metallic_gold_13
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 145
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f22cb305d574f64f0800000000000000
+      internalID: -833368939936628177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_metallic_gold_14
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 145
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783aad139a3ff5d50800000000000000
+      internalID: 6728364276326245255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_metallic_gold_15
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 145
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ff7ddb1dca08fc0800000000000000
+      internalID: -3494603294006313185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_metallic_gold_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 77
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: befc98084a1a06a70800000000000000
+      internalID: 8818225798294654955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_metallic_gold_17
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 76
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d057da69526afab0800000000000000
+      internalID: -4973554702293184299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_metallic_gold_18
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 77
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9107418dbaf1f42f0800000000000000
+      internalID: -986534970445762535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_metallic_gold_19
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 75
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ee769a53f4390720800000000000000
+      internalID: 2812837662071095015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_metallic_gold_20
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 77
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a84d1dbd86948e50800000000000000
+      internalID: 6810734071998400672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_metallic_gold_21
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 82
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bebd6bc2b2ec3400800000000000000
+      internalID: 305368132299374258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_metallic_gold_22
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 81
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c50464df8aa2e6a60800000000000000
+      internalID: 7669114120750645340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_metallic_gold_23
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 80
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56f62ed0143c7440800000000000000
+      internalID: 4934876538742437470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_metallic_gold_24
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 14
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7acfd86a420aea420800000000000000
+      internalID: 2643226110586649767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_metallic_gold_25
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 13
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5ec9c1713310240800000000000000
+      internalID: 4756138855837263323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_metallic_gold_26
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 11
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58813ece0ea56ef90800000000000000
+      internalID: -6924747454942078843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_metallic_gold_27
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 13
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8387a6f9c78930690800000000000000
+      internalID: -7637092882072307656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_metallic_gold_28
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 16
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e2892c162cdace0800000000000000
+      internalID: -1392242984655245755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_metallic_gold_29
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 16
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 702ea4d260b24dd30800000000000000
+      internalID: 4455233236905943559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_metallic_gold_30
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 19
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e57adf57f1f0f50800000000000000
+      internalID: 6849728149881052730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_metallic_gold_31
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 16
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fff2ec22d4ca22c0800000000000000
+      internalID: -4455532474354434055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ghost_metallic_gold_0: 4805213375865148808
+      ghost_metallic_gold_1: 7259801700982260029
+      ghost_metallic_gold_10: -3240036559595117089
+      ghost_metallic_gold_11: 8611617127875365380
+      ghost_metallic_gold_12: 7430684089102663218
+      ghost_metallic_gold_13: -833368939936628177
+      ghost_metallic_gold_14: 6728364276326245255
+      ghost_metallic_gold_15: -3494603294006313185
+      ghost_metallic_gold_16: 8818225798294654955
+      ghost_metallic_gold_17: -4973554702293184299
+      ghost_metallic_gold_18: -986534970445762535
+      ghost_metallic_gold_19: 2812837662071095015
+      ghost_metallic_gold_2: -1854789363325166277
+      ghost_metallic_gold_20: 6810734071998400672
+      ghost_metallic_gold_21: 305368132299374258
+      ghost_metallic_gold_22: 7669114120750645340
+      ghost_metallic_gold_23: 4934876538742437470
+      ghost_metallic_gold_24: 2643226110586649767
+      ghost_metallic_gold_25: 4756138855837263323
+      ghost_metallic_gold_26: -6924747454942078843
+      ghost_metallic_gold_27: -7637092882072307656
+      ghost_metallic_gold_28: -1392242984655245755
+      ghost_metallic_gold_29: 4455233236905943559
+      ghost_metallic_gold_3: -573353720625220821
+      ghost_metallic_gold_30: 6849728149881052730
+      ghost_metallic_gold_31: -4455532474354434055
+      ghost_metallic_gold_4: 4203667846299439536
+      ghost_metallic_gold_5: -6802029103953958437
+      ghost_metallic_gold_6: -8624624282892349623
+      ghost_metallic_gold_7: -6021632677480896975
+      ghost_metallic_gold_8: 2438301863183862602
+      ghost_metallic_gold_9: 3521185312753680562
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
