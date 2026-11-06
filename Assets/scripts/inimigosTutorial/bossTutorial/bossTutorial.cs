@@ -17,10 +17,9 @@ public class bossTutorial : MonoBehaviour
 
     [Header("Ativação (Estilo FromSoftware)")]
     public Transform pontoEntradaArena;
+    public Transform pontoTeleporteAposEntrada;
     public float distanciaInteracaoEntrada = 3f;
-    public float tempoEsperaEntrada = 5f;
-    private float contadorEspera = 0f;
-    private bool esperandoAtivacao = false;
+    private bool entradaRealizada = false;
     private bool bossAtivo = false;
 
     [Header("Segunda Fase")]
@@ -155,7 +154,7 @@ public class bossTutorial : MonoBehaviour
 
     void GerenciarAtivacaoArena()
     {
-        if (jogadorTransform == null) return;
+        if (jogadorTransform == null || entradaRealizada) return;
 
         float distanciaEntrada = pontoEntradaArena != null ? Vector2.Distance(jogadorTransform.position, pontoEntradaArena.position) : Vector2.Distance(jogadorTransform.position, transform.position);
 
@@ -163,26 +162,28 @@ public class bossTutorial : MonoBehaviour
         {
             bool apertouEnter = (Keyboard.current != null && Keyboard.current.enterKey.wasPressedThisFrame) || Input.GetKeyDown(KeyCode.Return);
 
-            if (!esperandoAtivacao && apertouEnter)
+            if (apertouEnter)
             {
-                esperandoAtivacao = true;
-                contadorEspera = 0f;
-                Debug.Log("Entrada da arena acionada pelo jogador! Aguardando " + tempoEsperaEntrada + " segundos...");
-            }
-        }
+                entradaRealizada = true; // Desativa permanentemente esta interação
 
-        if (esperandoAtivacao)
-        {
-            contadorEspera += Time.deltaTime;
-            if (contadorEspera >= tempoEsperaEntrada)
-            {
+                // Teleporta o jogador para depois da entrada
+                if (pontoTeleporteAposEntrada != null)
+                {
+                    jogadorTransform.position = pontoTeleporteAposEntrada.position;
+                }
+                else
+                {
+                    // Fallback se nenhum ponto de teleporte foi atribuído
+                    jogadorTransform.position = new Vector3(transform.position.x - 3f, transform.position.y, transform.position.z);
+                }
+
+                // Ativa o boss e a barra de vida
                 bossAtivo = true;
-                esperandoAtivacao = false;
                 if (barraDeVidaCanvasObj != null)
                 {
                     barraDeVidaCanvasObj.SetActive(true);
                 }
-                Debug.Log("Boss Ativado após o tempo de espera!");
+                Debug.Log("Jogador teleportado para dentro da arena! Boss ativado e interação de entrada encerrada.");
             }
         }
     }
