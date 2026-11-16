@@ -107,8 +107,14 @@ public class projetilGenerico : MonoBehaviour
     {
         Debug.Log("Projétil colidiu com: " + objHit.name + " | Pertence ao jogador: " + pertenceAoJogador);
 
-        // 1. Se colidir com o Jogador
-        if (IsPlayer(objHit))
+        // 0. Se pertence ao jogador e colide com o próprio jogador, ignora completamente
+        if (pertenceAoJogador && IsPlayer(objHit))
+        {
+            return;
+        }
+
+        // 1. Se colidir com o Jogador (apenas projéteis inimigos)
+        if (!pertenceAoJogador && IsPlayer(objHit))
         {
             bool jogadorAtacando = (Mouse.current != null && Mouse.current.leftButton.isPressed) || Input.GetMouseButton(0);
 
