@@ -195,7 +195,22 @@ public class combate : MonoBehaviour
 
             if (vida <= 0)
             {
-                UnityEngine.SceneManagement.SceneManager.LoadScene("gameOverSombra");
+                if (Application.CanStreamedLevelBeLoaded("gameOverSombra"))
+                {
+                    UnityEngine.SceneManagement.SceneManager.LoadScene("gameOverSombra");
+                }
+                else
+                {
+                    Debug.LogWarning("A cena 'gameOverSombra' não está no Build Profile ativo do Unity 6. Adicione-a em File -> Build Profiles ou utilize o fallback.");
+                    try
+                    {
+                        UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+                    }
+                    catch
+                    {
+                        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+                    }
+                }
             }
         }
     }

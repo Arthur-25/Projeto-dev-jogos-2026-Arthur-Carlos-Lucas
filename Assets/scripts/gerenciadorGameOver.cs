@@ -3,15 +3,31 @@ using UnityEngine.SceneManagement;
 
 public class gerenciadorGameOver : MonoBehaviour
 {
-    // Método para ser chamado pelo botão na cena gameOverSombra
+    // Redireciona para o carregamento do checkpoint caso esteja vinculado
     public void VoltarParaTutorial()
     {
-        SceneManager.LoadScene("Tutorial");
+        ReviverDoCheckpoint();
     }
 
-    // Método genérico caso queira carregar outra cena pelo nome
+    // Redireciona para o carregamento do checkpoint caso esteja vinculado
     public void CarregarCena(string nomeCena)
     {
-        SceneManager.LoadScene(nomeCena);
+        ReviverDoCheckpoint();
+    }
+
+    // Método principal para reviver do último checkpoint salvo
+    public void ReviverDoCheckpoint()
+    {
+        Debug.Log(">>> [GAME OVER] Botão ReviverDoCheckpoint foi acionado!");
+        if (GerenciadorCheckpoint.TemCheckpointSalvo())
+        {
+            Debug.Log(">>> [GAME OVER] Checkpoint encontrado, chamando GerenciadorCheckpoint.CarregarJogo()...");
+            GerenciadorCheckpoint.CarregarJogo();
+        }
+        else
+        {
+            Debug.LogWarning(">>> [GAME OVER] Nenhum checkpoint salvo encontrado! Carregando Tutorial.");
+            SceneManager.LoadScene("Tutorial");
+        }
     }
 }
