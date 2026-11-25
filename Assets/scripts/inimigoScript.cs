@@ -27,8 +27,20 @@ public class inimigoScript : MonoBehaviour
 
         if (vidaInimigo <= 0)
         {
+            scriptCobra cobra = GetComponent<scriptCobra>();
+            if (cobra != null && cobra.IniciarAnimacaoDeath()) return;
+            scriptUrubu urubu = GetComponent<scriptUrubu>();
+            if (urubu != null && urubu.IniciarAnimacaoMorte()) return;
+            mumia mumiaInimiga = GetComponent<mumia>();
+            if (mumiaInimiga != null && mumiaInimiga.IniciarAnimacaoMorte()) return;
+            sacerdote sacerdoteInimigo = GetComponent<sacerdote>();
+            if (sacerdoteInimigo != null && sacerdoteInimigo.IniciarAnimacaoMorte()) return;
             Morrer();
+            return;
         }
+
+        scriptCobra cobraAtingida = GetComponent<scriptCobra>();
+        if (cobraAtingida != null) cobraAtingida.ReproduzirAnimacaoHurt();
     }
 
     void Morrer()
