@@ -23,11 +23,23 @@ MonoBehaviour:
   m_OverrideGlobalSceneList: 1
   m_Scenes:
   - m_enabled: 1
+    m_path: Assets/Scenes/menuInicial.unity
+    m_guid: 831f24df74cfff321b0e7f23ae7e6d7f
+  - m_enabled: 1
     m_path: Assets/Scenes/Tutorial.unity
     m_guid: dcf8248881e0bcf37b6978fa3e83dbfd
   - m_enabled: 1
     m_path: Assets/Scenes/gameOverSombra.unity
-    m_guid: bccb85a7a075c08858f97fed4bbe41d1
+    m_guid: 51bc43a58aabd72b192cc3cf0afd7225
+  - m_enabled: 1
+    m_path: Assets/Scenes/gameOverNormal.unity
+    m_guid: 1cdc56182f8d502a1b8171f2c84dc564
+  - m_enabled: 1
+    m_path: Assets/Scenes/fase2.unity
+    m_guid: 1204945e0a8bc3d648fa3b58ddc3c24c
+  - m_enabled: 1
+    m_path: Assets/Scenes/selecaoArmas.unity
+    m_guid: 76ff2fe2c7d842ef1b7978b3a04b8595
   m_HasScriptingDefines: 0
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:

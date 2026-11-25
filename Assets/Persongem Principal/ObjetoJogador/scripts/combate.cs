@@ -6,12 +6,11 @@ using UnityEngine.InputSystem;
 public class combate : MonoBehaviour
 {
     [Header("Estilos e armas")]
-    // Campos atualizados para receber a Image e os Sprites no Inspector
-    public UnityEngine.UI.Image imagemEstiloUI; 
+    public UnityEngine.UI.Image imagemEstiloUI;
     public Sprite spriteEstiloPoder;
     public Sprite spriteEstiloPrecisao;
 
-    public TextMeshProUGUI textoArma;   
+    public TextMeshProUGUI textoArma;
 
     [Header("UI de Ícone de Armas")]
     public UnityEngine.UI.Image imagemArmaIconeUI;
@@ -23,23 +22,36 @@ public class combate : MonoBehaviour
     [Header("Sistema de Vida e UI")]
     public float vidaMaxima = 100f;
     private float vida;
-    public Image barraPreenchimento; 
+    public Image barraPreenchimento;
 
     [Header("Invencibilidade")]
-    private float tempoDeInvencibilidade = 1.5f; 
+    private float tempoDeInvencibilidade = 1.5f;
     private float contadorInvencibilidade = 0f;
 
     [Header("Configurações de Combate")]
     public LayerMask layerInimigo;
-    public float deslocamentoY = 0f;             
-    public bool mostrarHitbox = true; 
+    public float deslocamentoY = 0f;
+    public bool mostrarHitbox = true;
     public bool estiloCombate = true; // true = Poder, false = Precisão
+
+    [Header("Roda de equipamento")]
+    [Min(0)] public int quantidadeCura = 25;
+    [SerializeField] private bool comecarComCuraCheia = true;
+    [SerializeField] private Sprite iconeCura;
+    [SerializeField] private Image indicadorRodaUI;
+    [SerializeField] private Image iconeItemCimaUI;
+    [SerializeField] private Image iconeItemBaixoUI;
+    [SerializeField] private Sprite[] spritesRodaSelecao = new Sprite[4]; // 0=Cima, 1=Direita, 2=Baixo, 3=Esquerda
 
     [HideInInspector] public arma armaAtual;
 
-    private float contadorCooldown = 0f;         
+    private float contadorCooldown = 0f;
     private arma[] vetorArmas = new arma[4];
-    private int contadorArmaAtual = 0;
+    private arma[] armasPorSlot = new arma[4];
+    private bool[] curaDisponivelPorSlot = new bool[4];
+    private int slotEquipado = 3;
+    private Image iconeArmaEsquerdaUI;
+    private Image iconeArmaDireitaUI;
 
     private Rigidbody2D rb;
     private movimentoBasico scriptMovimento;
@@ -53,82 +65,64 @@ public class combate : MonoBehaviour
 
         if (barraPreenchimento != null)
         {
-            barraPreenchimento.fillAmount = vida / vidaMaxima; 
+            barraPreenchimento.fillAmount = vida / vidaMaxima;
         }
 
-        // Inicialização das Armas (Espada, Lança, Machado e Revólver)
-        /* Ordem dos parâmetros do construtor da arma:
-         * new arma(
-         *     int ID,                  // 1 = Espada, 2 = Lança, 3 = Machado, 4 = Revólver (Projétil)
-         *     float ataque,            // Dano causado
-         *     float alcance,           // Distância do ataque em relação ao jogador
-         *     float velocidade,        // Velocidade da arma
-         *     Vector2 hitboxPoder,     // Tamanho da hitbox no Estilo Poder (Largura, Altura)
-         *     Vector2 hitboxPrecisao,  // Tamanho da hitbox no Estilo Precisão (Largura, Altura)
-         *     float tempoDuracaoAtaque,// Tempo que a hitbox fica ativa (segundos)
-         *     float tempoCooldown,     // Tempo de espera entre os ataques (segundos)
-         *     float kbX,               // Força de empurrão horizontal (Knockback X)
-         *     float kbY                // Força de empurrão vertical (Knockback Y)
-         * );
-         */
-
-        arma espada = new arma(
-            1,                  // ID
-            3f,                // Ataque
-            1.2f,               // Alcance
-            2f,                 // Velocidade
-            new Vector2(0.8f, 0.8f),   // Hitbox Poder (Largura, Altura)
-            new Vector2(0.6f, 1.6f),   // Hitbox Precisão (Largura, Altura)
-            0.15f,              // Duração do Ataque
-            0.3f,               // Cooldown
-            5f,                // Knockback X
-            4f                 // Knockback Y
-        );
-
-        arma lanca = new arma(
-            2,                  // ID
-            1f,                 // Ataque
-            2.5f,               // Alcance
-            4f,                 // Velocidade
-            new Vector2(2f, 1.2f),   // Hitbox Poder
-            new Vector2(3f, 0.6f),   // Hitbox Precisão
-            0.10f,              // Duração do Ataque
-            0.8f,               // Cooldown
-            3f,                 // Knockback X
-            7f                 // Knockback Y
-        );
-
-        arma machado = new arma(
-            3,                  // ID
-            20f,                // Ataque
-            1.5f,               // Alcance
-            1.5f,               // Velocidade
-            new Vector2(3f, 3f),   // Hitbox Poder
-            new Vector2(5.0f, 0.8f),   // Hitbox Precisão
-            0.20f,              // Duração do Ataque
-            3f,               // Cooldown
-            18f,                // Knockback X
-            6f                  // Knockback Y
-        );
-
-        arma revolver = new arma(
-            4,                  // ID (4 dispara projétil)
-            1.5f,                // Ataque
-            5.0f,               // Alcance / Distância
-            8f,                 // Velocidade do projétil
-            new Vector2(0.5f, 0.5f),   // Hitbox (não usada para projétil)
-            new Vector2(0.5f, 0.5f),   // Hitbox (não usada para projétil)
-            0.10f,              // Duração do Ataque
-            1f,               // Cooldown (cadência de tiro)
-            2f,                 // Knockback X
-            2f                  // Knockback Y
-        );
+        arma espada = new arma(1, 3f, 1.2f, 2f, new Vector2(0.8f, 0.8f), new Vector2(0.6f, 1.6f), 0.15f, 0.3f, 5f, 4f);
+        arma lanca = new arma(2, 1f, 2.5f, 4f, new Vector2(2f, 1.2f), new Vector2(3f, 0.6f), 0.10f, 0.8f, 3f, 7f);
+        arma machado = new arma(3, 20f, 1.5f, 1.5f, new Vector2(3f, 3f), new Vector2(5.0f, 0.8f), 0.20f, 3f, 18f, 6f);
+        arma revolver = new arma(4, 1.5f, 5.0f, 8f, new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), 0.10f, 1f, 2f, 2f);
 
         vetorArmas[0] = espada;
         vetorArmas[1] = lanca;
         vetorArmas[2] = machado;
         vetorArmas[3] = revolver;
-        armaAtual = vetorArmas[0];
+
+        int idEsquerda = PlayerPrefs.GetInt("ArmaEsquerdaId", 1);
+        int idDireita = PlayerPrefs.GetInt("ArmaDireitaId", 2);
+        armasPorSlot[3] = ObterArmaPorID(idEsquerda);
+        armasPorSlot[1] = ObterArmaPorID(idDireita);
+
+        if (comecarComCuraCheia)
+        {
+            curaDisponivelPorSlot[0] = true;
+            curaDisponivelPorSlot[2] = true;
+            PlayerPrefs.SetInt("ItemCimaCuraDisponivel", 1);
+            PlayerPrefs.SetInt("ItemBaixoCuraDisponivel", 1);
+            PlayerPrefs.Save();
+        }
+        else
+        {
+            curaDisponivelPorSlot[0] = PlayerPrefs.GetInt("ItemCimaCuraDisponivel", 1) == 1;
+            curaDisponivelPorSlot[2] = PlayerPrefs.GetInt("ItemBaixoCuraDisponivel", 1) == 1;
+        }
+
+        iconeArmaEsquerdaUI = EncontrarImagemUI("armaEsquerda");
+        iconeArmaDireitaUI = EncontrarImagemUI("armaDireita");
+
+        if (iconeItemCimaUI == null)
+        {
+            iconeItemCimaUI = EncontrarImagemUI("itemCima");
+        }
+
+        if (iconeItemBaixoUI == null)
+        {
+            iconeItemBaixoUI = EncontrarImagemUI("itemBaixo");
+        }
+
+        if (indicadorRodaUI == null)
+        {
+            indicadorRodaUI = EncontrarImagemUI("rodaItens");
+        }
+
+        slotEquipado = PlayerPrefs.GetInt("SlotRodaAtual", 3);
+        if (!SlotDisponivel(slotEquipado))
+        {
+            slotEquipado = EncontrarProximoSlot(slotEquipado, 1);
+        }
+
+        AtualizarArmaEquipada();
+        AtualizarUI();
     }
 
     void Update()
@@ -143,38 +137,21 @@ public class combate : MonoBehaviour
             contadorCooldown -= Time.deltaTime;
         }
 
-        // Input para Atacar
         if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
         {
-            if (contadorCooldown <= 0f && armaAtual != null)
+            if (contadorCooldown <= 0f)
             {
-                ExecutarAtaque();
-                contadorCooldown = armaAtual.tempoCooldown; 
+                ExecutarAcaoDoSlot();
             }
         }
 
-        // Input para alternar Estilo de Combate
+        AtualizarSelecaoPeloScroll();
+
         if (Mouse.current != null && Mouse.current.rightButton.wasPressedThisFrame)
         {
             if (contadorCooldown <= 0f)
             {
-                estiloCombate = !estiloCombate; 
-            }
-        }
-
-        // Input para alternar Armas
-        if (Keyboard.current != null)
-        {
-            if (Keyboard.current.eKey.wasPressedThisFrame)
-            {
-                contadorArmaAtual = (contadorArmaAtual + 1) % vetorArmas.Length;
-                armaAtual = vetorArmas[contadorArmaAtual];
-            }
-
-            if (Keyboard.current.qKey.wasPressedThisFrame)
-            {
-                contadorArmaAtual = (contadorArmaAtual - 1 + vetorArmas.Length) % vetorArmas.Length;
-                armaAtual = vetorArmas[contadorArmaAtual];
+                estiloCombate = !estiloCombate;
             }
         }
 
@@ -190,26 +167,21 @@ public class combate : MonoBehaviour
 
             if (barraPreenchimento != null)
             {
-                barraPreenchimento.fillAmount = vida / vidaMaxima; 
+                barraPreenchimento.fillAmount = vida / vidaMaxima;
             }
 
             if (vida <= 0)
             {
-                if (Application.CanStreamedLevelBeLoaded("gameOverSombra"))
+                string cenaAtual = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
+                string cenaGameOver = cenaAtual == "Tutorial" ? "gameOverSombra" : "gameOverNormal";
+
+                if (Application.CanStreamedLevelBeLoaded(cenaGameOver))
                 {
-                    UnityEngine.SceneManagement.SceneManager.LoadScene("gameOverSombra");
+                    UnityEngine.SceneManagement.SceneManager.LoadScene(cenaGameOver);
                 }
                 else
                 {
-                    Debug.LogWarning("A cena 'gameOverSombra' não está no Build Profile ativo do Unity 6. Adicione-a em File -> Build Profiles ou utilize o fallback.");
-                    try
-                    {
-                        UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
-                    }
-                    catch
-                    {
-                        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
-                    }
+                    Debug.LogError($"A cena '{cenaGameOver}' nao esta no Build Profile ativo. Adicione-a em File -> Build Profiles.");
                 }
             }
         }
@@ -217,30 +189,160 @@ public class combate : MonoBehaviour
 
     void AtualizarUI()
     {
-        // Troca dinamicamente o Sprite da imagem com base no estilo atual
         if (imagemEstiloUI != null)
         {
-            if (estiloCombate)
-            {
-                imagemEstiloUI.sprite = spriteEstiloPoder;
-            }
-            else
-            {
-                imagemEstiloUI.sprite = spriteEstiloPrecisao;
-            }
+            imagemEstiloUI.sprite = estiloCombate ? spriteEstiloPoder : spriteEstiloPrecisao;
         }
 
-        // Atualiza o ícone da arma atual na UI (sem exibir texto)
-        if (imagemArmaIconeUI != null && iconesArmas != null && contadorArmaAtual < iconesArmas.Length && iconesArmas[contadorArmaAtual] != null)
+        if (textoArma != null)
         {
-            imagemArmaIconeUI.sprite = iconesArmas[contadorArmaAtual];
+            textoArma.text = armaAtual != null ? "ID arma atual: " + armaAtual.ID : "Sem arma equipada";
+        }
+
+        AtualizarIconeArma(iconeArmaEsquerdaUI, armasPorSlot[3]);
+        AtualizarIconeArma(iconeArmaDireitaUI, armasPorSlot[1]);
+        AtualizarIconeCura(iconeItemCimaUI, 0);
+        AtualizarIconeCura(iconeItemBaixoUI, 2);
+
+        if (imagemArmaIconeUI != null && armaAtual != null && iconesArmas != null &&
+            armaAtual.ID > 0 && armaAtual.ID <= iconesArmas.Length && iconesArmas[armaAtual.ID - 1] != null)
+        {
+            imagemArmaIconeUI.sprite = iconesArmas[armaAtual.ID - 1];
             imagemArmaIconeUI.gameObject.SetActive(true);
         }
+        else if (imagemArmaIconeUI != null)
+        {
+            imagemArmaIconeUI.gameObject.SetActive(false);
+        }
+
+        AtualizarSpriteRoda();
 
         if (barraPreenchimento != null && vidaMaxima > 0)
         {
             barraPreenchimento.fillAmount = vida / vidaMaxima;
         }
+    }
+
+    private void AtualizarSpriteRoda()
+    {
+        if (indicadorRodaUI == null || spritesRodaSelecao == null) return;
+        if (slotEquipado < 0 || slotEquipado >= spritesRodaSelecao.Length) return;
+
+        Sprite spriteAlvo = spritesRodaSelecao[slotEquipado];
+        if (spriteAlvo != null)
+        {
+            indicadorRodaUI.enabled = true;
+            indicadorRodaUI.color = Color.white;
+            indicadorRodaUI.sprite = spriteAlvo;
+        }
+    }
+
+    private arma ObterArmaPorID(int id)
+    {
+        return id >= 1 && id <= vetorArmas.Length ? vetorArmas[id - 1] : null;
+    }
+
+    private void ExecutarAcaoDoSlot()
+    {
+        if (slotEquipado == 0 || slotEquipado == 2)
+        {
+            ConsumirCura(slotEquipado);
+            return;
+        }
+
+        if (armaAtual == null) return;
+        ExecutarAtaque();
+        contadorCooldown = armaAtual.tempoCooldown;
+    }
+
+    private void ConsumirCura(int slot)
+    {
+        if (slot != 0 && slot != 2) return;
+        if (!curaDisponivelPorSlot[slot]) return;
+
+        vida = Mathf.Min(vidaMaxima, vida + quantidadeCura);
+        curaDisponivelPorSlot[slot] = false;
+
+        PlayerPrefs.SetInt(slot == 0 ? "ItemCimaCuraDisponivel" : "ItemBaixoCuraDisponivel", 0);
+        PlayerPrefs.Save();
+
+        if (barraPreenchimento != null && vidaMaxima > 0)
+        {
+            barraPreenchimento.fillAmount = vida / vidaMaxima;
+        }
+
+        contadorCooldown = 0.25f;
+
+        slotEquipado = EncontrarProximoSlot(slot, 1);
+        AtualizarArmaEquipada();
+        AtualizarUI();
+    }
+
+    private void AtualizarSelecaoPeloScroll()
+    {
+        if (Mouse.current == null) return;
+
+        float scrollY = Mouse.current.scroll.ReadValue().y;
+        if (Mathf.Abs(scrollY) < 0.01f) return;
+
+        int sentido = scrollY > 0f ? 1 : -1;
+        slotEquipado = EncontrarProximoSlot(slotEquipado, sentido);
+        AtualizarArmaEquipada();
+        AtualizarUI();
+    }
+
+    private int EncontrarProximoSlot(int origem, int sentido)
+    {
+        int candidato = origem;
+        for (int tentativa = 0; tentativa < 4; tentativa++)
+        {
+            candidato = (candidato + sentido + 4) % 4;
+            if (SlotDisponivel(candidato)) return candidato;
+        }
+
+        return origem;
+    }
+
+    private bool SlotDisponivel(int slot)
+    {
+        if (slot == 0 || slot == 2) return curaDisponivelPorSlot[slot];
+        if (slot == 1 || slot == 3) return armasPorSlot[slot] != null;
+        return false;
+    }
+
+    private void AtualizarArmaEquipada()
+    {
+        armaAtual = (slotEquipado == 1 || slotEquipado == 3) ? armasPorSlot[slotEquipado] : null;
+        PlayerPrefs.SetInt("SlotRodaAtual", slotEquipado);
+        PlayerPrefs.Save();
+    }
+
+    private void AtualizarIconeArma(Image imagem, arma armaSlot)
+    {
+        if (imagem == null) return;
+        bool visivel = armaSlot != null && iconesArmas != null && armaSlot.ID > 0 &&
+                       armaSlot.ID <= iconesArmas.Length && iconesArmas[armaSlot.ID - 1] != null;
+        imagem.enabled = visivel;
+        if (visivel) imagem.sprite = iconesArmas[armaSlot.ID - 1];
+    }
+
+    private void AtualizarIconeCura(Image imagem, int slot)
+    {
+        if (imagem == null) return;
+        bool visivel = curaDisponivelPorSlot[slot] && iconeCura != null;
+        imagem.gameObject.SetActive(visivel);
+        imagem.enabled = visivel;
+        if (visivel)
+        {
+            imagem.color = Color.white;
+            imagem.sprite = iconeCura;
+        }
+    }
+
+    private static Image EncontrarImagemUI(string nome)
+    {
+        GameObject objeto = GameObject.Find(nome);
+        return objeto != null ? objeto.GetComponent<Image>() : null;
     }
 
     void ExecutarAtaque()
@@ -250,7 +352,6 @@ public class combate : MonoBehaviour
         bool estaNoChaoRef = (scriptMovimento != null) ? scriptMovimento.EstaNoChao() : true;
         bool viradoDireitaRef = (scriptMovimento != null) ? scriptMovimento.EstaViradoDireita() : true;
 
-        // Se a arma atual for o Revólver (ID = 4), disparar projétil
         if (armaAtual.ID == 4)
         {
             Vector3 posDisparo = transform.position;
@@ -274,7 +375,6 @@ public class combate : MonoBehaviour
             }
             else
             {
-                // Fallback robusto programático com Sprite visível se nenhum prefab foi atribuído no Inspector
                 GameObject projObj = new GameObject("ProjetilRevolver_Fallback");
                 projObj.transform.position = posDisparo;
                 projObj.transform.localScale = new Vector3(0.4f, 0.4f, 1f);
@@ -312,11 +412,11 @@ public class combate : MonoBehaviour
             }
         }
 
-        Vector2 tamanhoAtualDoAtaque = estiloCombate ? armaAtual.tamanhoHitboxArmaPoder : armaAtual.tamanhoHitboxArmaPrecisao; 
+        Vector2 tamanhoAtualDoAtaque = estiloCombate ? armaAtual.tamanhoHitboxArmaPoder : armaAtual.tamanhoHitboxArmaPrecisao;
 
         if (atacandoParaBaixo)
         {
-            posicaoAtaque.y -= 0.6f; 
+            posicaoAtaque.y -= 0.6f;
             tamanhoAtualDoAtaque = new Vector2(tamanhoAtualDoAtaque.y, tamanhoAtualDoAtaque.x);
         }
         else
@@ -329,8 +429,8 @@ public class combate : MonoBehaviour
         {
             GameObject visualHitbox = GameObject.CreatePrimitive(PrimitiveType.Quad);
             visualHitbox.transform.position = posicaoAtaque;
-            visualHitbox.transform.localScale = new Vector3(tamanhoAtualDoAtaque.x, tamanhoAtualDoAtaque.y, 1f); 
-            
+            visualHitbox.transform.localScale = new Vector3(tamanhoAtualDoAtaque.x, tamanhoAtualDoAtaque.y, 1f);
+
             Destroy(visualHitbox.GetComponent<Collider2D>());
             visualHitbox.GetComponent<Renderer>().material.color = Color.red;
             Destroy(visualHitbox, armaAtual.tempoDuracaoAtaque);
@@ -371,13 +471,13 @@ public class combate : MonoBehaviour
             Vector3 posicaoGizmo = transform.position;
             posicaoGizmo.y += deslocamentoY;
             float alcanceGizmo = (armaAtual != null) ? armaAtual.alcance : 0.6f;
-            
+
             bool dir = true;
             var mov = GetComponent<movimentoBasico>();
             if (mov != null) dir = mov.EstaViradoDireita();
 
             posicaoGizmo.x += dir ? alcanceGizmo : -alcanceGizmo;
-            
+
             Vector2 tamanhoGizmo = (armaAtual != null && estiloCombate) ? armaAtual.tamanhoHitboxArmaPoder : new Vector2(0.8f, 0.8f);
             Gizmos.DrawWireCube(posicaoGizmo, new Vector3(tamanhoGizmo.x, tamanhoGizmo.y, 1f));
         }

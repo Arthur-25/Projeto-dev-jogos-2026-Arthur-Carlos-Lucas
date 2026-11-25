@@ -37,36 +37,54 @@ public static class GerenciadorCheckpoint
         return existe;
     }
 
-    public static void CarregarJogo()
+    public static void CarregarCheckpointOuCenaInicial(string cenaSemCheckpoint)
     {
-        Debug.Log(">>> [CHECKPOINT] CarregarJogo() foi chamado.");
-        if (!TemCheckpointSalvo())
+        DadosCheckpoint dados = null;
+
+        if (TemCheckpointSalvo())
         {
-            Debug.LogWarning(">>> [CHECKPOINT] Nenhum checkpoint encontrado para carregar! Arquivo não existe em: " + CaminhoArquivo);
-            return;
+            try
+            {
+                string json = File.ReadAllText(CaminhoArquivo);
+                dados = JsonUtility.FromJson<DadosCheckpoint>(json);
+            }
+            catch (System.Exception e)
+            {
+                Debug.LogWarning(">>> [CHECKPOINT] O save nao pode ser lido: " + e.Message);
+            }
         }
 
-        try
+        if (dados != null && !string.IsNullOrWhiteSpace(dados.nomeCena) &&
+            Application.CanStreamedLevelBeLoaded(dados.nomeCena))
         {
-            string json = File.ReadAllText(CaminhoArquivo);
-            Debug.Log(">>> [CHECKPOINT] JSON lido com sucesso: " + json);
-            DadosCheckpoint dados = JsonUtility.FromJson<DadosCheckpoint>(json);
-
-            Debug.Log(">>> [CHECKPOINT] Dados deserializados -> Cena: " + dados.nomeCena + " | Pos: (" + dados.posX + ", " + dados.posY + ", " + dados.posZ + ")");
-
             PlayerPrefs.SetFloat("RespawnX", dados.posX);
             PlayerPrefs.SetFloat("RespawnY", dados.posY);
             PlayerPrefs.SetFloat("RespawnZ", dados.posZ);
             PlayerPrefs.SetInt("TemRespawnPendente", 1);
             PlayerPrefs.Save();
-            Debug.Log(">>> [CHECKPOINT] PlayerPrefs salvos. TemRespawnPendente = 1. Carregando cena: " + dados.nomeCena);
-
+            Debug.Log(">>> [CHECKPOINT] Retomando cena salva: " + dados.nomeCena);
             SceneManager.LoadScene(dados.nomeCena);
+            return;
         }
-        catch (System.Exception e)
+
+        PlayerPrefs.SetInt("TemRespawnPendente", 0);
+        PlayerPrefs.Save();
+
+        if (string.IsNullOrWhiteSpace(cenaSemCheckpoint) ||
+            !Application.CanStreamedLevelBeLoaded(cenaSemCheckpoint))
         {
-            Debug.LogError(">>> [CHECKPOINT] Erro ao carregar checkpoint: " + e.Message);
+            Debug.LogError(">>> [CHECKPOINT] A cena fallback nao esta disponivel: " + cenaSemCheckpoint);
+            return;
         }
+
+        Debug.Log(">>> [CHECKPOINT] Sem save valido. Iniciando cena: " + cenaSemCheckpoint);
+        SceneManager.LoadScene(cenaSemCheckpoint);
+    }
+
+    public static void CarregarJogo()
+    {
+        Debug.Log(">>> [CHECKPOINT] CarregarJogo() foi chamado.");
+        CarregarCheckpointOuCenaInicial("Tutorial");
     }
 
     public static Vector3? ObterPosicaoPendente()

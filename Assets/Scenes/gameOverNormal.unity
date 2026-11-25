@@ -155,7 +155,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -223,6 +223,7 @@ GameObject:
   - component: {fileID: 1192252255}
   - component: {fileID: 1192252254}
   - component: {fileID: 1192252253}
+  - component: {fileID: 6800000000000000043}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -620,6 +621,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1898633100}
   m_CullTransparentMesh: 1
+--- !u!114 &6800000000000000043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192252252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c2381de5ce56a8f29199cb118fc24dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::gerenciadorGameOver
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
