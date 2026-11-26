@@ -802,6 +802,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::inimigoScript
   vidaInimigo: 120
   tempoDeInvencibilidadeInimigo: 0.2
+  prefabItemDrop: {fileID: 395366981001946360, guid: be004202603aac05ab77dbe5e7065a76, type: 3}
+  chanceDropPorcentagem: 100
+  pontoDrop: {fileID: 1805340552}
+  offsetDrop: {x: 0, y: 0}
 --- !u!1 &539991789
 GameObject:
   m_ObjectHideFlags: 0
@@ -1613,6 +1617,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::inimigoScript
   vidaInimigo: 5
   tempoDeInvencibilidadeInimigo: 0.2
+  prefabItemDrop: {fileID: 0}
+  chanceDropPorcentagem: 100
+  pontoDrop: {fileID: 0}
+  offsetDrop: {x: 0, y: 0}
 --- !u!212 &995122405
 SpriteRenderer:
   serializedVersion: 3
@@ -70735,6 +70743,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::inimigoScript
   vidaInimigo: 5
   tempoDeInvencibilidadeInimigo: 0.2
+  prefabItemDrop: {fileID: 0}
+  chanceDropPorcentagem: 100
+  pontoDrop: {fileID: 0}
+  offsetDrop: {x: 0, y: 0}
 --- !u!212 &1388262952
 SpriteRenderer:
   serializedVersion: 3
