@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: c3ed550e710c31451b37f49c93ce449e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6666899368776408100
+    second: walk - pitchfork shield_0
+  - first:
+      213: -5914820920998566687
+    second: walk - pitchfork shield_1
+  - first:
+      213: -4338513553770212534
+    second: walk - pitchfork shield_2
+  - first:
+      213: -7053231102332278324
+    second: walk - pitchfork shield_3
+  - first:
+      213: 90478803042798944
+    second: walk - pitchfork shield_4
+  - first:
+      213: 2193738642681369986
+    second: walk - pitchfork shield_5
+  - first:
+      213: 1033237211409131155
+    second: walk - pitchfork shield_6
+  - first:
+      213: -6052591795538784518
+    second: walk - pitchfork shield_7
+  - first:
+      213: 9142157441007995543
+    second: walk - pitchfork shield_8
+  - first:
+      213: 4818878068793840473
+    second: walk - pitchfork shield_9
+  - first:
+      213: -7227277398673114113
+    second: walk - pitchfork shield_10
+  - first:
+      213: 5823520776913413889
+    second: walk - pitchfork shield_11
+  - first:
+      213: 3506650526877411193
+    second: walk - pitchfork shield_12
+  - first:
+      213: 1693111774697553272
+    second: walk - pitchfork shield_13
+  - first:
+      213: -1876966007782992035
+    second: walk - pitchfork shield_14
+  - first:
+      213: -2474528918504715653
+    second: walk - pitchfork shield_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: walk - pitchfork shield_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 202
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c913537a5958c50800000000000000
+      internalID: 6666899368776408100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk - pitchfork shield_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 199
+        width: 66
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e4e4ddd5b55aeda0800000000000000
+      internalID: -5914820920998566687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk - pitchfork shield_2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 202
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a431f46c8e08ac3c0800000000000000
+      internalID: -4338513553770212534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk - pitchfork shield_3
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 202
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc96fba9ea3ed1e90800000000000000
+      internalID: -7053231102332278324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk - pitchfork shield_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 131
+        width: 62
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d8113fdf1714100800000000000000
+      internalID: 90478803042798944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk - pitchfork shield_5
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 127
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 285121f2ca9b17e10800000000000000
+      internalID: 2193738642681369986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk - pitchfork shield_6
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 131
+        width: 62
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 396a1caf4cbc65e00800000000000000
+      internalID: 1033237211409131155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk - pitchfork shield_7
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 131
+        width: 65
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe877874dfd00ca0800000000000000
+      internalID: -6052591795538784518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk - pitchfork shield_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 76
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ac9ff51c77fde70800000000000000
+      internalID: 9142157441007995543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk - pitchfork shield_9
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 76
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9539062721810e240800000000000000
+      internalID: 4818878068793840473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk - pitchfork shield_10
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 76
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffb31e66f7d83bb90800000000000000
+      internalID: -7227277398673114113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk - pitchfork shield_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 76
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107e702da4d41d050800000000000000
+      internalID: 5823520776913413889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk - pitchfork shield_12
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 12
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 977e6fd33102aa030800000000000000
+      internalID: 3506650526877411193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk - pitchfork shield_13
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 12
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87df0e740342f7710800000000000000
+      internalID: 1693111774697553272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk - pitchfork shield_14
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 12
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d579c9a4c5da3f5e0800000000000000
+      internalID: -1876966007782992035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk - pitchfork shield_15
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 12
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a481a2f05b8add0800000000000000
+      internalID: -2474528918504715653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      walk - pitchfork shield_0: 6666899368776408100
+      walk - pitchfork shield_1: -5914820920998566687
+      walk - pitchfork shield_10: -7227277398673114113
+      walk - pitchfork shield_11: 5823520776913413889
+      walk - pitchfork shield_12: 3506650526877411193
+      walk - pitchfork shield_13: 1693111774697553272
+      walk - pitchfork shield_14: -1876966007782992035
+      walk - pitchfork shield_15: -2474528918504715653
+      walk - pitchfork shield_2: -4338513553770212534
+      walk - pitchfork shield_3: -7053231102332278324
+      walk - pitchfork shield_4: 90478803042798944
+      walk - pitchfork shield_5: 2193738642681369986
+      walk - pitchfork shield_6: 1033237211409131155
+      walk - pitchfork shield_7: -6052591795538784518
+      walk - pitchfork shield_8: 9142157441007995543
+      walk - pitchfork shield_9: 4818878068793840473
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

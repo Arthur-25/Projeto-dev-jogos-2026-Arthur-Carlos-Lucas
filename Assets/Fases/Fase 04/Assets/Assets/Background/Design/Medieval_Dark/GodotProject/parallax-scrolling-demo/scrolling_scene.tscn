@@ -1,0 +1,142 @@
+[gd_scene load_steps=15 format=3 uid="uid://x3bfsdprapjb"]
+
+[ext_resource type="Texture2D" uid="uid://4083x8lb11m5" path="res://Assets/back.png" id="1_t512u"]
+[ext_resource type="Texture2D" uid="uid://sn4twdr4esa8" path="res://icon.svg" id="2_ruqoe"]
+[ext_resource type="Texture2D" uid="uid://ys2asi5g7plk" path="res://Assets/far.png" id="2_u7chi"]
+[ext_resource type="Texture2D" uid="uid://c4u7e4kiolc6c" path="res://Assets/middle.png" id="3_oyh7h"]
+[ext_resource type="Script" uid="uid://due5y3oasl5hl" path="res://player.gd" id="3_u7chi"]
+[ext_resource type="Texture2D" uid="uid://bvqw0etb0be13" path="res://Assets/near.png" id="4_jegmm"]
+[ext_resource type="Texture2D" uid="uid://den2gcg1kly78" path="res://Assets/torch-sheet.png" id="5_kbacl"]
+[ext_resource type="Texture2D" uid="uid://gfwme8b4g6h6" path="res://Assets/tileset.png" id="5_knrhs"]
+[ext_resource type="Texture2D" uid="uid://bxer7ghgnqn0e" path="res://Assets/foreground.png" id="8_knrhs"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d6w74"]
+atlas = ExtResource("5_kbacl")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6fq3p"]
+atlas = ExtResource("5_kbacl")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6qvnp"]
+atlas = ExtResource("5_kbacl")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m33iv"]
+atlas = ExtResource("5_kbacl")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_2342b"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d6w74")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6fq3p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6qvnp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m33iv")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="ScrollingScene" type="Node2D"]
+
+[node name="BackLayer" type="Parallax2D" parent="."]
+scroll_scale = Vector2(0.3, 0.3)
+repeat_size = Vector2(320, 0)
+
+[node name="TextureRect" type="TextureRect" parent="BackLayer"]
+offset_right = 320.0
+offset_bottom = 224.0
+texture = ExtResource("1_t512u")
+stretch_mode = 1
+
+[node name="FarLayer" type="Parallax2D" parent="."]
+scroll_scale = Vector2(0.5, 0.5)
+repeat_size = Vector2(400, 0)
+
+[node name="TextureRect" type="TextureRect" parent="FarLayer"]
+offset_right = 400.0
+offset_bottom = 224.0
+texture = ExtResource("2_u7chi")
+stretch_mode = 1
+
+[node name="MiddleLayer" type="Parallax2D" parent="."]
+scroll_scale = Vector2(0.6, 0.6)
+repeat_size = Vector2(800, 0)
+
+[node name="TextureRect" type="TextureRect" parent="MiddleLayer"]
+offset_right = 800.0
+offset_bottom = 224.0
+texture = ExtResource("3_oyh7h")
+stretch_mode = 1
+
+[node name="Near" type="Parallax2D" parent="."]
+scroll_scale = Vector2(0.7, 0.7)
+repeat_size = Vector2(896, 0)
+
+[node name="TextureRect" type="TextureRect" parent="Near"]
+offset_right = 896.0
+offset_bottom = 224.0
+texture = ExtResource("4_jegmm")
+stretch_mode = 1
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Near/TextureRect"]
+position = Vector2(143, 112)
+sprite_frames = SubResource("SpriteFrames_2342b")
+autoplay = "default"
+frame_progress = 0.15900524
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Near/TextureRect"]
+position = Vector2(369, 111)
+sprite_frames = SubResource("SpriteFrames_2342b")
+autoplay = "default"
+frame_progress = 0.41564086
+
+[node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="Near/TextureRect"]
+position = Vector2(591, 112)
+sprite_frames = SubResource("SpriteFrames_2342b")
+autoplay = "default"
+frame_progress = 0.41564086
+
+[node name="AnimatedSprite2D4" type="AnimatedSprite2D" parent="Near/TextureRect"]
+position = Vector2(817, 110)
+sprite_frames = SubResource("SpriteFrames_2342b")
+autoplay = "default"
+frame_progress = 0.41564086
+
+[node name="Tileset" type="Parallax2D" parent="."]
+repeat_size = Vector2(720, 0)
+
+[node name="TextureRect" type="TextureRect" parent="Tileset"]
+offset_top = 197.0
+offset_right = 720.0
+offset_bottom = 239.0
+texture = ExtResource("5_knrhs")
+stretch_mode = 1
+
+[node name="Player" type="Sprite2D" parent="."]
+position = Vector2(106, 140)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_ruqoe")
+script = ExtResource("3_u7chi")
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+position = Vector2(92, -52)
+
+[node name="Foreground" type="Parallax2D" parent="."]
+scroll_scale = Vector2(1.3, 1.3)
+repeat_size = Vector2(1344, 0)
+
+[node name="TextureRect" type="TextureRect" parent="Foreground"]
+offset_right = 1344.0
+offset_bottom = 224.0
+texture = ExtResource("8_knrhs")
+stretch_mode = 1

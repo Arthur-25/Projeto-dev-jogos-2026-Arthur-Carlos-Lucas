@@ -1,0 +1,364 @@
+fileFormatVersion: 2
+guid: 36bbbca4be0f716bba046ad8173e9fc4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4026703722428846289
+    second: NightBorne_idle-Sheet-Photoroom_0
+  - first:
+      213: -8753255980414449737
+    second: NightBorne_idle-Sheet-Photoroom_1
+  - first:
+      213: 5662815865950803912
+    second: NightBorne_idle-Sheet-Photoroom_2
+  - first:
+      213: -532846318894191449
+    second: NightBorne_idle-Sheet-Photoroom_3
+  - first:
+      213: -2299146018775855739
+    second: NightBorne_idle-Sheet-Photoroom_4
+  - first:
+      213: 930620575584417345
+    second: NightBorne_idle-Sheet-Photoroom_5
+  - first:
+      213: 4608878503177319733
+    second: NightBorne_idle-Sheet-Photoroom_6
+  - first:
+      213: 3863464682856394247
+    second: NightBorne_idle-Sheet-Photoroom_7
+  - first:
+      213: 2252403947337172905
+    second: NightBorne_idle-Sheet-Photoroom_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NightBorne_idle-Sheet-Photoroom_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 47
+        width: 110
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d05d1f73b9b1e730800000000000000
+      internalID: 4026703722428846289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_idle-Sheet-Photoroom_1
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 47
+        width: 109
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b745530010368680800000000000000
+      internalID: -8753255980414449737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_idle-Sheet-Photoroom_2
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 47
+        width: 110
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c79176f60d569e40800000000000000
+      internalID: 5662815865950803912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_idle-Sheet-Photoroom_3
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 47
+        width: 110
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7acef6a9813fa98f0800000000000000
+      internalID: -532846318894191449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_idle-Sheet-Photoroom_4
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 47
+        width: 115
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d8c1890eac710e0800000000000000
+      internalID: -2299146018775855739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_idle-Sheet-Photoroom_5
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 47
+        width: 110
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146f06c9b7a3aec00800000000000000
+      internalID: 930620575584417345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_idle-Sheet-Photoroom_6
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 46
+        width: 110
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53571da649606ff30800000000000000
+      internalID: 4608878503177319733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_idle-Sheet-Photoroom_7
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 47
+        width: 110
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e2ce7d8a8cd9530800000000000000
+      internalID: 3863464682856394247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_idle-Sheet-Photoroom_8
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 47
+        width: 110
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a748b3d475224f10800000000000000
+      internalID: 2252403947337172905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NightBorne_idle-Sheet-Photoroom_0: 4026703722428846289
+      NightBorne_idle-Sheet-Photoroom_1: -8753255980414449737
+      NightBorne_idle-Sheet-Photoroom_2: 5662815865950803912
+      NightBorne_idle-Sheet-Photoroom_3: -532846318894191449
+      NightBorne_idle-Sheet-Photoroom_4: -2299146018775855739
+      NightBorne_idle-Sheet-Photoroom_5: 930620575584417345
+      NightBorne_idle-Sheet-Photoroom_6: 4608878503177319733
+      NightBorne_idle-Sheet-Photoroom_7: 3863464682856394247
+      NightBorne_idle-Sheet-Photoroom_8: 2252403947337172905
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

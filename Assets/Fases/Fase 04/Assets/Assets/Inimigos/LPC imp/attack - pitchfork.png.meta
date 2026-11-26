@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: e8bfa8781005c6b6ca362dede9947b35
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2617417172205184639
+    second: attack - pitchfork_0
+  - first:
+      213: 3225077123855353060
+    second: attack - pitchfork_1
+  - first:
+      213: 2775450379155188613
+    second: attack - pitchfork_2
+  - first:
+      213: 1526307021653123662
+    second: attack - pitchfork_3
+  - first:
+      213: -1203733153584870370
+    second: attack - pitchfork_4
+  - first:
+      213: -4003513471373548095
+    second: attack - pitchfork_5
+  - first:
+      213: -4726715832675303387
+    second: attack - pitchfork_6
+  - first:
+      213: 6848461794201122438
+    second: attack - pitchfork_7
+  - first:
+      213: -8380776697754807857
+    second: attack - pitchfork_8
+  - first:
+      213: 8113754092479133132
+    second: attack - pitchfork_9
+  - first:
+      213: 9202200362033884027
+    second: attack - pitchfork_10
+  - first:
+      213: 1987781421172487310
+    second: attack - pitchfork_11
+  - first:
+      213: -4982050218439700039
+    second: attack - pitchfork_12
+  - first:
+      213: -8420623363291827896
+    second: attack - pitchfork_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: attack - pitchfork_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 204
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f762c4aec0fe25420800000000000000
+      internalID: 2617417172205184639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack - pitchfork_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 191
+        width: 130
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e403a49e86c1cc20800000000000000
+      internalID: 3225077123855353060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack - pitchfork_2
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 198
+        width: 62
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ba4453a61648620800000000000000
+      internalID: 2775450379155188613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack - pitchfork_3
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 127
+        width: 54
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42a1d346288e2510800000000000000
+      internalID: 1526307021653123662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack - pitchfork_4
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 133
+        width: 130
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c8630131b7b4fe0800000000000000
+      internalID: -1203733153584870370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack - pitchfork_5
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 132
+        width: 62
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5e94595b9a078c0800000000000000
+      internalID: -4003513471373548095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack - pitchfork_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 76
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5208c2f4ef4576eb0800000000000000
+      internalID: -4726715832675303387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack - pitchfork_7
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 76
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686313597bf9a0f50800000000000000
+      internalID: 6848461794201122438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack - pitchfork_8
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 76
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc114742fff71bb80800000000000000
+      internalID: -8380776697754807857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack - pitchfork_9
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 76
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5371dcb58d99070800000000000000
+      internalID: 8113754092479133132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack - pitchfork_10
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 12
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b20035978c4bf70800000000000000
+      internalID: 9202200362033884027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack - pitchfork_11
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 12
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e847b1cbba4069b10800000000000000
+      internalID: 1987781421172487310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack - pitchfork_12
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 12
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b19ebce8b33cdab0800000000000000
+      internalID: -4982050218439700039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack - pitchfork_13
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 12
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841b2ab5aafe32b80800000000000000
+      internalID: -8420623363291827896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      attack - pitchfork_0: 2617417172205184639
+      attack - pitchfork_1: 3225077123855353060
+      attack - pitchfork_10: 9202200362033884027
+      attack - pitchfork_11: 1987781421172487310
+      attack - pitchfork_12: -4982050218439700039
+      attack - pitchfork_13: -8420623363291827896
+      attack - pitchfork_2: 2775450379155188613
+      attack - pitchfork_3: 1526307021653123662
+      attack - pitchfork_4: -1203733153584870370
+      attack - pitchfork_5: -4003513471373548095
+      attack - pitchfork_6: -4726715832675303387
+      attack - pitchfork_7: 6848461794201122438
+      attack - pitchfork_8: -8380776697754807857
+      attack - pitchfork_9: 8113754092479133132
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

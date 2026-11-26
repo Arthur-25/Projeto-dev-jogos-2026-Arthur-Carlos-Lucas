@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: e58b02f96f2ca5a4c8e7a8c2188f7c31
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9116098932036919503
+    second: NightBorne_attack-Sheet-Photoroom_0
+  - first:
+      213: -9133250320571478931
+    second: NightBorne_attack-Sheet-Photoroom_1
+  - first:
+      213: 5759271495807124804
+    second: NightBorne_attack-Sheet-Photoroom_2
+  - first:
+      213: 5605078923994994145
+    second: NightBorne_attack-Sheet-Photoroom_3
+  - first:
+      213: 4995888662109411270
+    second: NightBorne_attack-Sheet-Photoroom_4
+  - first:
+      213: 5800193393885308750
+    second: NightBorne_attack-Sheet-Photoroom_5
+  - first:
+      213: 4467100121791029301
+    second: NightBorne_attack-Sheet-Photoroom_6
+  - first:
+      213: -3186767114727401901
+    second: NightBorne_attack-Sheet-Photoroom_7
+  - first:
+      213: 4264907434986856217
+    second: NightBorne_attack-Sheet-Photoroom_8
+  - first:
+      213: -983544814375948893
+    second: NightBorne_attack-Sheet-Photoroom_9
+  - first:
+      213: 3302877882885593801
+    second: NightBorne_attack-Sheet-Photoroom_10
+  - first:
+      213: 5893301446156502208
+    second: NightBorne_attack-Sheet-Photoroom_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NightBorne_attack-Sheet-Photoroom_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 138
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0e065fda3e28e70800000000000000
+      internalID: 9116098932036919503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_attack-Sheet-Photoroom_1
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 38
+        width: 87
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c4d95393d204180800000000000000
+      internalID: -9133250320571478931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_attack-Sheet-Photoroom_2
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 39
+        width: 65
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 445cd9859ea0def40800000000000000
+      internalID: 5759271495807124804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_attack-Sheet-Photoroom_3
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 38
+        width: 65
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e510ca959d39cd40800000000000000
+      internalID: 5605078923994994145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_attack-Sheet-Photoroom_4
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 38
+        width: 71
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c7de62d446f45540800000000000000
+      internalID: 4995888662109411270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_attack-Sheet-Photoroom_5
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 38
+        width: 74
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47e917392d6e7050800000000000000
+      internalID: 5800193393885308750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_attack-Sheet-Photoroom_6
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 38
+        width: 74
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 530657f94e35efd30800000000000000
+      internalID: 4467100121791029301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_attack-Sheet-Photoroom_7
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 38
+        width: 73
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356d6c0813456c3d0800000000000000
+      internalID: -3186767114727401901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_attack-Sheet-Photoroom_8
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 38
+        width: 73
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f505637beff2b30800000000000000
+      internalID: 4264907434986856217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_attack-Sheet-Photoroom_9
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 23
+        width: 140
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ada17ec33fb952f0800000000000000
+      internalID: -983544814375948893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_attack-Sheet-Photoroom_10
+      rect:
+        serializedVersion: 2
+        x: 2054
+        y: 31
+        width: 121
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cad3e16fed26dd20800000000000000
+      internalID: 3302877882885593801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_attack-Sheet-Photoroom_11
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 0
+        width: 151
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c44474f07639c150800000000000000
+      internalID: 5893301446156502208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NightBorne_attack-Sheet-Photoroom_0: 9116098932036919503
+      NightBorne_attack-Sheet-Photoroom_1: -9133250320571478931
+      NightBorne_attack-Sheet-Photoroom_10: 3302877882885593801
+      NightBorne_attack-Sheet-Photoroom_11: 5893301446156502208
+      NightBorne_attack-Sheet-Photoroom_2: 5759271495807124804
+      NightBorne_attack-Sheet-Photoroom_3: 5605078923994994145
+      NightBorne_attack-Sheet-Photoroom_4: 4995888662109411270
+      NightBorne_attack-Sheet-Photoroom_5: 5800193393885308750
+      NightBorne_attack-Sheet-Photoroom_6: 4467100121791029301
+      NightBorne_attack-Sheet-Photoroom_7: -3186767114727401901
+      NightBorne_attack-Sheet-Photoroom_8: 4264907434986856217
+      NightBorne_attack-Sheet-Photoroom_9: -983544814375948893
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
