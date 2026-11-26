@@ -238,21 +238,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::scriptCobra
   spriteOlhaDireita: 0
   velocidadePatrulha: 2
-  duracaoAndando: 2
-  duracaoIdle: 1
+  duracaoAndando: 3
+  duracaoIdle: 5
   origemRaycast: {fileID: 4361826822443771488}
   distanciaDeteccao: 9
   layerJogador:
     serializedVersion: 2
     m_Bits: 128
   velocidadePerseguicao: 3.5
+  limiteTempoPerseguicaoTravada: 0.5
   distanciaDeAtaque: 1.2
+  margemContatoAtaque: 0.05
   danoDoAtaque: 10
-  cooldownAtaque: 1.5
-  atrasoHitboxAtaque: 0.2
+  cooldownAtaque: 2
+  atrasoHitboxAtaque: 0.8
   tamanhoHitbox: {x: 0.9, y: 1.4}
   offsetXHitbox: 0.7
-  offsetYHitbox: 0.8
+  offsetYHitbox: 0.4
   duracaoHitbox: 0.2
   mostrarHitboxVisual: 1
 --- !u!114 &6524833357602862303
@@ -267,5 +269,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 534e959e11bcd24359bd12a04dbbad74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::inimigoScript
-  vidaInimigo: 20
+  vidaInimigo: 5
   tempoDeInvencibilidadeInimigo: 0.2
+  prefabItemDrop: {fileID: 0}
+  chanceDropPorcentagem: 100
+  pontoDrop: {fileID: 0}
+  offsetDrop: {x: 0, y: 0}

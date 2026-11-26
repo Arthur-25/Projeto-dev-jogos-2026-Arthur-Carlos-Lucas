@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4570587150158387573}
   - component: {fileID: 1963774784806785702}
   - component: {fileID: 8294506395076821753}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: inimigoAbutre
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ Animator:
   m_GameObject: {fileID: 8673102612158258834}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d14f49a56108f9726aff41f58b7eda2b, type: 2}
+  m_Controller: {fileID: 9100000, guid: ed183e198896de3669230412ea21eece, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -158,14 +158,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6bb5b9ef461179e3b03ddb7debcb75f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::scriptUrubu
-  spriteOlhaDireita: 1
+  spriteOlhaDireita: 0
   velocidadePatrulha: 2
   distanciaPatrulha: 4
   amplitudeOscilacao: 0.35
   frequenciaOscilacao: 2
   layerDoChao:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   distanciaDeteccao: 7
   alturaAcimaJogador: 2
   velocidadePerseguicao: 3.5
@@ -190,6 +190,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::inimigoScript
   vidaInimigo: 6
   tempoDeInvencibilidadeInimigo: 0.2
+  prefabItemDrop: {fileID: 0}
+  chanceDropPorcentagem: 100
+  pontoDrop: {fileID: 0}
+  offsetDrop: {x: 0, y: 0}
 --- !u!61 &8294506395076821753
 BoxCollider2D:
   m_ObjectHideFlags: 0
