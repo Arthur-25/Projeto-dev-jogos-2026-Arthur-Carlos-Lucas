@@ -316,7 +316,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -496,8 +496,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 220.17, y: -58}
-  m_SizeDelta: {x: 150, y: 70}
+  m_AnchoredPosition: {x: 530.4718, y: -124.29036}
+  m_SizeDelta: {x: 365.5091, y: 157.3906}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1372976918
 MonoBehaviour:
@@ -571,8 +571,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -0.00093842}
-  m_SizeDelta: {x: 800, y: 449.46}
+  m_AnchoredPosition: {x: -6.0226, y: 6.1169}
+  m_SizeDelta: {x: 1949.3823, y: 1010.5834}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1571194942
 MonoBehaviour:
@@ -648,8 +648,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 220.16917, y: 29.081593}
-  m_SizeDelta: {x: 150, y: 70}
+  m_AnchoredPosition: {x: 530.46967, y: 71.507225}
+  m_SizeDelta: {x: 365.5091, y: 157.3906}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2028233008
 MonoBehaviour:
@@ -757,7 +757,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1420c4fbe7ab247c8a14e6453fb32974, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::scriptMenuJogar
-  cenaSemCheckpoint: Tutorial
+  somApagarSave: {fileID: 8300000, guid: 3b1f5cbc99553ae64954efabbed33ef9, type: 3}
+  volumeSom: 1
 --- !u!1 &2116774303
 GameObject:
   m_ObjectHideFlags: 0

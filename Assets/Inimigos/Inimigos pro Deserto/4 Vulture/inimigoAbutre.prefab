@@ -163,6 +163,9 @@ MonoBehaviour:
   distanciaPatrulha: 4
   amplitudeOscilacao: 0.35
   frequenciaOscilacao: 2
+  layerDoChao:
+    serializedVersion: 2
+    m_Bits: 0
   distanciaDeteccao: 7
   alturaAcimaJogador: 2
   velocidadePerseguicao: 3.5
@@ -185,7 +188,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 534e959e11bcd24359bd12a04dbbad74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::inimigoScript
-  vidaInimigo: 20
+  vidaInimigo: 6
   tempoDeInvencibilidadeInimigo: 0.2
 --- !u!61 &8294506395076821753
 BoxCollider2D:
