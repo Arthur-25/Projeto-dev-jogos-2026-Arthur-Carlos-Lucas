@@ -64132,6 +64132,291 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6aed220f54e5d160a8a8e6ddf27243f, type: 3}
+--- !u!1 &1002745394
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1002745399}
+  - component: {fileID: 1002745398}
+  - component: {fileID: 1002745397}
+  - component: {fileID: 1002745396}
+  - component: {fileID: 1002745395}
+  m_Layer: 8
+  m_Name: pidgeonPoop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1002745395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002745394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e8c9f1bf798c642d942d3e4b97fbb7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::dialogoNpc
+  vetorDialogosNpc:
+  - texto: "O que \xE9 essa coisa?"
+    locutor: Mosher
+    icone: {fileID: -527216520077285581, guid: 8d4101aad17d27babb3c8ffcdbab9ec1, type: 3}
+    audioClip: {fileID: 0}
+    loopAudio: 0
+  - texto: "Ol\xE1 Mosher sou eu o deus Horus do egito, a viagem no tempo alterou
+      minha aparencia mas ainda sou eu "
+    locutor: Horus?
+    icone: {fileID: -4990957349955467587, guid: 32bc95713715a9db29d5f6692e2e17db, type: 3}
+    audioClip: {fileID: 8300000, guid: 130ef0921f31b5cc0a9737fff818c456, type: 3}
+    loopAudio: 0
+  - texto: "Eu j\xE1 ouvi historias que pena que ficou assim"
+    locutor: Mosher
+    icone: {fileID: -527216520077285581, guid: 8d4101aad17d27babb3c8ffcdbab9ec1, type: 3}
+    audioClip: {fileID: 0}
+    loopAudio: 0
+  - texto: "N\xE3o tema Mosher eu ainda tenho meu poder, mas prefiro n\xE3o me envolver
+      com esses mortais se puder tirar o que est\xE1 no meu templo seria conveniente"
+    locutor: Horus?
+    icone: {fileID: -4990957349955467587, guid: 32bc95713715a9db29d5f6692e2e17db, type: 3}
+    audioClip: {fileID: 8300000, guid: df8b3db3790d551b087f8b1639896229, type: 3}
+    loopAudio: 0
+  - texto: "Vou eliminar a amea\xE7a senhor Horus"
+    locutor: Mosher
+    icone: {fileID: -527216520077285581, guid: 8d4101aad17d27babb3c8ffcdbab9ec1, type: 3}
+    audioClip: {fileID: 0}
+    loopAudio: 0
+  - texto: Obrigado Mosher
+    locutor: Horus?
+    icone: {fileID: -4990957349955467587, guid: 32bc95713715a9db29d5f6692e2e17db, type: 3}
+    audioClip: {fileID: 8300000, guid: a7ec49437117a5b2b838cfd87a078bb2, type: 3}
+    loopAudio: 0
+  fonteAudio: {fileID: 1002745396}
+  pararAudioAoEncerrar: 1
+--- !u!82 &1002745396
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002745394}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!61 &1002745397
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002745394}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.89, y: 1.22}
+    newSize: {x: 0.89, y: 1.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.89, y: 1.22}
+  m_EdgeRadius: 0
+--- !u!212 &1002745398
+SpriteRenderer:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002745394}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 1441157984838131179, guid: 8d1c2a3f56eb7bae79900a671851b92e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.89, y: 1.22}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
+--- !u!4 &1002745399
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002745394}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.75, y: -0.23, z: 0}
+  m_LocalScale: {x: 2.7754, y: 2.8133, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1006207513 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8018213183942004248, guid: 1bfd7d33efd4bf44284195c342d85520, type: 3}
@@ -64661,9 +64946,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::inimigoScript
   vidaInimigo: 300
   tempoDeInvencibilidadeInimigo: 0.2
-  prefabItemDrop: {fileID: 0}
+  prefabItemDrop: {fileID: 8914974379785138005, guid: 0ff35b4d7eb94689680d68f505cf3899, type: 3}
   chanceDropPorcentagem: 100
-  pontoDrop: {fileID: 0}
+  pontoDrop: {fileID: 192374198}
   offsetDrop: {x: 0, y: 0}
 --- !u!1 &1239117360
 GameObject:
@@ -65343,7 +65628,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::gerenciadorAudio
   musicaFundo: {fileID: 8300000, guid: cf635ffb437edb93d9745de75109107e, type: 3}
   emLoop: 1
-  volume: 0.699
+  volume: 0.327
   persistirEntreCenas: 0
 --- !u!82 &1779410608
 AudioSource:
@@ -65807,3 +66092,4 @@ SceneRoots:
   - {fileID: 1590152564}
   - {fileID: 1345998235}
   - {fileID: 435877079}
+  - {fileID: 1002745399}

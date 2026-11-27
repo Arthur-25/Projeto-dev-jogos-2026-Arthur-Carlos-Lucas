@@ -1,0 +1,325 @@
+fileFormatVersion: 2
+guid: 8d1c2a3f56eb7bae79900a671851b92e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1441157984838131179
+    second: pidgeon_128x128-Sheet_0
+  - first:
+      213: 6527211182182423830
+    second: pidgeon_128x128-Sheet_1
+  - first:
+      213: 6639170615956770403
+    second: pidgeon_128x128-Sheet_2
+  - first:
+      213: -8548665245603291424
+    second: pidgeon_128x128-Sheet_3
+  - first:
+      213: 586411248066693587
+    second: pidgeon_128x128-Sheet_4
+  - first:
+      213: -7260221708183968320
+    second: pidgeon_128x128-Sheet_5
+  - first:
+      213: 357330856578230910
+    second: pidgeon_128x128-Sheet_6
+  - first:
+      213: 3390254919585167975
+    second: pidgeon_128x128-Sheet_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pidgeon_128x128-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 0
+        width: 89
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed9e773d85000410800000000000000
+      internalID: 1441157984838131179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pidgeon_128x128-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 0
+        width: 89
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61dd0ffccff459a50800000000000000
+      internalID: 6527211182182423830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pidgeon_128x128-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 0
+        width: 89
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e8057df72132c50800000000000000
+      internalID: 6639170615956770403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pidgeon_128x128-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 0
+        width: 89
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee961c704a0d5980800000000000000
+      internalID: -8548665245603291424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pidgeon_128x128-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 0
+        width: 89
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d90f455ce9532800800000000000000
+      internalID: 586411248066693587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pidgeon_128x128-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 0
+        width: 89
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c56d1d92d28e3b90800000000000000
+      internalID: -7260221708183968320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pidgeon_128x128-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 0
+        width: 89
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7aa1a5558e75f400800000000000000
+      internalID: 357330856578230910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pidgeon_128x128-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 0
+        width: 89
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76af4e313ea9c0f20800000000000000
+      internalID: 3390254919585167975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pidgeon_128x128-Sheet_0: 1441157984838131179
+      pidgeon_128x128-Sheet_1: 6527211182182423830
+      pidgeon_128x128-Sheet_2: 6639170615956770403
+      pidgeon_128x128-Sheet_3: -8548665245603291424
+      pidgeon_128x128-Sheet_4: 586411248066693587
+      pidgeon_128x128-Sheet_5: -7260221708183968320
+      pidgeon_128x128-Sheet_6: 357330856578230910
+      pidgeon_128x128-Sheet_7: 3390254919585167975
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
