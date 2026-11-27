@@ -9,6 +9,7 @@ public class controladorDialogo : MonoBehaviour
     public GameObject painelDialogo; // Arraste o GameObject da sua caixa de diálogo aqui no Inspetor
     public TextMeshProUGUI textoCaixa;
     public TextMeshProUGUI textoLocutor;
+    public Image imagemIcone;
     public objetoDialogo[] vetorDialogos;
     private dialogoNpc npcAtual;
 
@@ -31,6 +32,7 @@ public class controladorDialogo : MonoBehaviour
             painelDialogo.SetActive(false);
             textoCaixa.gameObject.SetActive(false);
             textoLocutor.gameObject.SetActive(false);
+            if (imagemIcone != null) imagemIcone.gameObject.SetActive(false);
         }
     }
 
@@ -42,6 +44,19 @@ public class controladorDialogo : MonoBehaviour
                 if (contadorDialogos == vetorDialogos.Length) contadorDialogos = 0;
                 textoCaixa.text = vetorDialogos[contadorDialogos].texto;
                 textoLocutor.text = vetorDialogos[contadorDialogos].locutor;
+
+                if (imagemIcone != null)
+                {
+                    if (vetorDialogos[contadorDialogos].icone != null)
+                    {
+                        imagemIcone.gameObject.SetActive(true);
+                        imagemIcone.sprite = vetorDialogos[contadorDialogos].icone;
+                    }
+                    else
+                    {
+                        imagemIcone.gameObject.SetActive(false);
+                    }
+                }
 
                 contadorDialogos++;
             }
@@ -69,6 +84,20 @@ public class controladorDialogo : MonoBehaviour
                     tocandoNpc = true;
                      textoCaixa.text = vetorDialogos[0].texto;
                      textoLocutor.text = vetorDialogos[0].locutor;
+
+                     if (imagemIcone != null)
+                     {
+                         if (vetorDialogos[0].icone != null)
+                         {
+                             imagemIcone.gameObject.SetActive(true);
+                             imagemIcone.sprite = vetorDialogos[0].icone;
+                         }
+                         else
+                         {
+                             imagemIcone.gameObject.SetActive(false);
+                         }
+                     }
+
                      contadorDialogos = 1;
                 }
 
@@ -85,6 +114,7 @@ public class controladorDialogo : MonoBehaviour
             {
                 textoCaixa.gameObject.SetActive(false);
                 textoLocutor.gameObject.SetActive(false);
+                if (imagemIcone != null) imagemIcone.gameObject.SetActive(false);
                 painelDialogo.SetActive(false);
                 tocandoNpc = false;
 

@@ -39,16 +39,27 @@ public class bossTutorial : MonoBehaviour
     private bool olhandoDireita = true;
 
     [Header("Combate & Golpes")]
-    public float alcanceAtaqueCorpo = 1.5f;
-    public int danoSideSwing = 15;
     public int danoFwdSwing = 20;
     public int danoDwnSwing = 25;
     public float cooldownAtaque = 2f;
     private float timerCooldownAtaque = 0f;
 
-    [Header("Projétil (Fwd_Swing)")]
-    public GameObject projetilPrefab;
-    public Transform pontoDisparo;
+    [Header("Configuração de Ataques (Startup & Hitbox)")]
+    public bool mostrarHitbox = true;
+
+    [Header("FwdSwing (Ataque Frontal)")]
+    public float startupFwdSwing = 0.4f;
+    public float duracaoFwdSwing = 0.15f;
+    public Vector2 tamanhoFwdSwing = new Vector2(2f, 1.5f);
+    public Vector2 offsetFwdSwing = new Vector2(1.2f, 0f);
+
+    [Header("DwnSwing (Área 360)")]
+    public float startupDwnSwing = 0.5f;
+    public float raioDwnSwing = 3.5f;
+    public float duracaoDwnSwing = 0.2f;
+
+    private bool estaAtacando = false;
+    private bool estaSofrendoDano = false;
 
     [Header("Invocações (Minions)")]
     public GameObject morcegoPrefab;
@@ -102,9 +113,25 @@ public class bossTutorial : MonoBehaviour
         {
             vidaAtual -= dano;
             AtualizarUI();
-            if (animator != null) animator.SetTrigger("Hurt");
+            StartCoroutine(RotinaTomarDano());
             if (vidaAtual <= 0) Morrer();
         }
+    }
+
+    IEnumerator RotinaTomarDano()
+    {
+        if (estaSofrendoDano || estaMorto) yield break;
+        estaSofrendoDano = true;
+        rb.linearVelocity = Vector2.zero;
+
+        if (animator != null)
+        {
+            animator.SetBool("isWalking", false);
+            animator.SetTrigger("Hurt");
+        }
+
+        yield return new WaitForSeconds(0.3f);
+        estaSofrendoDano = false;
     }
 
     void Update()
@@ -119,7 +146,7 @@ public class bossTutorial : MonoBehaviour
 
             if (vidaAtual < vidaInimigoAnterior)
             {
-                if (animator != null) animator.SetTrigger("Hurt");
+                StartCoroutine(RotinaTomarDano());
                 vidaInimigoAnterior = vidaAtual;
             }
 
@@ -209,7 +236,7 @@ public class bossTutorial : MonoBehaviour
         velocidadeMovimento *= multiplicadorVelocidadeFase2;
         cooldownAtaque *= 0.7f;
         Debug.Log("SEGUNDA FASE DO BOSS ATIVADA! O Rei Esqueleto enfurece-se e agora invoca Cães do Inferno!");
-        if (animator != null) animator.SetTrigger("Hurt");
+        StartCoroutine(RotinaTomarDano());
 
         // Toca a música da Fase 2 desde o começo
         if (gerenciadorAudio.instancia != null && musicaBossFase2 != null)
@@ -224,6 +251,8 @@ public class bossTutorial : MonoBehaviour
 
     void ComportamentoBoss()
     {
+        if (estaAtacando || estaSofrendoDano) return;
+
         float distanciaJogador = Vector2.Distance(transform.position, jogadorTransform.position);
 
         FlipParaJogador();
@@ -256,57 +285,52 @@ public class bossTutorial : MonoBehaviour
 
     void ExecutarAtaqueAleatorio()
     {
-        int escolhaAtaque = Random.Range(0, 3);
-        if (animator == null) return;
+        if (estaAtacando || estaSofrendoDano) return;
+        int escolhaAtaque = Random.Range(0, 2);
 
         switch (escolhaAtaque)
         {
             case 0:
-                animator.SetTrigger("SideSwing");
-                AplicarDanoCorpoAPorco(danoSideSwing, 2f);
+                StartCoroutine(CorrotinaFwdSwing());
                 break;
             case 1:
-                animator.SetTrigger("FwdSwing");
-                DispararProjetil();
-                break;
-            case 2:
-                animator.SetTrigger("DwnSwing");
-                AplicarDanoArea360(danoDwnSwing, 3.5f);
+                StartCoroutine(CorrotinaDwnSwing());
                 break;
         }
     }
 
-    void AplicarDanoCorpoAPorco(int dano, float alcance)
+    IEnumerator CorrotinaFwdSwing()
     {
-        if (jogadorTransform == null) return;
-        float dist = Vector2.Distance(transform.position, jogadorTransform.position);
-        if (dist <= alcance)
+        estaAtacando = true;
+        rb.linearVelocity = Vector2.zero;
+        if (animator != null)
         {
-            combate playerCombate = jogadorTransform.GetComponent<combate>();
-            if (playerCombate != null)
-            {
-                playerCombate.TomarDano(dano);
-            }
+            animator.SetBool("isWalking", false);
+            animator.SetTrigger("FwdSwing");
         }
-    }
 
-    void DispararProjetil()
-    {
-        if (projetilPrefab != null && pontoDisparo != null)
+        // Aguarda o startup da animação (tempo até a hitbox aparecer)
+        yield return new WaitForSeconds(startupFwdSwing);
+
+        if (estaMorto) yield break;
+
+        // Cria a hitbox frontal e aplica dano
+        Vector3 posicaoHitbox = transform.position;
+        float direcaoX = olhandoDireita ? 1f : -1f;
+        posicaoHitbox.x += offsetFwdSwing.x * direcaoX;
+        posicaoHitbox.y += offsetFwdSwing.y;
+
+        if (mostrarHitbox)
         {
-            GameObject proj = Instantiate(projetilPrefab, pontoDisparo.position, Quaternion.identity);
-            Rigidbody2D rbProj = proj.GetComponent<Rigidbody2D>();
-            if (rbProj != null)
-            {
-                float direcaoX = olhandoDireita ? 1f : -1f;
-                rbProj.linearVelocity = new Vector2(direcaoX * 8f, 0f);
-            }
+            GameObject visualHitbox = GameObject.CreatePrimitive(PrimitiveType.Quad);
+            visualHitbox.transform.position = posicaoHitbox;
+            visualHitbox.transform.localScale = new Vector3(tamanhoFwdSwing.x, tamanhoFwdSwing.y, 1f);
+            Destroy(visualHitbox.GetComponent<Collider2D>());
+            visualHitbox.GetComponent<Renderer>().material.color = Color.red;
+            Destroy(visualHitbox, duracaoFwdSwing);
         }
-    }
 
-    void AplicarDanoArea360(int dano, float raio)
-    {
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, raio);
+        Collider2D[] colliders = Physics2D.OverlapBoxAll(posicaoHitbox, tamanhoFwdSwing, 0f);
         foreach (Collider2D col in colliders)
         {
             if (col.CompareTag("Player"))
@@ -314,10 +338,55 @@ public class bossTutorial : MonoBehaviour
                 combate playerCombate = col.GetComponent<combate>();
                 if (playerCombate != null)
                 {
-                    playerCombate.TomarDano(dano);
+                    playerCombate.TomarDano(danoFwdSwing);
                 }
             }
         }
+
+        yield return new WaitForSeconds(duracaoFwdSwing);
+        estaAtacando = false;
+    }
+
+    IEnumerator CorrotinaDwnSwing()
+    {
+        estaAtacando = true;
+        rb.linearVelocity = Vector2.zero;
+        if (animator != null)
+        {
+            animator.SetBool("isWalking", false);
+            animator.SetTrigger("DwnSwing");
+        }
+
+        // Aguarda o startup antes do impacto 360
+        yield return new WaitForSeconds(startupDwnSwing);
+
+        if (estaMorto) yield break;
+
+        if (mostrarHitbox)
+        {
+            GameObject visualHitbox = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+            visualHitbox.transform.position = transform.position;
+            visualHitbox.transform.localScale = new Vector3(raioDwnSwing * 2f, raioDwnSwing * 2f, 1f);
+            Destroy(visualHitbox.GetComponent<Collider2D>());
+            visualHitbox.GetComponent<Renderer>().material.color = Color.red;
+            Destroy(visualHitbox, duracaoDwnSwing);
+        }
+
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, raioDwnSwing);
+        foreach (Collider2D col in colliders)
+        {
+            if (col.CompareTag("Player"))
+            {
+                combate playerCombate = col.GetComponent<combate>();
+                if (playerCombate != null)
+                {
+                    playerCombate.TomarDano(danoDwnSwing);
+                }
+            }
+        }
+
+        yield return new WaitForSeconds(duracaoDwnSwing);
+        estaAtacando = false;
     }
 
     void InvocarMinions()

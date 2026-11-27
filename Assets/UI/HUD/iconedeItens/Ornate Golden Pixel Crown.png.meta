@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: 4ff7006db7d27a979873ce073d925814
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6831655953790541639
+    second: Ornate Golden Pixel Crown_0
+  - first:
+      213: -937573635219794267
+    second: Ornate Golden Pixel Crown_1
+  - first:
+      213: 1246265418486610052
+    second: Ornate Golden Pixel Crown_2
+  - first:
+      213: -2569311753939901818
+    second: Ornate Golden Pixel Crown_3
+  - first:
+      213: -3439093515413063817
+    second: Ornate Golden Pixel Crown_4
+  - first:
+      213: 3643173236312785065
+    second: Ornate Golden Pixel Crown_5
+  - first:
+      213: 6391183185605182818
+    second: Ornate Golden Pixel Crown_6
+  - first:
+      213: 4049211259719932165
+    second: Ornate Golden Pixel Crown_7
+  - first:
+      213: -5871039193163749546
+    second: Ornate Golden Pixel Crown_8
+  - first:
+      213: -6759581193314154528
+    second: Ornate Golden Pixel Crown_9
+  - first:
+      213: -2116724042436404611
+    second: Ornate Golden Pixel Crown_10
+  - first:
+      213: 2836540979165569361
+    second: Ornate Golden Pixel Crown_11
+  - first:
+      213: 4946553757356614097
+    second: Ornate Golden Pixel Crown_12
+  - first:
+      213: 6896216633703222867
+    second: Ornate Golden Pixel Crown_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ornate Golden Pixel Crown_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 23
+        width: 1254
+        height: 1215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0e1ae0b151131a0800000000000000
+      internalID: -6831655953790541639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornate Golden Pixel Crown_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 85
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6d3f90fb11df2f0800000000000000
+      internalID: -937573635219794267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornate Golden Pixel Crown_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 85
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4887fbc8bcf9b4110800000000000000
+      internalID: 1246265418486610052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornate Golden Pixel Crown_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 53
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6822d259298f75cd0800000000000000
+      internalID: -2569311753939901818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornate Golden Pixel Crown_4
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 38
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77774783ba2e540d0800000000000000
+      internalID: -3439093515413063817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornate Golden Pixel Crown_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 103
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a042ad81c62f8230800000000000000
+      internalID: 3643173236312785065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornate Golden Pixel Crown_6
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 21
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2654270de3b02b850800000000000000
+      internalID: 6391183185605182818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornate Golden Pixel Crown_7
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 95
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5095e14ef20b13830800000000000000
+      internalID: 4049211259719932165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornate Golden Pixel Crown_8
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 32
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 657241db5f0e58ea0800000000000000
+      internalID: -5871039193163749546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornate Golden Pixel Crown_9
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 136
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e7491ee7b42132a0800000000000000
+      internalID: -6759581193314154528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornate Golden Pixel Crown_10
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 160
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a9c03c2b2ef92e0800000000000000
+      internalID: -2116724042436404611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornate Golden Pixel Crown_11
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 50
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 151a00eedfa6d5720800000000000000
+      internalID: 2836540979165569361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornate Golden Pixel Crown_12
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 29
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d16d913f60b5a440800000000000000
+      internalID: 4946553757356614097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornate Golden Pixel Crown_13
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 63
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e450a9d7844bf50800000000000000
+      internalID: 6896216633703222867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ornate Golden Pixel Crown_0: -6831655953790541639
+      Ornate Golden Pixel Crown_1: -937573635219794267
+      Ornate Golden Pixel Crown_10: -2116724042436404611
+      Ornate Golden Pixel Crown_11: 2836540979165569361
+      Ornate Golden Pixel Crown_12: 4946553757356614097
+      Ornate Golden Pixel Crown_13: 6896216633703222867
+      Ornate Golden Pixel Crown_2: 1246265418486610052
+      Ornate Golden Pixel Crown_3: -2569311753939901818
+      Ornate Golden Pixel Crown_4: -3439093515413063817
+      Ornate Golden Pixel Crown_5: 3643173236312785065
+      Ornate Golden Pixel Crown_6: 6391183185605182818
+      Ornate Golden Pixel Crown_7: 4049211259719932165
+      Ornate Golden Pixel Crown_8: -5871039193163749546
+      Ornate Golden Pixel Crown_9: -6759581193314154528
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
