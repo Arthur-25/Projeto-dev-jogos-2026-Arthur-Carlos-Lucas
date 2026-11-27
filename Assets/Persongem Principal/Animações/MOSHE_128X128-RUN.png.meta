@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: c466743e4f999be2eaa0ffb8cac5f942
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8847467379239376564
+    second: MOSHE_128X128-RUN_0
+  - first:
+      213: -6975847451489941622
+    second: MOSHE_128X128-RUN_1
+  - first:
+      213: 996119464606489174
+    second: MOSHE_128X128-RUN_2
+  - first:
+      213: 2818388814782488564
+    second: MOSHE_128X128-RUN_3
+  - first:
+      213: 1591792852360275164
+    second: MOSHE_128X128-RUN_4
+  - first:
+      213: 988689656792329342
+    second: MOSHE_128X128-RUN_5
+  - first:
+      213: 604520305492999369
+    second: MOSHE_128X128-RUN_6
+  - first:
+      213: 5340434107679950104
+    second: MOSHE_128X128-RUN_7
+  - first:
+      213: -8869316371335389852
+    second: MOSHE_128X128-RUN_8
+  - first:
+      213: 4290721429836467786
+    second: MOSHE_128X128-RUN_9
+  - first:
+      213: 5226527303938516246
+    second: MOSHE_128X128-RUN_10
+  - first:
+      213: 608717669168772555
+    second: MOSHE_128X128-RUN_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MOSHE_128X128-RUN_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 114
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b65b6d94b488ca70800000000000000
+      internalID: 8847467379239376564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHE_128X128-RUN_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 0
+        width: 117
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a87c0a6d3bfc03f90800000000000000
+      internalID: -6975847451489941622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHE_128X128-RUN_2
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 0
+        width: 120
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ad8b9106de2dd00800000000000000
+      internalID: 996119464606489174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHE_128X128-RUN_3
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 0
+        width: 125
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff5b00d1bdec1720800000000000000
+      internalID: 2818388814782488564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHE_128X128-RUN_4
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 0
+        width: 126
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4a0f06a2f271610800000000000000
+      internalID: 1591792852360275164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHE_128X128-RUN_5
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 2
+        width: 124
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ca53a210888bd00800000000000000
+      internalID: 988689656792329342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHE_128X128-RUN_6
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 4
+        width: 121
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ccbb64d300b36800800000000000000
+      internalID: 604520305492999369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHE_128X128-RUN_7
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 1
+        width: 119
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 815c4aea6880d1a40800000000000000
+      internalID: 5340434107679950104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHE_128X128-RUN_8
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 0
+        width: 120
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d5ffd70cbd9e480800000000000000
+      internalID: -8869316371335389852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHE_128X128-RUN_9
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 0
+        width: 122
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e0f8f3864bb8b30800000000000000
+      internalID: 4290721429836467786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHE_128X128-RUN_10
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 3
+        width: 124
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 615a22044ea588840800000000000000
+      internalID: 5226527303938516246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOSHE_128X128-RUN_11
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 8
+        width: 129
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5fe47be79927800800000000000000
+      internalID: 608717669168772555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MOSHE_128X128-RUN_0: 8847467379239376564
+      MOSHE_128X128-RUN_1: -6975847451489941622
+      MOSHE_128X128-RUN_10: 5226527303938516246
+      MOSHE_128X128-RUN_11: 608717669168772555
+      MOSHE_128X128-RUN_2: 996119464606489174
+      MOSHE_128X128-RUN_3: 2818388814782488564
+      MOSHE_128X128-RUN_4: 1591792852360275164
+      MOSHE_128X128-RUN_5: 988689656792329342
+      MOSHE_128X128-RUN_6: 604520305492999369
+      MOSHE_128X128-RUN_7: 5340434107679950104
+      MOSHE_128X128-RUN_8: -8869316371335389852
+      MOSHE_128X128-RUN_9: 4290721429836467786
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

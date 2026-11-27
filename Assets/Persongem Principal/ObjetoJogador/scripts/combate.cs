@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
@@ -5,6 +6,14 @@ using UnityEngine.InputSystem;
 
 public class combate : MonoBehaviour
 {
+    [System.Serializable]
+    public struct ConfigTimingHitbox
+    {
+        public string nome;
+        [Min(0f)] public float delayHitbox;
+        [Min(0f)] public float duracaoPosAtaque;
+    }
+
     [Header("Estilos e armas")]
     public UnityEngine.UI.Image imagemEstiloUI;
     public Sprite spriteEstiloPoder;
@@ -12,27 +21,49 @@ public class combate : MonoBehaviour
 
     public TextMeshProUGUI textoArma;
 
-    [Header("UI de Ícone de Armas")]
+    [Header("UI de Icone de Armas")]
     public UnityEngine.UI.Image imagemArmaIconeUI;
     public Sprite[] iconesArmas = new Sprite[4];
 
-    [Header("Configuração de Projétil (Revólver)")]
+    [Header("Configuracao de Projetil (Revolver)")]
     public GameObject prefabProjetil;
+
+    [Header("Ataque Supremo (Ult) e Runas de Energia")]
+    [Min(1f)] public float energiaMaxima = 50f;
+    [SerializeField] private float energiaInicial = 0f;
+    [Min(1f)] public float custoEnergiaUlt = 50f;
+    [Min(0f)] public float energiaPorAcerto = 10f;
+    [SerializeField] private float cooldownUlt = 1.0f;
+    [SerializeField] private float deslocamentoSpawnUlt = 1.0f;
+    [SerializeField] private float deslocamentoSpawnUltY = 0.5f;
+    public GameObject prefabProjetilUlt;
+    public Image[] runasEnergiaUI = new Image[5];
+    public Sprite[] spritesRunasCarregadas = new Sprite[5];
+    public Sprite[] spritesRunasDescarregadas = new Sprite[5];
 
     [Header("Sistema de Vida e UI")]
     public float vidaMaxima = 100f;
     private float vida;
+    private float energia;
     public Image barraPreenchimento;
 
     [Header("Invencibilidade")]
     private float tempoDeInvencibilidade = 1.5f;
     private float contadorInvencibilidade = 0f;
 
-    [Header("Configurações de Combate")]
+    [Header("Configuracoes de Combate")]
     public LayerMask layerInimigo;
     public float deslocamentoY = 0f;
     public bool mostrarHitbox = true;
-    public bool estiloCombate = true; // true = Poder, false = Precisão
+    public bool estiloCombate = true;
+
+    [Header("Timing das Hitboxes e Tiro")]
+    [SerializeField] private ConfigTimingHitbox hitboxSword = new ConfigTimingHitbox { nome = "sword", delayHitbox = 0.08f, duracaoPosAtaque = 0f };
+    [SerializeField] private ConfigTimingHitbox hitboxSpear = new ConfigTimingHitbox { nome = "spear", delayHitbox = 0.10f, duracaoPosAtaque = 0f };
+    [SerializeField] private ConfigTimingHitbox hitboxAxe = new ConfigTimingHitbox { nome = "axe", delayHitbox = 0.14f, duracaoPosAtaque = 0f };
+    [SerializeField] private ConfigTimingHitbox hitboxGun = new ConfigTimingHitbox { nome = "gun", delayHitbox = 0.05f, duracaoPosAtaque = 0f };
+    [SerializeField] private ConfigTimingHitbox hitboxPogo = new ConfigTimingHitbox { nome = "pogo", delayHitbox = 0.06f, duracaoPosAtaque = 0f };
+    [SerializeField] private ConfigTimingHitbox hitboxUlt = new ConfigTimingHitbox { nome = "ult", delayHitbox = 0.10f, duracaoPosAtaque = 0f };
 
     [Header("Roda de equipamento")]
     [Min(0)] public int quantidadeCura = 25;
@@ -41,7 +72,7 @@ public class combate : MonoBehaviour
     [SerializeField] private Image indicadorRodaUI;
     [SerializeField] private Image iconeItemCimaUI;
     [SerializeField] private Image iconeItemBaixoUI;
-    [SerializeField] private Sprite[] spritesRodaSelecao = new Sprite[4]; // 0=Cima, 1=Direita, 2=Baixo, 3=Esquerda
+    [SerializeField] private Sprite[] spritesRodaSelecao = new Sprite[4];
 
     [HideInInspector] public arma armaAtual;
 
@@ -55,13 +86,20 @@ public class combate : MonoBehaviour
 
     private Rigidbody2D rb;
     private movimentoBasico scriptMovimento;
+    private Animator animator;
+    private bool morrendo;
+    private int idAtaqueAtivo = 0;
+    private Coroutine rotinaHitboxAtual;
+    private Coroutine rotinaRetornoAnimacao;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         scriptMovimento = GetComponent<movimentoBasico>();
+        animator = GetComponent<Animator>();
 
         vida = vidaMaxima;
+        energia = Mathf.Clamp(energiaInicial, 0f, energiaMaxima);
 
         if (barraPreenchimento != null)
         {
@@ -127,6 +165,8 @@ public class combate : MonoBehaviour
 
     void Update()
     {
+        if (morrendo) return;
+
         if (contadorInvencibilidade > 0f)
         {
             contadorInvencibilidade -= Time.deltaTime;
@@ -135,6 +175,15 @@ public class combate : MonoBehaviour
         if (contadorCooldown > 0f)
         {
             contadorCooldown -= Time.deltaTime;
+        }
+
+        if (Keyboard.current != null && Keyboard.current.qKey.wasPressedThisFrame)
+        {
+            if (contadorCooldown <= 0f && PodeUsarUlt())
+            {
+                ExecutarUlt();
+                contadorCooldown = cooldownUlt;
+            }
         }
 
         if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
@@ -158,33 +207,243 @@ public class combate : MonoBehaviour
         AtualizarUI();
     }
 
-    public void TomarDano(int danoRecebido)
+    public void AdicionarEnergia(float quantidade)
     {
-        if (contadorInvencibilidade <= 0f)
-        {
-            vida -= danoRecebido;
-            contadorInvencibilidade = tempoDeInvencibilidade;
+        energia = Mathf.Clamp(energia + quantidade, 0f, energiaMaxima);
+        AtualizarRunasEnergia();
+    }
 
-            if (barraPreenchimento != null)
+    public void DefinirEnergia(float valor)
+    {
+        energia = Mathf.Clamp(valor, 0f, energiaMaxima);
+        AtualizarRunasEnergia();
+    }
+
+    public float ObterEnergia()
+    {
+        return energia;
+    }
+
+    public bool PodeUsarUlt()
+    {
+        return energia >= custoEnergiaUlt;
+    }
+
+    private void AtualizarRunasEnergia()
+    {
+        if (runasEnergiaUI == null || runasEnergiaUI.Length == 0) return;
+
+        int runasCarregadas = Mathf.Clamp(Mathf.FloorToInt(energia / 10f), 0, runasEnergiaUI.Length);
+
+        for (int i = 0; i < runasEnergiaUI.Length; i++)
+        {
+            Image runa = runasEnergiaUI[i];
+            if (runa == null) continue;
+
+            bool carregada = i < runasCarregadas;
+            Sprite spriteAlvo = null;
+
+            if (carregada && spritesRunasCarregadas != null && i < spritesRunasCarregadas.Length)
             {
-                barraPreenchimento.fillAmount = vida / vidaMaxima;
+                spriteAlvo = spritesRunasCarregadas[i];
+            }
+            else if (!carregada && spritesRunasDescarregadas != null && i < spritesRunasDescarregadas.Length)
+            {
+                spriteAlvo = spritesRunasDescarregadas[i];
             }
 
-            if (vida <= 0)
+            if (spriteAlvo != null)
             {
-                string cenaAtual = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
-                string cenaGameOver = cenaAtual == "Tutorial" ? "gameOverSombra" : "gameOverNormal";
+                runa.sprite = spriteAlvo;
+            }
+        }
+    }
 
-                if (Application.CanStreamedLevelBeLoaded(cenaGameOver))
+    private void ExecutarUlt()
+    {
+        if (morrendo || !PodeUsarUlt()) return;
+
+        energia = Mathf.Max(0f, energia - custoEnergiaUlt);
+        AtualizarRunasEnergia();
+
+        idAtaqueAtivo++;
+        int tokenAtual = idAtaqueAtivo;
+
+        TocarEstadoAnimator("ult");
+
+        if (rotinaHitboxAtual != null)
+        {
+            StopCoroutine(rotinaHitboxAtual);
+        }
+
+        if (rotinaRetornoAnimacao != null)
+        {
+            StopCoroutine(rotinaRetornoAnimacao);
+        }
+
+        rotinaHitboxAtual = StartCoroutine(DispararProjetilUltNoTiming(hitboxUlt.delayHitbox));
+        rotinaRetornoAnimacao = StartCoroutine(RetornarParaIdleDepoisDoAtaque(tokenAtual, "ult", hitboxUlt.duracaoPosAtaque));
+    }
+
+    private IEnumerator DispararProjetilUltNoTiming(float delay)
+    {
+        if (delay > 0f)
+        {
+            yield return new WaitForSeconds(delay);
+        }
+
+        if (morrendo)
+        {
+            rotinaHitboxAtual = null;
+            yield break;
+        }
+
+        bool viradoDireitaRef = (scriptMovimento != null) ? scriptMovimento.EstaViradoDireita() : true;
+        Vector2 direcao = viradoDireitaRef ? Vector2.right : Vector2.left;
+
+        Vector3 posDisparo = transform.position;
+        posDisparo.x += viradoDireitaRef ? deslocamentoSpawnUlt : -deslocamentoSpawnUlt;
+        posDisparo.y += deslocamentoY + deslocamentoSpawnUltY;
+
+        if (prefabProjetilUlt != null)
+        {
+            GameObject projObj = Instantiate(prefabProjetilUlt, posDisparo, Quaternion.identity);
+            if (projObj != null)
+            {
+                projetilGenerico proj = projObj.GetComponent<projetilGenerico>();
+                if (proj == null)
                 {
-                    UnityEngine.SceneManagement.SceneManager.LoadScene(cenaGameOver);
+                    proj = projObj.AddComponent<projetilGenerico>();
                 }
-                else
+                proj.pertenceAoJogador = true;
+                proj.DefinirDirecao(direcao);
+            }
+        }
+
+        rotinaHitboxAtual = null;
+    }
+
+    public void TomarDano(int danoRecebido)
+    {
+        if (morrendo || contadorInvencibilidade > 0f) return;
+
+        vida = Mathf.Max(0f, vida - danoRecebido);
+        contadorInvencibilidade = tempoDeInvencibilidade;
+
+        if (barraPreenchimento != null && vidaMaxima > 0f)
+        {
+            barraPreenchimento.fillAmount = vida / vidaMaxima;
+        }
+
+        if (vida <= 0f)
+        {
+            morrendo = true;
+            if (rotinaHitboxAtual != null)
+            {
+                StopCoroutine(rotinaHitboxAtual);
+                rotinaHitboxAtual = null;
+            }
+            if (rotinaRetornoAnimacao != null)
+            {
+                StopCoroutine(rotinaRetornoAnimacao);
+                rotinaRetornoAnimacao = null;
+            }
+            StartCoroutine(RotinaMorte());
+        }
+    }
+
+    private IEnumerator RotinaMorte()
+    {
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero;
+        }
+
+        float duracao = ObterDuracaoClip("death");
+        TocarEstadoAnimator("death");
+
+        yield return new WaitForSeconds(duracao);
+
+        string cenaAtual = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
+        string cenaGameOver = cenaAtual == "Tutorial" ? "gameOverSombra" : "gameOverNormal";
+
+        if (Application.CanStreamedLevelBeLoaded(cenaGameOver))
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene(cenaGameOver);
+        }
+        else
+        {
+            Debug.LogError($"A cena '{cenaGameOver}' nao esta no Build Profile ativo. Adicione-a em File -> Build Profiles.");
+        }
+    }
+
+    private ConfigTimingHitbox ObterTimingHitbox(int armaId, bool pogoAtivo, out string nomeEstado)
+    {
+        if (pogoAtivo)
+        {
+            nomeEstado = "pogo";
+            return hitboxPogo;
+        }
+
+        switch (armaId)
+        {
+            case 1:
+                nomeEstado = "sword";
+                return hitboxSword;
+            case 2:
+                nomeEstado = "spear";
+                return hitboxSpear;
+            case 3:
+                nomeEstado = "axe";
+                return hitboxAxe;
+            case 4:
+                nomeEstado = "gun";
+                return hitboxGun;
+            default:
+                nomeEstado = "sword";
+                return hitboxSword;
+        }
+    }
+
+    private void TocarEstadoAnimator(string nomeEstado)
+    {
+        if (animator == null) return;
+        int hashEstado = Animator.StringToHash("Base Layer." + nomeEstado);
+        if (!animator.HasState(0, hashEstado)) return;
+        animator.Play(hashEstado, 0, 0f);
+    }
+
+    private float ObterDuracaoClip(string nomeClip)
+    {
+        float duracao = 0.25f;
+        if (animator != null && animator.runtimeAnimatorController != null)
+        {
+            foreach (AnimationClip clip in animator.runtimeAnimatorController.animationClips)
+            {
+                if (clip.name == nomeClip)
                 {
-                    Debug.LogError($"A cena '{cenaGameOver}' nao esta no Build Profile ativo. Adicione-a em File -> Build Profiles.");
+                    duracao = Mathf.Max(clip.length, 0.05f);
+                    break;
                 }
             }
         }
+        return duracao;
+    }
+
+    private IEnumerator RetornarParaIdleDepoisDoAtaque(int tokenAtaque, string nomeEstado, float duracaoPosAtaque)
+    {
+        float tempoEspera = duracaoPosAtaque > 0f ? duracaoPosAtaque : ObterDuracaoClip(nomeEstado);
+        if (tempoEspera > 0f)
+        {
+            yield return new WaitForSeconds(tempoEspera);
+        }
+
+        if (!morrendo && idAtaqueAtivo == tokenAtaque)
+        {
+            TocarEstadoAnimator("idle");
+        }
+
+        rotinaRetornoAnimacao = null;
     }
 
     void AtualizarUI()
@@ -216,6 +475,7 @@ public class combate : MonoBehaviour
         }
 
         AtualizarSpriteRoda();
+        AtualizarRunasEnergia();
 
         if (barraPreenchimento != null && vidaMaxima > 0)
         {
@@ -347,12 +607,56 @@ public class combate : MonoBehaviour
 
     void ExecutarAtaque()
     {
-        if (armaAtual == null) return;
+        if (armaAtual == null || morrendo) return;
 
         bool estaNoChaoRef = (scriptMovimento != null) ? scriptMovimento.EstaNoChao() : true;
+        bool atacandoParaBaixo = false;
+
+        if (armaAtual.ID != 4 && !estaNoChaoRef && Keyboard.current != null)
+        {
+            if (Keyboard.current.sKey.isPressed || Keyboard.current.downArrowKey.isPressed)
+            {
+                atacandoParaBaixo = true;
+            }
+        }
+
+        idAtaqueAtivo++;
+        int tokenAtual = idAtaqueAtivo;
+
+        string nomeEstado;
+        ConfigTimingHitbox timing = ObterTimingHitbox(armaAtual.ID, atacandoParaBaixo, out nomeEstado);
+        TocarEstadoAnimator(nomeEstado);
+
+        if (rotinaHitboxAtual != null)
+        {
+            StopCoroutine(rotinaHitboxAtual);
+        }
+
+        if (rotinaRetornoAnimacao != null)
+        {
+            StopCoroutine(rotinaRetornoAnimacao);
+        }
+
+        rotinaHitboxAtual = StartCoroutine(DispararHitboxNoTiming(armaAtual, atacandoParaBaixo, timing.delayHitbox));
+        rotinaRetornoAnimacao = StartCoroutine(RetornarParaIdleDepoisDoAtaque(tokenAtual, nomeEstado, timing.duracaoPosAtaque));
+    }
+
+    private IEnumerator DispararHitboxNoTiming(arma armaUsada, bool atacandoParaBaixo, float delayHitbox)
+    {
+        if (delayHitbox > 0f)
+        {
+            yield return new WaitForSeconds(delayHitbox);
+        }
+
+        if (morrendo || armaUsada == null)
+        {
+            rotinaHitboxAtual = null;
+            yield break;
+        }
+
         bool viradoDireitaRef = (scriptMovimento != null) ? scriptMovimento.EstaViradoDireita() : true;
 
-        if (armaAtual.ID == 4)
+        if (armaUsada.ID == 4)
         {
             Vector3 posDisparo = transform.position;
             posDisparo.x += viradoDireitaRef ? 0.8f : -0.8f;
@@ -369,50 +673,16 @@ public class combate : MonoBehaviour
                         proj = projObj.AddComponent<projetilGenerico>();
                     }
                     proj.pertenceAoJogador = true;
-                    proj.dano = (int)armaAtual.ataque;
                     proj.DefinirDirecao(viradoDireitaRef ? Vector2.right : Vector2.left);
                 }
             }
-            else
-            {
-                GameObject projObj = new GameObject("ProjetilRevolver_Fallback");
-                projObj.transform.position = posDisparo;
-                projObj.transform.localScale = new Vector3(0.4f, 0.4f, 1f);
 
-                SpriteRenderer sr = projObj.AddComponent<SpriteRenderer>();
-                Texture2D texture = new Texture2D(1, 1);
-                texture.SetPixel(0, 0, Color.yellow);
-                texture.Apply();
-                sr.sprite = Sprite.Create(texture, new Rect(0, 0, 1, 1), new Vector2(0.5f, 0.5f), 100f);
-
-                BoxCollider2D col = projObj.AddComponent<BoxCollider2D>();
-                col.isTrigger = true;
-                col.size = new Vector2(0.8f, 0.8f);
-
-                Rigidbody2D rbProj = projObj.AddComponent<Rigidbody2D>();
-                rbProj.gravityScale = 0f;
-
-                projetilGenerico proj = projObj.AddComponent<projetilGenerico>();
-                proj.pertenceAoJogador = true;
-                proj.dano = (int)armaAtual.ataque;
-                proj.velocidade = 10f;
-                proj.DefinirDirecao(viradoDireitaRef ? Vector2.right : Vector2.left);
-            }
-            return;
+            rotinaHitboxAtual = null;
+            yield break;
         }
 
         Vector3 posicaoAtaque = transform.position;
-        bool atacandoParaBaixo = false;
-
-        if (!estaNoChaoRef && Keyboard.current != null)
-        {
-            if (Keyboard.current.sKey.isPressed || Keyboard.current.downArrowKey.isPressed)
-            {
-                atacandoParaBaixo = true;
-            }
-        }
-
-        Vector2 tamanhoAtualDoAtaque = estiloCombate ? armaAtual.tamanhoHitboxArmaPoder : armaAtual.tamanhoHitboxArmaPrecisao;
+        Vector2 tamanhoAtualDoAtaque = estiloCombate ? armaUsada.tamanhoHitboxArmaPoder : armaUsada.tamanhoHitboxArmaPrecisao;
 
         if (atacandoParaBaixo)
         {
@@ -422,7 +692,7 @@ public class combate : MonoBehaviour
         else
         {
             posicaoAtaque.y += deslocamentoY;
-            posicaoAtaque.x += viradoDireitaRef ? armaAtual.alcance : -armaAtual.alcance;
+            posicaoAtaque.x += viradoDireitaRef ? armaUsada.alcance : -armaUsada.alcance;
         }
 
         if (mostrarHitbox)
@@ -433,34 +703,43 @@ public class combate : MonoBehaviour
 
             Destroy(visualHitbox.GetComponent<Collider2D>());
             visualHitbox.GetComponent<Renderer>().material.color = Color.red;
-            Destroy(visualHitbox, armaAtual.tempoDuracaoAtaque);
+            Destroy(visualHitbox, armaUsada.tempoDuracaoAtaque);
         }
 
         Collider2D[] inimigosAtingidos = Physics2D.OverlapBoxAll(posicaoAtaque, tamanhoAtualDoAtaque, 0f, layerInimigo);
 
-        if (inimigosAtingidos.Length > 0 && scriptMovimento != null)
+        if (inimigosAtingidos.Length > 0 && scriptMovimento != null && rb != null)
         {
             if (atacandoParaBaixo)
             {
-                Vector2 forcaAr = new Vector2(rb.linearVelocity.x, armaAtual.forcaKnockbackY);
+                Vector2 forcaAr = new Vector2(rb.linearVelocity.x, armaUsada.forcaKnockbackY);
                 scriptMovimento.AplicarForcaKnockback(forcaAr, 0.15f);
             }
             else
             {
-                float knockX = viradoDireitaRef ? -armaAtual.forcaKnockbackX : armaAtual.forcaKnockbackX;
+                float knockX = viradoDireitaRef ? -armaUsada.forcaKnockbackX : armaUsada.forcaKnockbackX;
                 Vector2 forcaHorizontal = new Vector2(knockX, rb.linearVelocity.y);
                 scriptMovimento.AplicarForcaKnockback(forcaHorizontal, 0.15f);
             }
         }
 
+        bool acertouAlguem = false;
         foreach (Collider2D colisorInimigo in inimigosAtingidos)
         {
             inimigoScript inimigo = colisorInimigo.GetComponent<inimigoScript>();
             if (inimigo != null)
             {
-                inimigo.TomarDano((int)armaAtual.ataque);
+                inimigo.TomarDano((int)armaUsada.ataque);
+                acertouAlguem = true;
             }
         }
+
+        if (acertouAlguem && energiaPorAcerto > 0f)
+        {
+            AdicionarEnergia(energiaPorAcerto);
+        }
+
+        rotinaHitboxAtual = null;
     }
 
     private void OnDrawGizmos()
